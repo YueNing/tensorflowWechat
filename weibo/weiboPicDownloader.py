@@ -214,7 +214,7 @@ def main():
         print_fit("图片 {} 下载失败 {}".format(index + 1,urls[index].encode("utf-8")))
     
     print_fit("下载结束, 路径是 {}".format(SAVE_PATH.encode("utf-8")))
-    sys.stdin.read()
+    # sys.stdin.read()
     exit()
     
 if __name__ == "__main__":
