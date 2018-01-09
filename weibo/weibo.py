@@ -35,17 +35,6 @@ print u'ready'
 print pageNum
 sys.stdout.flush()
 
-def get_word(content):
-    for each in content:
-        text = each.xpath('string(.)')
-        if word_count >= 3:
-            text = "%d: " %(word_count - 2) + text + "\n"
-        else:
-            text = text + "\n\n"
-        result = result + text
-        word_count += 1
-    return
-
 times = 5
 one_step = pageNum/times
 for step in range(times):
@@ -63,14 +52,19 @@ for step in range(times):
             #文字爬取
             selector = etree.HTML(lxml)
             content = selector.xpath('//span[@class="ctt"]')
-            get_word(content)
+            for each in content:
+                text = each.xpath('string(.)')
+                if word_count >= 3:
+                    text = "%d: "%(word_count - 2) +text+"\n"
+                else :
+                    text = text+"\n\n"
+                result = result + text
+                word_count += 1
             print page,'word ok'
-
             sys.stdout.flush()
             soup = BeautifulSoup(lxml, "lxml")
             urllist = soup.find_all('a',href=re.compile(r'^http://weibo.cn/mblog/oripic',re.I))
             urllist1 = soup.find_all('a',href=re.compile(r'^http://weibo.cn/mblog/picAll',re.I))
-
             for imgurl in urllist:
                 imgurl['href'] = re.sub(r"amp;", '', imgurl['href'])
         #       print imgurl['href']

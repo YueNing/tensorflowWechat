@@ -9,7 +9,7 @@ import os, sys, locale
 import json, re, time
 import ssl, urllib2
 import concurrent.futures
-
+import pdb
 try:
     ssl._create_default_https_context = ssl._create_unverified_context
 except:
@@ -56,6 +56,7 @@ def get_img_urls(containerid):
         if json_data["ok"] != 1: break
         total = json_data["data"]["cardlistInfo"]["total"]
         cards = json_data["data"]["cards"]
+        pdb.set_trace()
         for card in cards:
             amount = amount + 1
             print_fit("分析微博中... {}".format(amount),flush=True)
@@ -69,6 +70,24 @@ def get_img_urls(containerid):
         
     print_fit("\n分析完毕, 微博总数 {}, 实际获得 {}".format(total,amount))
     return urls
+
+def get_words(containerid):
+    i =1
+    words =[]
+    while True:
+        url = 'https://m.weibo.cn/api.container/getIndex?count={}&page={}&containerid'.format(25, page, containerid)
+        data = open_and_read(url = url,max_retry = 3)
+        if data == None: continue
+        json_data = json.loads(data)
+        if json_data['ok'] != 1: break
+        cards = json_data["data"]["cards"]
+        if(len(cards) > 0):
+            for card in cards:
+                if "mblog" in card:
+                    if "text" in card["mblog"]:
+                        words.append("%d:%s\n" %(word_index, text))
+                        word_index +=1
+    return words
 
 def uid_to_containerid(uid):
     if re.search(r'^\d{10}$',uid) == None:
@@ -105,6 +124,32 @@ def get_containerid(account_type):
     else:
         return containerid 
 
+
+# Describe: words_save muster
+# Date: 1.9.2018 home
+# Author: Yue
+
+# if(card_type==9):
+#                         mblog=cards[j].get('mblog')
+#                         attitudes_count=mblog.get('attitudes_count')
+#                         comments_count=mblog.get('comments_count')
+#                         created_at=mblog.get('created_at')
+#                         reposts_count=mblog.get('reposts_count')
+#                         scheme=cards[j].get('scheme')
+#                         text=mblog.get('text')
+#                         with open(file,'a',encoding='utf-8') as fh:
+#                             fh.write("----第"+str(i)+"页，第"+str(j)+"条微博----"+"\n")
+#                             fh.write("微博地址："+str(scheme)+"\n"+"发布时间："+str(created_at)+"\n"+"微博内容："+text+"\n"+"点赞数："+str(attitudes_count)+"\n"+"评论数："+str(comments_count)+"\n"+"转发数："+str(reposts_count)+"\n")
+#                 i+=1
+
+def words_save(words):
+    file_path = os.realpath()
+    if words == None:
+        return index,0
+    else:
+        with open(file_path, "a") as fw:
+            fw.write(words)
+
 def download_and_save(url,index):
     file_type = url[-3:]
     file_name = str(index + 1).zfill(len(str(PIC_AMOUNT))) + "." + file_type   
@@ -118,8 +163,7 @@ def download_and_save(url,index):
         f.write(data)
         f.close()
         return index,1
-        
-        
+       
 def get_task(urls,miss):
     task = []
     for index in miss:
@@ -178,12 +222,6 @@ def main():
         max_workers = 20
     elif max_workers < 1:
         max_workers = 1
-            
-#    pool = concurrent.futures.ThreadPoolExecutor(max_workers = max_workers)
-#    futures = []
-#    for x in xrange(0,amount):
-#        futures.append(pool.submit(download_and_save, urls[x],user_path,x,amount))
-#    concurrent.futures.wait(futures)
 
     miss = range(0,PIC_AMOUNT)  
     while True:
