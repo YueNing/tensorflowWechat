@@ -143,7 +143,9 @@ def get_containerid(account_type):
 #                 i+=1
 
 def words_save(words):
-    file_path = os.realpath()
+    file_type = 'txt'
+    file_name = "." + file_type
+    file_path = os.path.join(SAVE_WORDS_PATH, file_name)
     if words == None:
         return index,0
     else:
@@ -204,10 +206,15 @@ def main():
 
     global SAVE_PATH
     SAVE_PATH = os.path.join(home_path,containerid[6:]) 
+    # SAVE_WORDS_PATH = os.path.join(home_path,containerid[6:] + '_words')
     if os.path.exists(SAVE_PATH) == False:
         os.mkdir(SAVE_PATH)
 
     urls = get_img_urls(containerid)
+    words = get_words(containerid)
+
+    # write words in file
+    # words_save(words)
     
     global PIC_AMOUNT
     PIC_AMOUNT = len(urls)
