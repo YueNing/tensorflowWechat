@@ -10,6 +10,9 @@ import json, re, time
 import ssl, urllib2
 import concurrent.futures
 import pdb
+reload(sys) 
+sys.setdefaultencoding('utf-8')
+
 try:
     ssl._create_default_https_context = ssl._create_unverified_context
 except:
@@ -76,25 +79,6 @@ def get_img_urls(containerid):
     print_fit("\n分析完毕, 微博总数 {}, 实际获得 {}".format(total,amount))
     return urls, words
 
-# def get_words(containerid):
-#     i =1
-#     words =[]
-#     while True:
-#         url = 'https://m.weibo.cn/api.container/getIndex?count={}&page={}&containerid'.format(25, page, containerid)
-#         data = open_and_read(url = url,max_retry = 3)
-#         if data == None: continue
-#         json_data = json.loads(data)
-#         if json_data['ok'] != 1: break
-#         cards = json_data["data"]["cards"]
-#         if(len(cards) > 0):
-#             for card in cards:
-#                 if "mblog" in card:
-#                     if "text" in card["mblog"]:
-#                         words.append("%d:%s\n" %(word_index, text))
-#                         word_index +=1
-#         page = page + 1
-#         time.sleep(1)
-#     return words
 
 def uid_to_containerid(uid):
     if re.search(r'^\d{10}$',uid) == None:
@@ -151,11 +135,13 @@ def get_containerid(account_type):
 
 def words_save(words):
     file_path = os.path.join(SAVE_WORDS_PATH, 'context.txt')
+    # pdb.set_trace()
     if words == None:
         return index,0
     else:
         with open(file_path, "a") as fw:
-            fw.write(words)
+            for word in words:
+                fw.write(word)
 
 def download_and_save(url,index):
     file_type = url[-3:]
@@ -209,7 +195,7 @@ def main():
         if containerid != None:
             break  
 
-    global SAVE_PATH
+    global SAVE_PATH, SAVE_WORDS_PATH
     SAVE_PATH = os.path.join(home_path,containerid[6:]) 
     SAVE_WORDS_PATH = os.path.join(home_path,containerid[6:] + '_words')
     if os.path.exists(SAVE_PATH) == False:
