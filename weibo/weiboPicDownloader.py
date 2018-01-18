@@ -48,6 +48,8 @@ def get_img_urls(containerid):
     amount = 0
     total = 0
     urls = []
+    words = []
+    word_index = 1
     while True:
         url = "https://m.weibo.cn/api/container/getIndex?count={}&page={}&containerid={}".format(25,page,containerid)
         data = open_and_read(url = url,max_retry = 3)
@@ -56,7 +58,7 @@ def get_img_urls(containerid):
         if json_data["ok"] != 1: break
         total = json_data["data"]["cardlistInfo"]["total"]
         cards = json_data["data"]["cards"]
-        pdb.set_trace()
+        # pdb.set_trace()
         for card in cards:
             amount = amount + 1
             print_fit("分析微博中... {}".format(amount),flush=True)
@@ -65,29 +67,34 @@ def get_img_urls(containerid):
                     for pic in card["mblog"]["pics"]:
                         if "large" in pic:
                             urls.append(pic["large"]["url"])
+                if "text" in card["mblog"]:
+                    words.append("%d:%s\n" %(word_index, card["mblog"]['text']))
+                    word_index +=1
         page = page + 1
         time.sleep(1)
         
     print_fit("\n分析完毕, 微博总数 {}, 实际获得 {}".format(total,amount))
-    return urls
+    return urls, words
 
-def get_words(containerid):
-    i =1
-    words =[]
-    while True:
-        url = 'https://m.weibo.cn/api.container/getIndex?count={}&page={}&containerid'.format(25, page, containerid)
-        data = open_and_read(url = url,max_retry = 3)
-        if data == None: continue
-        json_data = json.loads(data)
-        if json_data['ok'] != 1: break
-        cards = json_data["data"]["cards"]
-        if(len(cards) > 0):
-            for card in cards:
-                if "mblog" in card:
-                    if "text" in card["mblog"]:
-                        words.append("%d:%s\n" %(word_index, text))
-                        word_index +=1
-    return words
+# def get_words(containerid):
+#     i =1
+#     words =[]
+#     while True:
+#         url = 'https://m.weibo.cn/api.container/getIndex?count={}&page={}&containerid'.format(25, page, containerid)
+#         data = open_and_read(url = url,max_retry = 3)
+#         if data == None: continue
+#         json_data = json.loads(data)
+#         if json_data['ok'] != 1: break
+#         cards = json_data["data"]["cards"]
+#         if(len(cards) > 0):
+#             for card in cards:
+#                 if "mblog" in card:
+#                     if "text" in card["mblog"]:
+#                         words.append("%d:%s\n" %(word_index, text))
+#                         word_index +=1
+#         page = page + 1
+#         time.sleep(1)
+#     return words
 
 def uid_to_containerid(uid):
     if re.search(r'^\d{10}$',uid) == None:
@@ -143,9 +150,7 @@ def get_containerid(account_type):
 #                 i+=1
 
 def words_save(words):
-    file_type = 'txt'
-    file_name = "." + file_type
-    file_path = os.path.join(SAVE_WORDS_PATH, file_name)
+    file_path = os.path.join(SAVE_WORDS_PATH, 'context.txt')
     if words == None:
         return index,0
     else:
@@ -206,15 +211,17 @@ def main():
 
     global SAVE_PATH
     SAVE_PATH = os.path.join(home_path,containerid[6:]) 
-    # SAVE_WORDS_PATH = os.path.join(home_path,containerid[6:] + '_words')
+    SAVE_WORDS_PATH = os.path.join(home_path,containerid[6:] + '_words')
     if os.path.exists(SAVE_PATH) == False:
         os.mkdir(SAVE_PATH)
+    if os.path.exists(SAVE_WORDS_PATH) == False:
+        os.mkdir(SAVE_WORDS_PATH)        
 
-    urls = get_img_urls(containerid)
-    words = get_words(containerid)
+    # words = get_words(containerid)
+    urls, words = get_img_urls(containerid)
 
     # write words in file
-    # words_save(words)
+    words_save(words)
     
     global PIC_AMOUNT
     PIC_AMOUNT = len(urls)
