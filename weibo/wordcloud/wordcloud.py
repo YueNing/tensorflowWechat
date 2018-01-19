@@ -7,6 +7,8 @@
 
 from __future__ import division
 
+import pyximport
+pyximport.install()
 import warnings
 from random import Random
 import os
