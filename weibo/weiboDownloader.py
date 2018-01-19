@@ -46,7 +46,7 @@ def open_and_read(url,max_retry):
             if retry > max_retry: 
                 return
 
-def get_img_urls(containerid):
+def get_words_and_urls(containerid):
     page = 1
     amount = 0
     total = 0
@@ -70,9 +70,11 @@ def get_img_urls(containerid):
                     for pic in card["mblog"]["pics"]:
                         if "large" in pic:
                             urls.append(pic["large"]["url"])
-                if "text" in card["mblog"]:
-                    words.append("%d:%s\n" %(word_index, card["mblog"]['text']))
-                    word_index +=1
+                if card['card_type'] == 9:
+                    if "text" in card["mblog"]:
+                        # pdb.set_trace()
+                        words.append("%d:%s\n" %(word_index, card["mblog"]['text']))
+                        word_index +=1
         page = page + 1
         time.sleep(1)
         
@@ -141,7 +143,13 @@ def words_save(words):
     else:
         with open(file_path, "a") as fw:
             for word in words:
+                word = rm_words_emotion_label(word)
                 fw.write(word)
+
+# via regex to remove emotion label  
+def rm_words_emotion_label(word):
+    word = re.sub(r'<[^>]+>', "", word)
+    return word
 
 def download_and_save(url,index):
     file_type = url[-3:]
@@ -204,7 +212,7 @@ def main():
         os.mkdir(SAVE_WORDS_PATH)        
 
     # words = get_words(containerid)
-    urls, words = get_img_urls(containerid)
+    urls, words = get_words_and_urls(containerid)
 
     # write words in file
     words_save(words)
