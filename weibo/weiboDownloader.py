@@ -148,7 +148,7 @@ def words_save(words):
 
 # via regex to remove emotion label  
 def rm_words_emotion_label(word):
-    word = re.sub(r'<[^>]+>', "", word)
+    word = re.sub(r'<[^>]*>', "", word)
     return word
 
 def download_and_save(url,index):
