@@ -7,11 +7,11 @@ Created on Fri Sep 15 01:38:07 2017
 
 import os, sys, locale
 import json, re, time
-import ssl, urllib2
+import ssl, urllib, urllib.request
 import concurrent.futures
 import pdb
-reload(sys) 
-sys.setdefaultencoding('utf-8')
+# reload(sys) 
+# sys.setdefaultencoding('utf-8')
 
 try:
     ssl._create_default_https_context = ssl._create_unverified_context
@@ -25,21 +25,22 @@ SAVE_PATH = ""
 
 def print_fit(string,flush=False):
     if flush == True:
-        print "\r" + string.decode("utf-8").encode(sys.stdin.encoding or locale.getpreferredencoding(True)),
+        print ("\r" + string, end="")
         sys.stdout.flush()
     else:
-        print string.decode("utf-8").encode(sys.stdin.encoding or locale.getpreferredencoding(True))
+        print (string)
         
 def raw_input_fit(string=""):
-    prompt = string.decode("utf-8").encode(sys.stdin.encoding or locale.getpreferredencoding(True))
-    return raw_input(prompt).decode(sys.stdin.encoding or locale.getpreferredencoding(True))
-    
+    prompt = string
+    return input(prompt)
+
 def open_and_read(url,max_retry):
     retry = 0
-    request = urllib2.Request(url = url, headers = {'User-Agent' : USER_AGENT})
+    request = urllib.request.Request(url = url, headers = {'User-Agent' : USER_AGENT})
+    # pdb.set_trace()
     while True:
         try:            
-            response = urllib2.urlopen(request,timeout = 5)
+            response = urllib.request.urlopen(request,timeout = 5)
             return response.read()
         except:
             retry = retry + 1
@@ -53,6 +54,7 @@ def get_words_and_urls(containerid):
     urls = []
     words = []
     word_index = 1
+    # pdb.set_trace()
     while True:
         url = "https://m.weibo.cn/api/container/getIndex?count={}&page={}&containerid={}".format(25,page,containerid)
         data = open_and_read(url = url,max_retry = 3)
@@ -90,10 +92,10 @@ def uid_to_containerid(uid):
         
 def nickname_to_containerid(nickname):
     url = "https://m.weibo.com/n/" + nickname.encode("utf-8")
-    requset = urllib2.Request(url = url, headers = {'User-Agent' : USER_AGENT})
+    requset = urllib.request.Request(url = url, headers = {'User-Agent' : USER_AGENT})
     try:
-        response = urllib2.urlopen(requset)  
-    except urllib2.HTTPError:
+        response = urllib.request.urlopen(requset)  
+    except urllib.HTTPError:
         return
     urlback = response.geturl()
     if urlback == url:
