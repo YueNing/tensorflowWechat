@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS
 import jieba
 
+import pdb
 class WordCloud_CN(WordCloud):
 	"""docstring for WordCloud_CN"""
 	def __init__(self, stopwords_file=None, text_file=None, font_path=None):
@@ -22,7 +23,7 @@ class WordCloud_CN(WordCloud):
 			line = swf.readline().rstrip()
 			while line:
 				self.stopwords.setdefault(line, 0)
-				self.stopwords[line.decode('utf-8')] = 1
+				self.stopwords[line] = 1
 				line = swf.readline().rstrip()
 		return self.stopwords
 
@@ -33,11 +34,13 @@ class WordCloud_CN(WordCloud):
 			text = r' '.join(text)
 
 			seg_generator = jieba.cut(text)
+			# pdb.set_trace()
 			self.seg_list = [
 				i for i in seg_generator if i not in self.get_stopwords
 			]
 			self.seg_list = [i for i in self.seg_list if i !=u' ']
 			self.seg_list = r' '.join(self.seg_list)
+		pdb.set_trace()
 		return self.seg_list
 
 	def show(self):
