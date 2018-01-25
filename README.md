@@ -71,15 +71,10 @@ For Python 3.*
 
 执行 word_cloud [weibo/word_cloud.py][simple] for a short intro. 得出:
 
-![nana](wiebo/test_img/nana.png)
+![nana](weibo/test_img/nana.png)
+![superfrau](weibo/test_img/superfrau.png)
 
-Or run [examples/masked.py][masked] to see more options. A sample output is:
-
-![Alice in Wonderland](examples/alice.png)
-
-Getting fancy with some colors:
-![Parrot with rainbow colors](examples/parrot.png)
-
+同时可以使用mask 参考[mask例子](https://github.com/amueller/word_cloud/blob/master/examples/masked.py)
 
 ## Command-line usage
 
@@ -96,7 +91,7 @@ In the previous example, the `-` argument orders `pdftotext` to write the result
 Use `wordcloud_cli.py --help` so see all available options.
 
 
-## Used in
+## 使用
 
 ### Reddit Cloud
 
