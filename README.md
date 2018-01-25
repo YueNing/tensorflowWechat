@@ -7,45 +7,45 @@
 word_cloud
 ==========
 
-A little word cloud generator in Python. Read more about it on the [blog
+简单的python生成词云的例子. 更多相关信息请看 [blog
 post][blog-post] or the [website][website].
-The code is Python 2, but Python 3 compatible.
+代码是python2实现，但python3也可以执行
 
-## Installation
+## 安装
 
-Fast install:
+快速安装:
 
     pip install wordcloud
 
-If you are using conda, it might be even easier to use anaconda cloud:
+如果使用 conda, 使用 anaconda cloud会更加简单:
 
     conda install -c https://conda.anaconda.org/amueller wordcloud
 
-For a manual install get this package:
+手动安装该包:
     
     wget https://github.com/amueller/word_cloud/archive/master.zip
     unzip master.zip
     rm master.zip
     cd word_cloud-master
 
-Install the package:
+安装:
 
     python setup.py install
 
-#### Installation notes
+#### 安装提示
 
-worcloud depends on numpy>=1.5.1, pillow and matplotlib.
-To install it via pip, you will also need a C compiler.
+worcloud 依赖 numpy>=1.5.1, pillow and matplotlib.
+通过pip安装, 同时也需要 C 编译器.
 
 ##### Windows
 
-If you're having trouble with pip installation on windows, you can find a .whl file at:
+如何在windows下安装出现问题, 可以在以下找到 .whl file:
 
 http://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud
 
 ##### Ubuntu
 
-If the installation of the package fails, due to a missing ``pyconfig.h`` file, you need to install the python-dev package. 
+安装python
 
 For Python 2.*
 
@@ -67,11 +67,11 @@ For Python 3.*
 
 	sudo yum install -y python34-devel
 
-## Examples
+## 例子
 
-Check out [examples/simple.py][simple] for a short intro. A sample output is:
+执行 word_cloud [weibo/word_cloud.py][simple] for a short intro. 得出:
 
-![Constitution](examples/constitution.png)
+![nana](wiebo/test_img/nana.png)
 
 Or run [examples/masked.py][masked] to see more options. A sample output is:
 
