@@ -66,15 +66,20 @@ python setup.py build_ext --inplace
 ### Website
 需要先了解下Django 和 Bootstrap
 相关知识
-[Django](https://www.djangoproject.com/) 后台框架
-[Bootstrap](https://getbootstrap.com/)  twitter 前端开源框架
+1. [Django](https://www.djangoproject.com/) 后台框架
+2. [Bootstrap](https://getbootstrap.com/)  twitter 前端开源框架
 
-[jieba](https://github.com/fxsjy/jieba) 中文分词器
-[word cloud](https://github.com/amueller/word_cloud) 不同类型的词云
-[sentiment analysis](https://github.com/chaoming0625/SentimentPolarityAnalysis) 中文情感分析
-[spacy](https://github.com/explosion/spaCy) 号称什么工业级别的自然语言处理工具
-[自然语言处理](http://blog.csdn.net/xiaomuworld/article/details/52229830)
-
-[RNN 与 LSTM](http://blog.csdn.net/mmc2015/article/details/54848220)
-
-
+3. [jieba 中文分词器](https://github.com/fxsjy/jieba) 
+4. [word cloud 词云](https://github.com/amueller/word_cloud)
+5. [sentiment analysis](https://github.com/chaoming0625/SentimentPolarityAnalysis) 中文情感分析
+6. [spacy](https://github.com/explosion/spaCy) 号称什么工业级别的自然语言处理工具
+7. [自然语言处理主要概念](https://www.jianshu.com/p/6993edef96e4)
+8. [自然语言处理](http://blog.csdn.net/xiaomuworld/article/details/52229830)
+9. [词向量word vector](https://zhuanlan.zhihu.com/p/28894219)
+9. [RNN 与 LSTM](http://blog.csdn.net/mmc2015/article/details/54848220)
+10. 自然语言处理学习初级
+下面这些课程可以较好的帮助大家认识自然语言处理，了解基本的自然语言处理知识，是很好的入门课程。
+课程 | 机构 | 参考书 | Notes等其他资料
+:-- | :--: | :--: | :--:
+[自然语言处理初级1](https://www.youtube.com/watch?v=nfoudtpBV68&list=PLiNErZ5Bus8qNxNsFZFkh-9_CzZRW9iH9)| Stanford |[Speech and Language Processing](https://www.amazon.de/o/ASIN/0131873210/) | [链接](https://suclass.stanford.edu/courses/Engineering/CS224N/Fall2015/about)
+[自然语言处理初级2](http://www.cs.columbia.edu/~cs4705/)| Columbia | 暂无 |  [链接](http://www.cs.columbia.edu/~cs4705/)
