@@ -51,16 +51,18 @@ spa 中文情感分析，未测试
 
 ## 方法
 ### 爬虫
-python weiboDownloader.py 可以进行微博特定用户的抓取
+``` python weiboDownloader.py ``` 可以进行微博特定用户的抓取
 ### 词云
-python word_cloud.py       对抓取到的用户数据，获得词语，具体词语的特点和参数调整可一参照word_cloud 内的说明
+``` python word_cloud.py ```       对抓取到的用户数据，获得词语，具体词语的特点和参数调整可一参照word_cloud 内的说明
 ### 情感分析
-python -m pip install -U pip venv
+
+``` python -m pip install -U pip venv
 venv .env
 source .env/bin/activate
 export PYTHONPATH=`pwd`
 pip install -r requirements.txt
 python setup.py build_ext --inplace
+```
 ### Website
 需要先了解下Django 和 Bootstrap
 相关知识
