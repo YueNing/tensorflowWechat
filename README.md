@@ -13,3 +13,18 @@
     4. 统计使用人脸做头像的人群
     5. 分别统计不同类别头像
 4. 神经网络训练及预测
+
+### NN
+[RBF神经网络](https://www.zhihu.com/question/44328472)
+[RPROP弹性反向传播1](http://blog.csdn.net/shenxiaolu1984/article/details/52511202)
+[RPROP弹性反向传播2](http://www.mamicode.com/info-detail-1343139.html)
+[RPROP弹性反向传播3](http://www.chinabaike.com/m/s/1483455.html)
+[cascade correlation级联算法Fahlman1](http://www.ra.cs.uni-tuebingen.de/SNNS/UserManual/node164.html)
+[cascade correlation级联算法Fahlman2](https://pdfs.semanticscholar.org/98c6/0103f3de54f1378d52ba236f8d79d2936510.pdf)
+[The Dynamic Decay Adjustment Algorithm](http://www.ra.cs.uni-tuebingen.de/SNNS/UserManual/node193.html#SECTION0010111000000000000000)
+[RBF-DDA](https://papers.nips.cc/paper/946-boosting-the-performance-of-rbf-networks-with-dynamic-decay-adjustment.pdf)
+[SNNs](http://www.ra.cs.uni-tuebingen.de/SNNS/)
+
+### HMM
+[HMM](http://blog.csdn.net/Dark_Scope/article/details/63683686)
+
