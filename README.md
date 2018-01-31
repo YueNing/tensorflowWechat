@@ -26,5 +26,16 @@
 9. [SNNs](http://www.ra.cs.uni-tuebingen.de/SNNS/)
 
 ### HMM
-1. [HMM](http://blog.csdn.net/Dark_Scope/article/details/63683686)
+1. MM马尔可夫模型: 序列的算法
+2. [你的外在行为只是你内在意愿的表现  HMM隐马尔可夫模型](http://blog.csdn.net/dark_scope/article/details/61417336)
+3. [HMM](http://blog.csdn.net/Dark_Scope/article/details/63683686) 一般来说如果当前行为只受上一个的影响，我们称之为一阶马尔可夫链;
+
+
+### IL
+1. [Version Space and Bias](https://www.cnblogs.com/lufangtao/archive/2013/05/24/3086935.html)
+
+### RL 
+1. [Introduction RL](https://www.zhihu.com/question/41775291)监督学习, 是已经有了数据和数据对应的正确标签, RL通过一次次在环境中的尝试, 获取这些数据和标签, 然后再学习通过哪些数据能够对应哪些标签, 通过学习到的这些规律, 竟可能地选择带来高分的行为.
+2. [RL 强化学习](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/1-1-A-RL/)
+3. [算法 行为的价值来选取特定行为的方法](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/1-1-B-RL-methods/) 使用表格学习的Q learning, sarsa, 使用神经网络学习的Deep Q network, 还有直接输出行为的 policy gradients, 又或者了解所处的环境, 想象出一个虚拟的环境并从虚拟的环境中学习.
 
