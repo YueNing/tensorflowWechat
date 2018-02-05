@@ -69,3 +69,13 @@ Entscheidungsbäume
 ===============
 SVM
 ===============
+1. Support Vector Maschine
+ 
+==============
+Verwirklichung der Algorithmen
+=============
+=============
+KMeans
+============
+1. K-Means Clustering
+2. Fuzzy K-Means Clustering
