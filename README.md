@@ -141,3 +141,4 @@ python setup.py build_ext --inplace
 5. Random Forests
 
 ### SVM
+1. [VC Dimension](http://www.thebigdata.cn/JiShuBoKe/14027.html)
