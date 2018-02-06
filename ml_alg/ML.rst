@@ -74,8 +74,19 @@ SVM
 ==============
 Verwirklichung der Algorithmen
 =============
+
 =============
 KMeans
 ============
 1. K-Means Clustering
-2. Fuzzy K-Means Clustering
+
+============
+EB 
+============
+1. ID3
+2. C4.5
+
+============
+SVM
+============
+1. SVM QP
