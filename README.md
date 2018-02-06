@@ -142,3 +142,5 @@ python setup.py build_ext --inplace
 
 ### SVM
 1. [VC Dimension](http://www.thebigdata.cn/JiShuBoKe/14027.html)
+2. [硬间隔SVM](http://blog.csdn.net/u011583927/article/details/52388638)
+3. [软间隔SVM](http://blog.csdn.net/u011583927/article/details/52388917)
