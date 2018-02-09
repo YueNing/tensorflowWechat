@@ -23,4 +23,6 @@ class MultinomialNB(object):
         if self.calss_prior == None:
             class_num = len(self.classes)
             if not self.fit_prior:
-                self.class_prior = 
+                self.class_prior = [1.0 / class_num for _ in range(class_num)]
+            else:
+                self.class_prior = []
