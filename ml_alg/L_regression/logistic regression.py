@@ -32,6 +32,6 @@ def gradAscent(dataArray, labelArray, alpha, maxCycles):
     for i in range(maxCycles):
         h = sigmoid(dataMat*weigh)
         error = labelMat - h
-        weigh = weigh + alpha * dataMat.transpose()*error
+        weigh = weigh + alpha * dataMat.transpose()*error # 最大似然估计所以我们得到更新规则：0j = 0j + alpha * (yj - h) *xj
     return weigh
 
