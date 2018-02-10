@@ -27,3 +27,34 @@ NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = cifar10_input.NUM_EXAMPLES_PER_EPOCH_FOR_TRAI
 NUM_EXAMPLES_PER_EPOCH_FOR_EVAL = cifar10_input.NUM_EXAMPLES_PER_EPOCH_FOR_EVAL
 
 MOVING_AVERAGE_DECAY = 0.9999
+
+
+def _activation_summary(x):
+    return
+
+def _variable_on_cpu():
+    return
+
+def _variable_with_weight_decay():
+    return
+
+def distorted_inputs():
+    return
+
+def inputs(eval_data):
+    return
+
+def inference(images):
+    return 
+
+def loss():
+    return
+
+def _add_loss_summaries(total_loss):
+    return
+
+def train():
+    return 
+
+def maybe_download_and_extract():
+    return
