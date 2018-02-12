@@ -56,12 +56,13 @@
 - **Deduktion**: Modus Ponens 
 	![]()
 - Vergleich:
-	|      Induktion      |     Deduktion      |
-	|:-------------------:|:------------------:|
-	| Wahrheitserweiternd | Wahrheitserhaltend |
-	| Macht Lebewesen     | Logischer Schluss  |
-	| überlebensfähig     | Korrektheit        |
-	| Plausibilität       |                    |
+<table>
+<tr><td>Induktion</td><td>Deduktion</td></tr>
+<tr><td>Wahrheitserewiternd</td><td>Wahrheitserhaltend</td></tr>
+<tr><td>Macht Lebenwesen</td><td>Logischer Schluss</td></tr>
+<tr><td>Überlebensfähig</td><td>Korrektheit</td></tr>
+<tr><td>Plausibilität</td><td>Korrektheit</td></tr>
+</table>
 - Induktive Lernhypothese:
 Jede Hypothse, die die Zielfuntion über einer genügend großen Menge von Trainingsbeispielen gut genug approximiert, wird die Zielfuntion auch über unbekannten Beispielen gut approximieren.	     
 ### Konzeptlernen als Suche im Hypothesenraum
@@ -143,6 +144,7 @@ Je strenger die Vorannahmen, also mehr unbekannte Beispiele können klassifizier
 
 ## Unüberwachtes Lerenen
 ### Motivation & Einführung
+
 ### K-means Clustering
 ### Hierarchisches Clustering
 ### Begriffliche Ballungen & COBWEB
