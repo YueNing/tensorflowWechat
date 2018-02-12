@@ -255,7 +255,33 @@ Bei klassischen Ballungsverfahren:
 ### 5.5 C4.5
 ### 5.6 ID5R
 ### 5.7 Random-Forests
+1. Mehrere Entscheidungsbäume (=Wald/Forest) erstellen.
+	- Einfach
+	- Unkorreliert
+	- Zufällige Wahl von Attributen (bzw. Trainingsdaten)
+2. Für eine Klassfikation darf jeder Baum in diesm Wald eine entscheidung treffen und die Klasse mit den misten Stimmen entscheidet die endgültige Klassfifiaktion.
+3. Eigenschaften:
+	- Schnelles Training
+		- Da einzelen Entscheidungsbäume Kleiner
+		- Trainingszeit steigt linear mit der Anzahl der Bäume
+	- Parallelisierbar (sowohl in Training als auch bei der Evalution)
+	- Effizient für große Datenmengen
+4. Vergleich zu Standard Entscheidungsbäumen
+	- Kein Abschneiden der Bäume
+	- Attributwahl auf zufälliger Untermenge aller Attribute
+5. Eigenschaften der erstellten Bäume
+	- Jeder Baum sollte für sich ein guter Klassifikator sein
+	- Die Bäume sollten untereinander möglichst unkorreliert sein
+6. Randomisierungsmöglichkeiten
 ### 5.8 Zusammenfassung
+1. Lernen von EB
+	- Proktische Methode für induktive Inferenz
+2. ID5R
+	- Inkrementelle Beispielgebung
+	- Ergebnis äquivalent zu ID3
+	- Komplexere Repräsentation notwendigi
+3. Random Forests
+	- Mehrere(zufällige) Bäume. Ergebnis setzt sich aus den "votes" der Einzelbäume zusammen
 
 ## SVM Stützvektor Methoden, Support Vector Mehtod, Kernel Methoden
 ### Lineare Support Vektor Methode
@@ -264,8 +290,19 @@ Bei klassischen Ballungsverfahren:
 ### Erweiterungen
 
 ## Neuronale Netze
+### Motivation
+1. Klassifikation und Mustererkennung
+	- Diagnose, Spracherkennung, Schrifterkennung
+2. Funtionsapproximierung / Regression
+	- Kontinuierliche Abbildung
+	- Steuerung
+	- Vorhersage
+3. Mustervervollständigung
+	- Bilderkennung
+	- Kodierung
 ### Der Menschen(Vorkenntnis)
 ### Frühe Realisierung: Perzeption
+1. Grundidee: Anlehnung an das Funtionsprinzip der natürlichen Wahrnehmung - Reaktion im Tierbereich
 ### Multi layer Feedforward Neural Network
 #### Motivation
 #### Aufbau des MLNN
@@ -290,6 +327,7 @@ Bei klassischen Ballungsverfahren:
 
 ## Lernen nach Bayes
 ### Motivation
+
 ### Theorem von Bayes
 ### MAP-/ML-Hypothesen
 ### Optimaler Bayes-Klassifikator
