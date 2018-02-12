@@ -281,11 +281,114 @@ Bei klassischen Ballungsverfahren:
 
 ## Instanzbasiertes Lernen
 ### Einführung in das Instanzen-basierte Lernen
+Lazy learning vs. Eager learnign (faules Lernen  -- fleißiges Lernen)
+1. Instanzen-basiertes Lernen: "Delayed / Lazy Learning"
+2. Lernen = (einfaches) Abspeichern der Trainingsbeispiele
+3. Weniger Rechenzeit während des Trainings, dafür mehr bei Anfragen zur Klassifikation
+4. Unterschiedliche Hypothesen / Lokale Approximation der Zielfuntion für jede Anfrage
+5. "Fleißig" Lernalgorithmen mit dem gleichen Hypothesenraum sind eingeschränkter
+6. Bildet für jede neue Anfrage eine andere Annährung an die Zielfunktion
+	- Lokale Approximation der Targetfuntion
+	- Komplexere symbolische Repräsentationen für Instanzen
+7. Generalisierungsentscheidung wird bis zu einer konkrete Suchanfrage aufgeschoben
+8. Neue Instanzen werden analog zu ähnlichen Instanzen klassifiziert
+9. Instanzenbasiertes Lernen: Beurteilung:
+	- Komplexe Targetfunktionen können modelliert werden
+	- Inforamtion aus den Trainingsbeispielen geht nicht verloren
+	- Evtl. komplexe Berechnungen bei Klassifizierung neuer Instanzen
+	- Schwierigkeit: Welche Instanzen sind sich ähnlich?
+> Problem irrelevanter Eigenschaften
 ### Der K-NN Algorithmus
+1. Instanzen x = <> korrespondieren mit Punkten im n-dimensionalen Raum
+2. Nachbarschaftsbeziehungen sind durch die Euklidische Distanz:
+	d(x,z ) = sqrt
+3. Lernen einer Funtion f: R n-di -> V aus einer Menge von Trainingsbeispielen <x, c(x)>
+4. V endliche (diskrete) Menge
+5. Trainingsalgorithmus:
+	- für jedes Trainingsbeispiel<> mit c aus V:
+		- Füge das Trainingsbeispielen zu der Liste training_examples hinzu
+	- Klassifiaktionsalgorithmus: Anfrage xq
+		- x1, ... xk seien die k Instanzen von training_examples, die am nächsten zu xq liegen
+		- Ergebnis f(xq) <- arg max delta(v, c(xi))
+6. 5-NN Klassifikation: xq negativ
+7. 1-NN Klassifikation: xq positiv
+8. Normalisierung der Eingabevektoren oft sinvoll
+	- Verzerrung bei stark ungliechen Eingabedimensionen
+9. Abstandsgewichteter K-NN Algorithmus
+	- Nahe Nachbaren gehen genauso stark in die Klassifikation
 ### Case-Based Reasoning: Motivation und Vorstellung
+**Analogien**
+1. allgemeines abstraktes Framework
+2. kein direkt anwendbarer Algorihmus
+3. Wiederverwendung alter Fälle
+4. Such nach Lösungen ähnlicher Probleme
 ### Der Case-Based Reasoning Zyklus
+1. Aufgabe: Finde ähnliche Fälle
+2. Ähnlichkeitsmaß
+	- Euklidische Distanz
+	- Syntaktische Ähnlichkeiten
+	- Semantische Ähnlichkeiten
+3. Organisation der Fallbasis
+	- Lineare Liste
+	- Baumstruktur
+	- Graphen, Netze, Indexstrukturen
+	- Datenbanken
+4. Indizierung: Problem
+	- Auswahl der Indizes
+5. Wiederverwendung
+	- Lösungsadaption
+	- Eingesetzte Methoden
+		- Benutzerinteraktion
+		- Regelbasiertes Schließen
+		- Modellbasiertes Schließen
+		- Planer
+6. Anpassen / Überarbeiten / Revise
+	- Überprüfung, Verbesserung der Lösung
+	- Evaluierung der Lösung
+		- Überprüfung durch Simulation
+		- Überprüfung in realer Welt
+	- Verbessern bzw. Reparieren der Lösung
+		- Fehler erkennen und erklären
+		- Beseitigen unter Berücksichtigung der Fehlererklärungen
+	- Potentiell iterativ!!!
+7. Zurückbehalten
+	- Bewahrung der gamachten Erfahrung
+	- Was wird gelernt?
+		- Neue Erfahrung 
+		- Alten Fall generalisieren
+		- Neue Merkmale (Indizes)
+		- Organisation der Fallbasis (Effizienz)
+	- Methoden
+		- Auswendiglernen(Speichern neuer Fälle)
+		- Induktive / Deduktive Lernverfahren
 ### Beispiel für den Einsatz von CBR
+1. CLAVIER
+	- Zusammenstellung von Teilepaletten für einen Vulkanisierungofen
+	- Durchlauf: Suche nach "ähnlichster" bekannter Zusammenstellung
+	- Adaption durch Ersetzen möglichst weniger Elemente
+2. Kognitive Automobile
+	- Ziel: Entwicklung autonomer Fahrzeuge
+		- Wahrnehmung der Umwelt
+		- Versthen aktueller Situationen
+		- Auswahl und Ausführung von Verhalten
+	- Szenen repräsentiert mittels Beschreiungslogik
+	- KogniMobil: Fallbasis
+		- Fall
+		- Vererbungshierarchie zwischen Fällen (DAG)
+		- Fälle enthalten Verweise auf zeitlich nachfolgende Fälle(abhängi von gewählten Verhalten)
 ### Bewertung von CBR
+#### **Vorteil**
+1. Konzeptuell einfach, aber trotzdem können komplexe Entscheidungsgranzen gebildet werden
+2. Kann mit relativ wenig Information arbeiten
+3. Analogie zu menschlichem Problemlösen
+4. Lernen ist einfach (one shot learning)
+5. Günstig für mit Regeln schlecht erfassbare Probleme
+#### **Probleme**
+1. Gedächtniskosten
+2. Klassifikation kann lange dauern
+3. Hängt start von Repräsentation ab
+4. Problematisch bei komplexen Repräsentationen
+5. Problematisch: Irrelevante Eigenschaften
 
 ## Evolutionäre Algorithmen
 ### Vorkenntnis
