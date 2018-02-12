@@ -229,8 +229,28 @@ Bei klassischen Ballungsverfahren:
 
 ## 5. Entscheidungsbäume
 ### 5.1 Motivation
+1. Instanzen lassen sich als Attribut-Wert Paare beschreiben
+2. Zielfunktion besitzt diskrete Ausgabewerte
+3. Disjunkte Hypothesen erforderlich
+4. Beispieldaten sind möglichweise verrauscht
+5. Beispieldaten enthalten evtl. fehlende Attributwerte
 ### 5.2 ID3 
+1. Top Down Aufbau von EB
+	- A <- Das beste Enscheidungsattribut für den nächsten Knoten: 
+		- Cross Entropy
+		- Informationsgewinn Gewinn(S, A) = Entropie(S) - all Sv / S entropy(Sv)
+	- Weise A als Entscheidungsattribut für den nächsten Knoten zu 
+	- Füge für jeden möglichen Wert von A einen Nachfolgeknoten ein
 ### 5.3 Overfitting
+1. Basisverfahren:
+	- Jeder Zweig wächst solange, bis die Trainingsbeispiele perfekt klassifiziert werden
+	- Dies basiert auf dem statistisch approximierten Inforamtionsgewinn
+> Dies kann zu Problemen führen, wenn
+	- die Daten verrauscht sind
+	- die Beispiel nicht repräsentativ sind  potentiell mehr Fehler
+2. Vermeidung von Overfitting
+	- Frühzeitiges Stoppen des Baumwachstums
+	- Nachträgliches "Prunen" des Baumes(in der Proxis erfolgreicher) ?????????????
 ### 5.4 Erweiterungen
 ### 5.5 C4.5
 ### 5.6 ID5R
