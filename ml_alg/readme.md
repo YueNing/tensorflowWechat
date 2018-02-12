@@ -50,10 +50,96 @@
 
 ## Induktives Lernen
 ### Induktion & Deduktion
+- **Induktion**: Prozess des plausiblen Schließens vom Speziellen zum Allgemeinen
+	- Basis: große Anzahl zutreffender Fälle
+		![gailvgongshi]()
+- **Deduktion**: Modus Ponens 
+	![]()
+- Vergleich:
+	|      Induktion      |     Deduktion      |
+	|:-------------------:|:------------------:|
+	| Wahrheitserweiternd | Wahrheitserhaltend |
+	| Macht Lebewesen     | Logischer Schluss  |
+	| überlebensfähig     | Korrektheit        |
+	| Plausibilität       |                    |
+- Induktive Lernhypothese:
+Jede Hypothse, die die Zielfuntion über einer genügend großen Menge von Trainingsbeispielen gut genug approximiert, wird die Zielfuntion auch über unbekannten Beispielen gut approximieren.	     
 ### Konzeptlernen als Suche im Hypothesenraum
-### Specific to General Suche
-### Versionraum(Version Space) / Gandidate-Elimination-Algorithmen
+<p> Konzept beschribt Untermenge von Objekten oder Ereignissen definiert auf größerer menge, und Bool'sche Funktion definiert über größerer Menge </p>
+
+1. Gegeben: Beispiele, die als Mitglieder oder Nichtmitglieder eines konzepts gekennzeichnet sind
+2. Gesucht: Automatischer Schluss auf die Definition des zugrundeliegenden Konzepts
+3. Definition Konzeptlernen: Schließen auf eine Boolean-wertige Funktion aus Trainingsbeispielen ihres Inputs und Outputs
+4. Beispiel: Das Wetter
+
+**Konsistenz**: Keine negativen Beispiel werden positiv klassifiziert
+**Vollständigkeit**: Alle positiven Beispiele werden als postiv klassifiziert.
+- vollständig aber nicht konsistenz: alle positiven Beispiele als postiv klassifiziert, aber es gibt negative Beispiele als positive klassifiziert werden
+- konsistenz, aber nicht vollständig: keine negativen Beispiele als postiv klassifiziert, aber nicht alle positiven Beispiele als postive klassifiziert werden, das bedeutet, es einige positiven Beispiele gibt, die als negativ klassifiziert werden.
+- konsistent und vollständig: keien negativen Beispiele als positiv klassifiziert und alle positiven Beispiele als positiv klassifiziert werden.
+![shuomingtu]()
+#### Suche vom Allgemeinen zum Speziellen
+1. Ausgangspunkt ist allgemeinste Hypothese <?, ...., ?>
+2. Negative Beispiele: Spezialisierung
+3. Positive Beispiele: werden nicht betrachtet
+#### Suche vom Speziellen zum Allgemeinen
+1. Ausgangspunkt ist speziellste Hypothese<#, ..., #>
+2. Positive Beispiele: (minimale) Verallgemeinerung
+3. Negative Beispiele: werden nicht betrachtet 
+
+Preseude Code
+> Initialisiere h mit der spezifischsten Hypothese in H <#, ...., #>
+> Für jedes positive Trainingsbeispiel x
+>> Für jede Attributeinschränkung a0 in h=<a0, ..., an>
+>>> wenn ai von x erfüllt wird
+>>>> Dann tue nichts
+>>> Sonst:
+>>>> Ersetze ai durch die nächstallgemeinere Einschränkung, die durch x erfüllt wird
+> Gib die Hypothes aus
+
+4. Beurteilung 1
+	- Wichtiges Prinzip im Konzeptlernen
+	- Für Hypothesenräume, die durch Konjunktion von Attributeinschränkungen beschrieben sind garantiert das Verfahren die spezifischste Hypothese, die mit den positiven Trainingsbeispielen vereinba ist
+	- Endhypothese ist auch mit negativen Trainingsbeispielen konsistent Solange die Trainingsbeispiele korrekt sind und die Zielhypothese in H enthalten ist.
+ 
+#### Paralleles Anwenden beider methoden => Version Space
+Der Versionsraum VSH,D bezüglich des Hypothesenraums H und der Menge von Trainingsbeispielen D ist die Untermenge der Hypothesen von H, die mit den Trainingsbeispielen in D konistent ist.
+##### Versionraum(Version Space) / Gandidate-Elimination-Algorithmen
+- Lernen ist inkrementell
+- Gespeichert werden: S und G
+- S- Und A- Hypothesen
+	- negatives Beispiel
+		1. Lösche aus S
+		2. Spezialisiere G, und sie allgeminer als eine Hypothese in S bleiben
+		3. Lösche aus G alle hypothesen, die spezifischer als eine andere Hypothese aus G sind
+	- positves Beispiel
+		1. Lösche aus G, die mit p inkonsistenten Hypothesen
+		2. Verallgemeinere S, sie spezifischer als eine Hypothese in G
+		3. Lösche aus S alle Hypothesen, die allgemeiner als eine andere Hypothese aus S sind
+- Beurteilung
+	- S=G
+		- Voraussetzung: Beispiele konsistent, korrekte Hypothese in Hypothesenraum enthalten
+		- Probleme: feherbehaftet Trainingsdaten(Rausch)!, Zielkonzept nicht von Hypothesenrepräsentation abgedeckt **????????????**, mögliche Erweiterung:disjunktive Begriffe
 ### Notwendigkeit von Vorzugskriterien(Bias)
+Induktives Lernen erfordert Vorannahmen(inductive bias)
+Je strenger die Vorannahmen, also mehr unbekannte Beispiele können klassifiziert werden!!!!!!!!
+- Mögliche Vorzugskriterien
+	- Verständlichkeit
+	- Klassifikationsgenauigkeit
+	- Messaufwand für die verwendeten Deskriptoren
+	- Berechnungs- und Speicheraufwand für die Hypothese
+- Hypothesenraumbias
+	- h gehöre zu einem beschränkten Raum von hypothesen
+		- logische Konjunktionen
+		- lineare Schwellwertfunktionen
+		- Geraden, Polynome, ...etc
+		- 3 NN (Nearest Neighbour)
+- Präferenzbias
+- Problem
+	- keine Funtion h, die konsistent mit allen Trainingsbeispielen ist, y.B wegen verauschter Trainingsdaten.
+	- Unterschiedlische Ansätze möglich unterschiedliche Lösungen
+	- Anpassen des Hypothesenraumbias: Overfitting!
+	- Anpassen des Präferenzbias: Misklassifikation muss in Kauf genommen werden
 
 ## Unüberwachtes Lerenen
 ### Motivation & Einführung
