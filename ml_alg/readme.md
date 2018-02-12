@@ -90,7 +90,7 @@ Jede Hypothse, die die Zielfuntion über einer genügend großen Menge von Train
 Preseude Code
 > Initialisiere h mit der spezifischsten Hypothese in H <#, ...., #>
 > Für jedes positive Trainingsbeispiel x
->> Für jede Attributeinschränkung a0 in h=<a0, ..., an>
+>> Für jede Attributeinschränkung a0 in h
 >>> wenn ai von x erfüllt wird
 >>>> Dann tue nichts
 
@@ -289,25 +289,159 @@ Bei klassischen Ballungsverfahren:
 
 ## Evolutionäre Algorithmen
 ### Vorkenntnis
+1. Biologisches Evolutionsmodell nach Darwin: Selektion = Treibende Kraft der Evolution
+2. Man kann die natürliche Selektion genauso gut in Formeln packen, wie es mit natürlichen Neuronalen Netzen geht
+3. Technische: Evolution als Optimierung komplexer, künstlicher Systeme
 ### Nomenklatur
+1. Individuum : <= eine mögliche Lösung, Hypothese
+2. Population und Generation <= Lösungs- bzw. Hypothesenmenge
+3. Erzeugen von Nachkommen <= Generierung neuer Hypothesen
+	- Rekombination und Mutation
+4. Veränderter Nachfolger, Kind, Nachkommene <= neue Hypothese
+5. Fitness(-funktion) <= Hypothesengüte, zu optimierendes Kriterium
+6. Selektion des Besten <= Auswahl der Hypothesen, welche die beste Problemlösung erzeugen
 ### Der Grundalgorithmus
+![Evoulutionäre Al]()
 ### Repräsentation von Nachkommen
+1. Wissen wird meistens strukturiert repräsentiert
+2. Kodieren durch Gene
+	- k-Alphabet(k=2: Binärcodierung) -> Genetische Algorihmen
+	- Reelle Zahlen, Vektoren -> Evolutionäre Strategien
+	- baumartige Strukturen -> Genetisches Programmieren
+#### Generierung von Nachkommmen 
+1. Erfolgt durch s.g. genetische Operatoren
+2. Zwei Strategien:
+	- Exploration ---- Exploitation
+	- Erforschen des Hypothesenraumes ---- Lokale Optimierung
+3. Vergleich
+	- Je stärker und zufälliger Änderungen sind, um so geringer ist die Wahrscheinlichkeit, bessere nachkomen zu erzeugen
+	- Bei lokalen Verbesserungsmethoden ist die Gefahr der lokalen Minima gegeben
+	- Explorationsgrad muss gemäß der aktuellen Fitness der Generation ausgewählt werden(z.B.: anfangs hoch dann fallend)	
 ### Mutation
+1. Der Nachkomme stammt von einem Elternteil ab
+2. Mutation einzelner Gene
+3. Konzepte:
+	- Alle Bits einer Sequenz werden unabhängig voneinander mit einer bestimmten Wahrscheinlichkeit invertiert
+	- Für eine bestimmte(oder zufällige) Anzahl von Bits werden die Indizes zufällig ausgewählt
+	- stochastisch bei kontinuierlicher Repräsentation:
+4. Mutationsoperator bei Sequenzen
+	- Herausnehmen einer Teilsequenz und Einfügen an anderer Stelle
+	- Invertiertes Einfügen der Teilsequenz
+	- Spezielle Mutationsoperatoren -> anwendungsspezifisch
 ### Rekombination
-### Beispiel
+1. Eigenschaften von zwei oder mehreren Eltern sollen gemischt werden
+	- Diskrete Rekombination
+	- Intermediäre Rekombination(kontinuierliche Repräsentation)
+2. Crossover: aus 2 Eltern -> 2 Nachkommen
+	- Single-point crossover
+	- Two-point crossover 
+	- Uniform crossover
 ### Selektion
+1. 2 Arten der Selektion
+	- der Eltern für jeweilige Erzeugung von Nachkommen
+	- der Population für die nächste Iteration
+2. Probleme:
+	- Genetische Drift: Individuen vermehren sich zufällig mehr als andere
+	- crowding, Ausreißerproblem: "Fitte" Indiduen und ähnliche Nachkommen dominieren die Population
+> Entwicklung der Individuen wird verlangsamt 
+> Vielfalt der Population wird eingeschränkt
 ### Populationsmodelle
+1. Inselmodell(lokal)
+	- die Evolution läuft weitgehend getrennt, nur manchmal werden Individuen ausgetauscht
+2. Nachbarschaftsmodell(nahe Umgebung)
+	- Nachkommen dürfen nur von Individuen erzeugt werden, die in ihrer Nachbarschaft die beste Fitness besitzen
+3. Eine einfache Menge(global)
+	- die global Besten entwickeln sich rasch weiter, andere Entwicklunglinien werden unterdrückt
 ### Maximumsuche(s. Berthold)
+1. Finde Maximum einer Funktion:
+	- 3 Populationsgruppen, je 20 Individuen(schwarz, grau, weiß)
+	- Individuum: binäre Kodierung(12bit)der x,y Positon
+	- Operatoren: Mutation / Inversion, 1-point Crossover
+	- Initiale Verteilung, Gene
 ### Populationsmitglieder
+1. Populationsgröße:
+	- Soll sie konstant bleiben ? u
+	- Wie viele neu erzeugte Nachkommen? lambda
+	- wie viele Eltern sollen verwendet werden? p
+	- wie werden diese bestimmt?
+2. Mitgliederselektion:
+	- stochastisch ausgewählt -> die besten u Individuen
+	- u, lamda Strategie: bessere Exploration
+	- u + lamda: Exploitation, günstig bei gut berechenbaren Fitnessfunktionen
+3. Ersetzungsregel für Mitglieder:
+	- Nachkommen ersetzten alle Eltern(Generationen - Modus)
+	- Nachkommen ersetzten einen Teil der Eltern
+	- Nachkommen ersetzten Eltern, die ihnen am ähnlichsten sind
+	- Geographische Ersetzung
+	- Bestes Individuum überlebt(Elitist - Modus)
+4. Daumenregel
+	- Das beste Viertel der Population sollte drei Viertel der Nachkommen erzeugen
 ### Selektionmethoden
+1. Fitness basierte Selektion
+	Px = fx / all fx genau Px = lamda / u * fx / all fx
+	- px: Wahrscheinlichkeit der Auswahl von Individuum x
+	- lamda: Anzahl von Nachkommen
+	- u: Populationsgröße
+	- f: Fitness Funktion
+> abhängig vom Wert der Fitnessfunktion
+> Problem wenn y.B im Laufe der Evolution nur noch geringe Änderungen in fx und damit in px
+
+2. Rang basierte Selektion 
+px =  g(r(x)) / all g(r(x))
+	- px: Wahrscheinlichkeit der Auswahl von Individuum x
+	- rx: ranking von x in der aktuellen Population gemäß Fitness - Funtion
+	- g: mit der Güte des Ranges monoton steigende Funtion größer 0
+		- Exponentiell: gx := a -x
+		- Hyperbolisch: gx := x -a
+		- Die besten K: 
+> weniger anhängig von dem Betrag der Fitness
+> bessere Anpassung von Exploration / Eploitation durch g
+
+3. Turnier Selektion (tournament selection)
+	- wähle für jedes zu erzeugende Individuum n (=2) Individuen
+	- belohne davon, das ge,äß der Fitness beste Individuum
+	- wähle Individuen mit höchster Bewertung
+> wenig anhängig von dem Betrag der Fitness
+
+4. Wahl der Selektionmethode
+	- oft anwendungsspezifisch
 ### Evolution
+1. Lamarksche Evolution
+	- Individuen ändern sich (lernen) nach der Erzeugung
+	- Genotyp(alle Gene) wird verändert und anschließend vererbt
+2. Baldwinsche Evolution
+	- Individuen ändern sich nach der Erzeugung
+	- Genotyp bleibt unverändert
+3. Hybride Verfahren
+	- es gibt veränderbare und fixe Phänotypen
+	- Anwendung: Suche nach ooptimalen neuronalen Netzen
 ### Beispiel: Travelling Saleman-Problem
-### Anwendungsbeispiel
-#### Mischung von Kaffeesorten
-#### Cybermotten
+1. Finde einene Pfad
+	- jeder Ort wird genau einaml besucht
+	- der zurückgelegte Weg ist minimal
+2. Lösung: Evolutionsstrategie
+3. Anwendungsbeispiel: 
+	- Flugplanoptimierung
+	- Mischung von Kaffeesorten: Markenkaffee sollte immer gleich schmecken, obwohl es immer wieder zu unterschiedlichen Mischverhältnissen kommt. Überliches Vorgehen:Experten mischen solange, bis die Mischung den gewünschten Geschmack hat.
+		- Fitnessfunciton: Mensch - Geschmackstester
+		- Test der Evolutionsstrategie
+		- Vorteil: Auch Kosten und andere Optimierungskriterien können einbezogen werden
+		- Anwendungsgebiete: Mischprodukte wie Kako, Tee, Whisky, Kompositionen wie Fliesenglasuren, Farbtöne etc, Kriminalistik: Persionen identifizieren
+	- Cybermotten
 ### Genetische Programmierung
-### Beispiel
-#### Ameise
+1. Ziel: Erzeugung optimierter Programme
+	- Individuen sind Programme
+	- Repräsentation z.B als Baum
+	- Selektion, Mutation und Rekombination auf Baumstrukturen
+	- Fitness: Programmtest auf einer Menge von Testdaten
+2. Rekombination als Austausch von Teilbäumen
+3. Beispiel 1: 
+	- pick and place das Wort zu erzeugen
+	- Fitness: Test auf 166 Startkonfigurationen
+	- Ergebnis: die beste Programmierung  EQ((DU(MT CS) (NOT CS)))
+4. Beispiel 2 Ameise:
+	- Ziel: Programm(Steuerung) einer Ameise, s.d. mit Start von (10, 17) das gesamte Futter, wegoptimal gesammelt wird
+	- Funtionen:
 ### Steuerung in der Robotik
 #### Snakeboot
 #### künstliche Ontogenese
