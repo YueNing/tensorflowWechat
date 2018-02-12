@@ -303,12 +303,36 @@ Bei klassischen Ballungsverfahren:
 ### Der Menschen(Vorkenntnis)
 ### Frühe Realisierung: Perzeption
 1. Grundidee: Anlehnung an das Funtionsprinzip der natürlichen Wahrnehmung - Reaktion im Tierbereich
-### Multi layer Feedforward Neural Network
-#### Motivation
-#### Aufbau des MLNN
-#### Aufbau des RBF Netzes
-#### Probleme / Optimierung
+2. Gradientenabstieg 
+	- Fehlerfunktion: Minimieren von E
+	- Deltaregel
+	- Kernel Methoden
 
+### Multi layer Feedforward Neural Network
+#### Aufbau des MLNN
+1. Netzaufbau: mehrere versteckte(innere) Schichten
+2. Lernverfahren: Backpropagation - Algorithmus
+3. Neuronenaufbau: nichtlineare Aktiverungsfunktion
+#### Aufbau des RBF Netzes
+1. Topologie und Aufbau
+	- vorwärtsgerichtetes Netz
+	- 3-schichtig mit einer hidden - Schicht
+	- Neuronen des hidden layer: Gauß Funktionen u-Zentrum mittelwert miu-Reichweite(std, abweichung)
+2. Erweiterungen des RBF-Netz
+	- Neuronen des hidden layer
+3. BackProp: Adaption nach Gradientenabstieg
+4. Nachteile BackProp:
+	- nichtlineare Funktionen -> hoher Rechenaufwand
+	- lokale Minima
+	- Reichweite kann sehr groß werden -> keine lokalen Felder
+5. Hybride Lernverfahren(als Idee)
+#### Probleme / Optimierung
+1. Momentum Term alpha im intervall 0.2 bis 0.9
+2. Normierung der Schrittweite
+3. Lernratenanpassung
+4. RPROP: Lernrate abhängig vom Gradientenvergleich
+5. Dynamic Decay Adjustment - DDA
+ 
 ## Reinforcement learning
 ### Problemstellung MDP
 ### Lernziel: maximale Bewertung
