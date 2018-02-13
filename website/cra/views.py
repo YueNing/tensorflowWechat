@@ -14,3 +14,6 @@ def index(request):
 	context = {}
 	context['hello'] = 'Hello Word!'
 	return render(request, 'cra/index.html', context)
+
+def ML(request):
+	return render(request, 'cra/ML.html')

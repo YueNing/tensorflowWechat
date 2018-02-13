@@ -1,0 +1,941 @@
+
+{% extends "admin/index.html"%}
+{% load staticfiles %}
+{% block page_content %}
+<title>readme</title></head><body><article class="markdown-body"><h1 id="ml-1"><a name="user-content-ml-1" href="#ml-1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>ML 1</h1>
+<h2 id="1-einfuhrung"><a name="user-content-1-einfuhrung" href="#1-einfuhrung" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>1. Einführung</h2>
+<h3 id="11-allgemeine-information"><a name="user-content-11-allgemeine-information" href="#11-allgemeine-information" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>1.1 Allgemeine Information</h3>
+<h3 id="12-einfuhrung-und-uberblick"><a name="user-content-12-einfuhrung-und-uberblick" href="#12-einfuhrung-und-uberblick" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>1.2 Einführung und Überblick</h3>
+<ul>
+<li>Charakterisierte Intelligenz: Testen von Intelligenz Turing Test und Gegenbeispiel(Chinese room) eindeutige Definition nicht möglich</li>
+<li>Loebner Preis<ul>
+<li>x Tester glauben lassen, sie hätten sich tatsächlich mit einem Menschen unterhalten</li>
+<li>Chatbots: <strong>Jabberwock</strong></li>
+<li>2010/11 Suzette/Rosette von Bruce Wilcox</li>
+<li>2013 Mitsuku</li>
+</ul>
+</li>
+<li>Lernen</li>
+<li>Maschinelles Lernen<ul>
+<li>Forschungsrichtungen des ML<ol>
+<li>Praxisorientiert: Aufgabenorientierte, problemlösende Systeme, Wissenserwerb und Lösungshypothese finden</li>
+<li>Entscheidungstheoretische Ansätze: Diskriminierungsfuntionen aus einer Menge von Trainingsbeispielen ??????????</li>
+<li>Theorieorientiert: <ul>
+<li>Problemcharakteristik -&gt; Methoden</li>
+<li>Lernbarkeit analysieren</li>
+<li>Komplexitätsabschätzungen</li>
+</ul>
+</li>
+<li>Koginitionsorientiert: Konstruktion kognitiver Modelle oft angelehnt an menschliche oder tierische Lerneprozesses</li>
+<li>Evolutionäres lernen: Ursprung -&gt; Neurophysiologische, biologische und psychologische Forschung -&gt; Systeme die sich nach Umgebung anpassen</li>
+</ol>
+</li>
+<li>Historie<ol>
+<li>Beginn und früher Enthusiasmus(1955-1968)</li>
+<li>Depression(1969-1976)</li>
+<li>Renaissance(1976 bis 1986)</li>
+<li>Maturität - Reife(1986 bis &hellip;)<ul>
+<li>Lerntheorie, Erweiterungen der Basisalgorithmen<ul>
+<li>Neuronale Netze &amp; SVM</li>
+<li>Reinforcement Learning</li>
+<li>Genetische Algorithmen</li>
+<li>Deep Learning</li>
+</ul>
+</li>
+<li>Problemlösearchitekturen<ul>
+<li>Kombination induktiver und deduktiver Verfahren</li>
+<li>Kombination symbolischer und subsymbolischer Verfahren</li>
+<li>Überwachtes, Unüverwachtes, aktives Lernen</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>ML als aktuelles Forschungsgebiet(&hellip;heute)<ul>
+<li>Personenerkennung, -identifikation</li>
+<li>Gesten- und Aktivitätserkennung</li>
+<li>Blickrichtungserkennung</li>
+<li>Kognitive Automobile und Fahrerassistenz</li>
+<li>Objekterkennung Klassifikation</li>
+<li>Umgebungserkennung</li>
+<li>Situatives Entscheiden</li>
+<li>Skill Lernen</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Komponenten eines lernenden Systems<br />
+<img alt="liuchengtu" src="" /></li>
+</ul>
+<h3 id="13-literaturhinweise"><a name="user-content-13-literaturhinweise" href="#13-literaturhinweise" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>1.3 Literaturhinweise</h3>
+<h2 id="2-induktives-lernen"><a name="user-content-2-induktives-lernen" href="#2-induktives-lernen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2. Induktives Lernen</h2>
+<h3 id="21-induktion-deduktion"><a name="user-content-21-induktion-deduktion" href="#21-induktion-deduktion" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2.1 Induktion &amp; Deduktion</h3>
+<ul>
+<li><strong>Induktion</strong>: Prozess des plausiblen Schließens vom Speziellen zum Allgemeinen<ul>
+<li>Basis: große Anzahl zutreffender Fälle<br />
+<img alt="gailvgongshi" src="" /></li>
+</ul>
+</li>
+<li><strong>Deduktion</strong>: Modus Ponens <br />
+<img alt="" src="" /></li>
+<li>Vergleich:<br />
+<table><br />
+<tr><td>Induktion</td><td>Deduktion</td></tr><br />
+<tr><td>Wahrheitserewiternd</td><td>Wahrheitserhaltend</td></tr><br />
+<tr><td>Macht Lebenwesen</td><td>Logischer Schluss</td></tr><br />
+<tr><td>Überlebensfähig</td><td>Korrektheit</td></tr><br />
+<tr><td>Plausibilität</td><td>Korrektheit</td></tr><br />
+</table></li>
+<li>Induktive Lernhypothese:<br />
+Jede Hypothse, die die Zielfuntion über einer genügend großen Menge von Trainingsbeispielen gut genug approximiert, wird die Zielfuntion auch über unbekannten Beispielen gut approximieren.         </li>
+</ul>
+<h3 id="22-konzeptlernen-als-suche-im-hypothesenraum"><a name="user-content-22-konzeptlernen-als-suche-im-hypothesenraum" href="#22-konzeptlernen-als-suche-im-hypothesenraum" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2.2 Konzeptlernen als Suche im Hypothesenraum</h3>
+<p><p> Konzept beschribt Untermenge von Objekten oder Ereignissen definiert auf größerer menge, und Bool&rsquo;sche Funktion definiert über größerer Menge </p></p>
+<ol>
+<li>Gegeben: Beispiele, die als Mitglieder oder Nichtmitglieder eines konzepts gekennzeichnet sind</li>
+<li>Gesucht: Automatischer Schluss auf die Definition des zugrundeliegenden Konzepts</li>
+<li>Definition Konzeptlernen: Schließen auf eine Boolean-wertige Funktion aus Trainingsbeispielen ihres Inputs und Outputs</li>
+<li>Beispiel: Das Wetter</li>
+</ol>
+<p><strong>Konsistenz</strong>: Keine negativen Beispiel werden positiv klassifiziert<br />
+<strong>Vollständigkeit</strong>: Alle positiven Beispiele werden als postiv klassifiziert.<br />
+- vollständig aber nicht konsistenz: alle positiven Beispiele als postiv klassifiziert, aber es gibt negative Beispiele als positive klassifiziert werden<br />
+- konsistenz, aber nicht vollständig: keine negativen Beispiele als postiv klassifiziert, aber nicht alle positiven Beispiele als postive klassifiziert werden, das bedeutet, es einige positiven Beispiele gibt, die als negativ klassifiziert werden.<br />
+- konsistent und vollständig: keien negativen Beispiele als positiv klassifiziert und alle positiven Beispiele als positiv klassifiziert werden.<br />
+<img alt="shuomingtu" src="" /></p>
+<h4 id="221-suche-vom-allgemeinen-zum-speziellen"><a name="user-content-221-suche-vom-allgemeinen-zum-speziellen" href="#221-suche-vom-allgemeinen-zum-speziellen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2.2.1 Suche vom Allgemeinen zum Speziellen</h4>
+<ol>
+<li>Ausgangspunkt ist allgemeinste Hypothese &lt;?, ...., ?&gt;</li>
+<li>Negative Beispiele: Spezialisierung</li>
+<li>Positive Beispiele: werden nicht betrachtet</li>
+</ol>
+<h4 id="222-suche-vom-speziellen-zum-allgemeinen"><a name="user-content-222-suche-vom-speziellen-zum-allgemeinen" href="#222-suche-vom-speziellen-zum-allgemeinen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2.2.2 Suche vom Speziellen zum Allgemeinen</h4>
+<ol>
+<li>Ausgangspunkt ist speziellste Hypothese&lt;#, &hellip;, #&gt;</li>
+<li>Positive Beispiele: (minimale) Verallgemeinerung</li>
+<li>Negative Beispiele: werden nicht betrachtet </li>
+</ol>
+<p>Preseude Code</p>
+<blockquote>
+<p>Initialisiere h mit der spezifischsten Hypothese in H &lt;#, ...., #&gt;<br />
+Für jedes positive Trainingsbeispiel x</p>
+<blockquote>
+<p>Für jede Attributeinschränkung a0 in h</p>
+<blockquote>
+<p>wenn ai von x erfüllt wird</p>
+<blockquote>
+<p>Dann tue nichts</p>
+</blockquote>
+<p>Sonst:</p>
+<blockquote>
+<p>Ersetze ai durch die nächstallgemeinere Einschränkung, die durch x erfüllt wird</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>Gib die Hypothes aus</p>
+</blockquote>
+<ol>
+<li>Beurteilung 1<ul>
+<li>Wichtiges Prinzip im Konzeptlernen</li>
+<li>Für Hypothesenräume, die durch Konjunktion von Attributeinschränkungen beschrieben sind garantiert das Verfahren die spezifischste Hypothese, die mit den positiven Trainingsbeispielen vereinba ist</li>
+<li>Endhypothese ist auch mit negativen Trainingsbeispielen konsistent Solange die Trainingsbeispiele korrekt sind und die Zielhypothese in H enthalten ist.</li>
+</ul>
+</li>
+</ol>
+<h4 id="223-paralleles-anwenden-beider-methoden-version-space"><a name="user-content-223-paralleles-anwenden-beider-methoden-version-space" href="#223-paralleles-anwenden-beider-methoden-version-space" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2.2.3 Paralleles Anwenden beider methoden =&gt; Version Space</h4>
+<p>Der Versionsraum VSH,D bezüglich des Hypothesenraums H und der Menge von Trainingsbeispielen D ist die Untermenge der Hypothesen von H, die mit den Trainingsbeispielen in D konistent ist.</p>
+<h5 id="2231-versionraumversion-space-gandidate-elimination-algorithmen"><a name="user-content-2231-versionraumversion-space-gandidate-elimination-algorithmen" href="#2231-versionraumversion-space-gandidate-elimination-algorithmen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2.2.3.1 Versionraum(Version Space) / Gandidate-Elimination-Algorithmen</h5>
+<ul>
+<li>Lernen ist inkrementell</li>
+<li>Gespeichert werden: S und G</li>
+<li>S- Und A- Hypothesen<ul>
+<li>negatives Beispiel<ol>
+<li>Lösche aus S</li>
+<li>Spezialisiere G, und sie allgeminer als eine Hypothese in S bleiben</li>
+<li>Lösche aus G alle hypothesen, die spezifischer als eine andere Hypothese aus G sind</li>
+</ol>
+</li>
+<li>positves Beispiel<ol>
+<li>Lösche aus G, die mit p inkonsistenten Hypothesen</li>
+<li>Verallgemeinere S, sie spezifischer als eine Hypothese in G</li>
+<li>Lösche aus S alle Hypothesen, die allgemeiner als eine andere Hypothese aus S sind</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Beurteilung<ul>
+<li>S=G<ul>
+<li>Voraussetzung: Beispiele konsistent, korrekte Hypothese in Hypothesenraum enthalten</li>
+<li>Probleme: feherbehaftet Trainingsdaten(Rausch)!, Zielkonzept nicht von Hypothesenrepräsentation abgedeckt <strong>????????????</strong>, mögliche Erweiterung:disjunktive Begriffe</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="23-notwendigkeit-von-vorzugskriterienbias"><a name="user-content-23-notwendigkeit-von-vorzugskriterienbias" href="#23-notwendigkeit-von-vorzugskriterienbias" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2.3 Notwendigkeit von Vorzugskriterien(Bias)</h3>
+<p>Induktives Lernen erfordert Vorannahmen(inductive bias)<br />
+Je strenger die Vorannahmen, also mehr unbekannte Beispiele können klassifiziert werden!!!!!!!!<br />
+- Mögliche Vorzugskriterien<br />
+    - Verständlichkeit<br />
+    - Klassifikationsgenauigkeit<br />
+    - Messaufwand für die verwendeten Deskriptoren<br />
+    - Berechnungs- und Speicheraufwand für die Hypothese<br />
+- Hypothesenraumbias<br />
+    - h gehöre zu einem beschränkten Raum von hypothesen<br />
+        - logische Konjunktionen<br />
+        - lineare Schwellwertfunktionen<br />
+        - Geraden, Polynome, &hellip;etc<br />
+        - 3 NN (Nearest Neighbour)<br />
+- Präferenzbias<br />
+- Problem<br />
+    - keine Funtion h, die konsistent mit allen Trainingsbeispielen ist, y.B wegen verauschter Trainingsdaten.<br />
+    - Unterschiedlische Ansätze möglich unterschiedliche Lösungen<br />
+    - Anpassen des Hypothesenraumbias: Overfitting!<br />
+    - Anpassen des Präferenzbias: Misklassifikation muss in Kauf genommen werden</p>
+<h2 id="3-unuberwachtes-lerenen"><a name="user-content-3-unuberwachtes-lerenen" href="#3-unuberwachtes-lerenen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>3. Unüberwachtes Lerenen</h2>
+<h3 id="31-motivation-einfuhrung"><a name="user-content-31-motivation-einfuhrung" href="#31-motivation-einfuhrung" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>3.1 Motivation &amp; Einführung</h3>
+<ol>
+<li>Sammeln und Klassifizieren von Trainingsdaten kann sehr aufwändig sein wie Spracherkennung</li>
+<li>Engineering z.B: Merkmalsberechnung der Daten kann sehr aufwendig sein</li>
+<li>Data Mining</li>
+<li>Sich verändernde Charakteristika von Mustern</li>
+<li>Finden von neuen Eigenschaften</li>
+<li>Erste Erkenntnisse üver Struktur von Daten<br />
+<p>Grundidee</p><br />
+- Ausnutzen von Ähnlichkeiten in Trainingsdaten, um <ul>
+<li>die Klassen / Ballungen zu ershließen</li>
+<li>oder um die wesentlichen Charakteristika = Merkmale</li>
+<li>Analogie zum menschlichen Lernen:</li>
+<li>Schüler lernt graduell</li>
+</ul>
+</li>
+</ol>
+<h3 id="32-k-means-clustering"><a name="user-content-32-k-means-clustering" href="#32-k-means-clustering" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>3.2 K-means Clustering</h3>
+<ol>
+<li>Sehr elementar aber populär</li>
+<li>Klassifiziert eine Datenmenge in eine a-priori vorgegeben Anzahl von Ballungen</li>
+<li>Grundidee:<ul>
+<li>Definieren eines Mittelpunkts für jeden Cluster</li>
+<li>Iterative Anpassung / Verbesserung</li>
+<li>Optimalitätskriterium: Minimierung der Abstände aller Datenpunkte von ihrem Ballungsmittelpunkt<br />
+<p>k-means-Clustering Formal</p></li>
+</ul>
+</li>
+<li>Gegeben:<ul>
+<li>Menge X von unklassifizierten Trainingsbeispielen mit jeweils d Attributen:</li>
+<li>Anzahl der gesuchen Ballungen k</li>
+</ul>
+</li>
+<li>
+<p>Gesucht:</p>
+<ul>
+<li>Einteilung der Trainingsmenge in Ballungen mit Zentren c unter Minimierung von k </li>
+</ul>
+</li>
+<li>
+<p>Algorithmenbeschreibungen:</p>
+<ul>
+<li>Plaziere K Punkte c im d-dimensionalen Raum als initiale mittelpunkte der Ballungen</li>
+<li>Bis sich die c nicht mehr ändern:</li>
+</ul>
+</li>
+<li>K-means-Clustering Bewerutng<ul>
+<li>Resultate hängen stark von der initialen Belegung de c ab<ul>
+<li>Evtl. werden suboptimale Lösungen gefunden </li>
+</ul>
+</li>
+<li>Resulate hängen von der verwendeten Metrik |x - c| ab<ul>
+<li>in hochdimensionalen Repräsentationen sind allle Daten unähnlich -&gt; schwer Cluster zu finden</li>
+</ul>
+</li>
+<li>Resultate hängen von der korrekten Wahl von k ab <ul>
+<li>Keine fundierten theoretischen Lösugnen</li>
+<li>Ergibt sich k aus der Domäne</li>
+<li>Overfitting!!!!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fuzzy k means Clustering mit<ul>
+<li>normale K-means: jeder Datenpunkt in genau einem Cluster</li>
+<li>Abschwächung: jeder Datenpunkt x hat eine abgestufte / &ldquo;unscharfe&rdquo; Zugehörigkeit zu jedem Cluster X<table>
+<thead>
+<tr>
+<th>- p(X</th>
+<th>x): Wahrscheinlichkeitsmaß für die Zugehörigkeit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>- p ist normiert über die Ballungen X</td>
+<td></td>
+</tr>
+<tr>
+<td>- Neuberechung der X  durch Adaption von c unter Beachtung der unscharfen Zugehörigkeit aller Datenpunkte und von p für jedes x</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>Problem: Laufzeit = O(kn) je Iteration<br />
+<strong>Induktiv</strong></li>
+</ul>
+</li>
+</ol>
+<h3 id="33-hierarchisches-clustering"><a name="user-content-33-hierarchisches-clustering" href="#33-hierarchisches-clustering" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>3.3 Hierarchisches Clustering</h3>
+<ol>
+<li>K-means: &ldquo;flache&rdquo; Datenbeschreibung</li>
+<li>Ballungen können Sub-ballungen und Sub-sub-ballungen haben</li>
+<li>Idee:<ul>
+<li>Iteratives Vereinen von (Sub-) Clustern zu größeren Clustern</li>
+</ul>
+</li>
+<li>AHC Distanz: Nearest Neighbor<br />
+<strong>Induktiv</strong></li>
+</ol>
+<h3 id="34-begriffliche-ballungen-cobweb"><a name="user-content-34-begriffliche-ballungen-cobweb" href="#34-begriffliche-ballungen-cobweb" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>3.4 Begriffliche Ballungen &amp; COBWEB</h3>
+<p>Bei klassischen Ballungsverfahren:<br />
+    - Definiton der Änhlichkeit auf der Basis einer meist numerischen Änhlichkeitsfunktion<br />
+<p>COBWEB Lernen durch inkrementelles Aufbauen und Anpassen eines Strukturbaums</p><br />
+1. Jede Verzweigung innerhalb des Baumes steht für eine Einteilung der Unterbäume in verschiedene Kategorien<br />
+2. Blätter sind die speziellsten Begriffe(Kategorien)<br />
+3. Es werden nominale Attributwerte gestattet</p>
+<p>Der COBWEB-Algorithmus</p>
+
+<ol>
+<li>Eingabe: <ul>
+<li>Aktueller Knoten N in der Konzepthierarchie</li>
+<li>Ein Unklassfifiziertes Attribute-Werte-paar</li>
+</ul>
+</li>
+<li>Ausgabe:<ul>
+<li>Konzepthierarchie, die die Instaz I klassifiziert </li>
+</ul>
+</li>
+<li>Top-level call: COBWEB(TOP-node)</li>
+<li>Variablen:<ul>
+<li>C, P, Q, R: Knoten in der Hierarchie</li>
+<li>W, X, Y, Z: Category-Utility Werte</li>
+</ul>
+</li>
+</ol>
+<h3 id="35-ausblick"><a name="user-content-35-ausblick" href="#35-ausblick" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>3.5 Ausblick</h3>
+<h2 id="4-lerntheorie-algorithmenunabhangige-verfahren"><a name="user-content-4-lerntheorie-algorithmenunabhangige-verfahren" href="#4-lerntheorie-algorithmenunabhangige-verfahren" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>4. Lerntheorie, Algorithmenunabhängige Verfahren</h2>
+<h3 id="41-pac"><a name="user-content-41-pac" href="#41-pac" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>4.1 PAC</h3>
+<h3 id="42-modell"><a name="user-content-42-modell" href="#42-modell" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>4.2 Modell</h3>
+<h3 id="43-lernmaschine"><a name="user-content-43-lernmaschine" href="#43-lernmaschine" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>4.3 Lernmaschine</h3>
+<h3 id="44-vc-dimension"><a name="user-content-44-vc-dimension" href="#44-vc-dimension" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>4.4 VC-Dimension</h3>
+<h2 id="5-entscheidungsbaume"><a name="user-content-5-entscheidungsbaume" href="#5-entscheidungsbaume" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>5. Entscheidungsbäume</h2>
+<h3 id="51-motivation"><a name="user-content-51-motivation" href="#51-motivation" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>5.1 Motivation</h3>
+<ol>
+<li>Instanzen lassen sich als Attribut-Wert Paare beschreiben</li>
+<li>Zielfunktion besitzt diskrete Ausgabewerte</li>
+<li>Disjunkte Hypothesen erforderlich</li>
+<li>Beispieldaten sind möglichweise verrauscht</li>
+<li>Beispieldaten enthalten evtl. fehlende Attributwerte</li>
+</ol>
+<h3 id="52-id3"><a name="user-content-52-id3" href="#52-id3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>5.2 ID3</h3>
+<ol>
+<li>Top Down Aufbau von EB<ul>
+<li>A &lt;- Das beste Enscheidungsattribut für den nächsten Knoten: <ul>
+<li>Cross Entropy</li>
+<li>Informationsgewinn Gewinn(S, A) = Entropie(S) - all Sv / S entropy(Sv)</li>
+</ul>
+</li>
+<li>Weise A als Entscheidungsattribut für den nächsten Knoten zu </li>
+<li>Füge für jeden möglichen Wert von A einen Nachfolgeknoten ein</li>
+</ul>
+</li>
+</ol>
+<h3 id="53-overfitting"><a name="user-content-53-overfitting" href="#53-overfitting" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>5.3 Overfitting</h3>
+<ol>
+<li>Basisverfahren:<ul>
+<li>Jeder Zweig wächst solange, bis die Trainingsbeispiele perfekt klassifiziert werden</li>
+<li>Dies basiert auf dem statistisch approximierten Inforamtionsgewinn<blockquote>
+<p>Dies kann zu Problemen führen, wenn</p>
+</blockquote>
+</li>
+<li>die Daten verrauscht sind</li>
+<li>die Beispiel nicht repräsentativ sind  potentiell mehr Fehler</li>
+</ul>
+</li>
+<li>Vermeidung von Overfitting<ul>
+<li>Frühzeitiges Stoppen des Baumwachstums</li>
+<li>Nachträgliches &ldquo;Prunen&rdquo; des Baumes(in der Proxis erfolgreicher) ?????????????</li>
+</ul>
+</li>
+</ol>
+<h3 id="54-erweiterungen"><a name="user-content-54-erweiterungen" href="#54-erweiterungen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>5.4 Erweiterungen</h3>
+<h3 id="55-c45"><a name="user-content-55-c45" href="#55-c45" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>5.5 C4.5</h3>
+<h3 id="56-id5r"><a name="user-content-56-id5r" href="#56-id5r" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>5.6 ID5R</h3>
+<h3 id="57-random-forests"><a name="user-content-57-random-forests" href="#57-random-forests" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>5.7 Random-Forests</h3>
+<ol>
+<li>Mehrere Entscheidungsbäume (=Wald/Forest) erstellen.<ul>
+<li>Einfach</li>
+<li>Unkorreliert</li>
+<li>Zufällige Wahl von Attributen (bzw. Trainingsdaten)</li>
+</ul>
+</li>
+<li>Für eine Klassfikation darf jeder Baum in diesm Wald eine entscheidung treffen und die Klasse mit den misten Stimmen entscheidet die endgültige Klassfifiaktion.</li>
+<li>Eigenschaften:<ul>
+<li>Schnelles Training<ul>
+<li>Da einzelen Entscheidungsbäume Kleiner</li>
+<li>Trainingszeit steigt linear mit der Anzahl der Bäume</li>
+</ul>
+</li>
+<li>Parallelisierbar (sowohl in Training als auch bei der Evalution)</li>
+<li>Effizient für große Datenmengen</li>
+</ul>
+</li>
+<li>Vergleich zu Standard Entscheidungsbäumen<ul>
+<li>Kein Abschneiden der Bäume</li>
+<li>Attributwahl auf zufälliger Untermenge aller Attribute</li>
+</ul>
+</li>
+<li>Eigenschaften der erstellten Bäume<ul>
+<li>Jeder Baum sollte für sich ein guter Klassifikator sein</li>
+<li>Die Bäume sollten untereinander möglichst unkorreliert sein</li>
+</ul>
+</li>
+<li>Randomisierungsmöglichkeiten</li>
+</ol>
+<h3 id="58-zusammenfassung"><a name="user-content-58-zusammenfassung" href="#58-zusammenfassung" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>5.8 Zusammenfassung</h3>
+<ol>
+<li>Lernen von EB<ul>
+<li>Proktische Methode für induktive Inferenz</li>
+</ul>
+</li>
+<li>ID5R<ul>
+<li>Inkrementelle Beispielgebung</li>
+<li>Ergebnis äquivalent zu ID3</li>
+<li>Komplexere Repräsentation notwendigi</li>
+</ul>
+</li>
+<li>Random Forests<ul>
+<li>Mehrere(zufällige) Bäume. Ergebnis setzt sich aus den &ldquo;votes&rdquo; der Einzelbäume zusammen</li>
+</ul>
+</li>
+</ol>
+<h2 id="svm-stutzvektor-methoden-support-vector-mehtod-kernel-methoden"><a name="user-content-svm-stutzvektor-methoden-support-vector-mehtod-kernel-methoden" href="#svm-stutzvektor-methoden-support-vector-mehtod-kernel-methoden" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>SVM Stützvektor Methoden, Support Vector Mehtod, Kernel Methoden</h2>
+<h3 id="lineare-support-vektor-methode"><a name="user-content-lineare-support-vektor-methode" href="#lineare-support-vektor-methode" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Lineare Support Vektor Methode</h3>
+<h3 id="architektur"><a name="user-content-architektur" href="#architektur" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Architektur</h3>
+<h3 id="optimierungen"><a name="user-content-optimierungen" href="#optimierungen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Optimierungen</h3>
+<h3 id="erweiterungen"><a name="user-content-erweiterungen" href="#erweiterungen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Erweiterungen</h3>
+<h2 id="neuronale-netze"><a name="user-content-neuronale-netze" href="#neuronale-netze" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Neuronale Netze</h2>
+<h3 id="motivation"><a name="user-content-motivation" href="#motivation" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Motivation</h3>
+<ol>
+<li>Klassifikation und Mustererkennung<ul>
+<li>Diagnose, Spracherkennung, Schrifterkennung</li>
+</ul>
+</li>
+<li>Funtionsapproximierung / Regression<ul>
+<li>Kontinuierliche Abbildung</li>
+<li>Steuerung</li>
+<li>Vorhersage</li>
+</ul>
+</li>
+<li>Mustervervollständigung<ul>
+<li>Bilderkennung</li>
+<li>Kodierung</li>
+</ul>
+</li>
+</ol>
+<h3 id="der-menschenvorkenntnis"><a name="user-content-der-menschenvorkenntnis" href="#der-menschenvorkenntnis" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Der Menschen(Vorkenntnis)</h3>
+<h3 id="fruhe-realisierung-perzeption"><a name="user-content-fruhe-realisierung-perzeption" href="#fruhe-realisierung-perzeption" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Frühe Realisierung: Perzeption</h3>
+<ol>
+<li>Grundidee: Anlehnung an das Funtionsprinzip der natürlichen Wahrnehmung - Reaktion im Tierbereich</li>
+<li>Gradientenabstieg <ul>
+<li>Fehlerfunktion: Minimieren von E</li>
+<li>Deltaregel</li>
+<li>Kernel Methoden</li>
+</ul>
+</li>
+</ol>
+<h3 id="multi-layer-feedforward-neural-network"><a name="user-content-multi-layer-feedforward-neural-network" href="#multi-layer-feedforward-neural-network" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Multi layer Feedforward Neural Network</h3>
+<h4 id="aufbau-des-mlnn"><a name="user-content-aufbau-des-mlnn" href="#aufbau-des-mlnn" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Aufbau des MLNN</h4>
+<ol>
+<li>Netzaufbau: mehrere versteckte(innere) Schichten</li>
+<li>Lernverfahren: Backpropagation - Algorithmus</li>
+<li>Neuronenaufbau: nichtlineare Aktiverungsfunktion</li>
+</ol>
+<h4 id="aufbau-des-rbf-netzes"><a name="user-content-aufbau-des-rbf-netzes" href="#aufbau-des-rbf-netzes" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Aufbau des RBF Netzes</h4>
+<ol>
+<li>Topologie und Aufbau<ul>
+<li>vorwärtsgerichtetes Netz</li>
+<li>3-schichtig mit einer hidden - Schicht</li>
+<li>Neuronen des hidden layer: Gauß Funktionen u-Zentrum mittelwert miu-Reichweite(std, abweichung)</li>
+</ul>
+</li>
+<li>Erweiterungen des RBF-Netz<ul>
+<li>Neuronen des hidden layer</li>
+</ul>
+</li>
+<li>BackProp: Adaption nach Gradientenabstieg</li>
+<li>Nachteile BackProp:<ul>
+<li>nichtlineare Funktionen -&gt; hoher Rechenaufwand</li>
+<li>lokale Minima</li>
+<li>Reichweite kann sehr groß werden -&gt; keine lokalen Felder</li>
+</ul>
+</li>
+<li>Hybride Lernverfahren(als Idee)</li>
+</ol>
+<h4 id="probleme-optimierung"><a name="user-content-probleme-optimierung" href="#probleme-optimierung" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Probleme / Optimierung</h4>
+<ol>
+<li>Momentum Term alpha im intervall 0.2 bis 0.9</li>
+<li>Normierung der Schrittweite</li>
+<li>Lernratenanpassung</li>
+<li>RPROP: Lernrate abhängig vom Gradientenvergleich</li>
+<li>Dynamic Decay Adjustment - DDA</li>
+</ol>
+<h2 id="reinforcement-learning"><a name="user-content-reinforcement-learning" href="#reinforcement-learning" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Reinforcement learning</h2>
+<h3 id="problemstellung-mdp"><a name="user-content-problemstellung-mdp" href="#problemstellung-mdp" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Problemstellung MDP</h3>
+<h3 id="lernziel-maximale-bewertung"><a name="user-content-lernziel-maximale-bewertung" href="#lernziel-maximale-bewertung" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Lernziel: maximale Bewertung</h3>
+<h4 id="q"><a name="user-content-q" href="#q" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Q</h4>
+<h3 id="problemstellung-in-rl"><a name="user-content-problemstellung-in-rl" href="#problemstellung-in-rl" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Problemstellung in RL</h3>
+<h3 id="strategielernen-policy-learning"><a name="user-content-strategielernen-policy-learning" href="#strategielernen-policy-learning" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Strategielernen (Policy Learning)</h3>
+<h3 id="anwendungsbeispiel"><a name="user-content-anwendungsbeispiel" href="#anwendungsbeispiel" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anwendungsbeispiel</h3>
+<h2 id="hidden-markov-modell"><a name="user-content-hidden-markov-modell" href="#hidden-markov-modell" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Hidden Markov Modell</h2>
+<h3 id="motivation_1"><a name="user-content-motivation_1" href="#motivation_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Motivation</h3>
+<h3 id="diskreter-markov-prozess"><a name="user-content-diskreter-markov-prozess" href="#diskreter-markov-prozess" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Diskreter Markov Prozess</h3>
+<h3 id="hidden-markov-modelle"><a name="user-content-hidden-markov-modelle" href="#hidden-markov-modelle" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Hidden Markov Modelle</h3>
+<h3 id="die-3-grundlegenden-probleme"><a name="user-content-die-3-grundlegenden-probleme" href="#die-3-grundlegenden-probleme" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Die 3 grundlegenden Probleme</h3>
+<h3 id="losungen-der-probleme"><a name="user-content-losungen-der-probleme" href="#losungen-der-probleme" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Lösungen der Probleme</h3>
+<h3 id="anwendungsbeispiele"><a name="user-content-anwendungsbeispiele" href="#anwendungsbeispiele" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anwendungsbeispiele</h3>
+<h2 id="lernen-nach-bayes"><a name="user-content-lernen-nach-bayes" href="#lernen-nach-bayes" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Lernen nach Bayes</h2>
+<h3 id="motivation_2"><a name="user-content-motivation_2" href="#motivation_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Motivation</h3>
+<h3 id="theorem-von-bayes"><a name="user-content-theorem-von-bayes" href="#theorem-von-bayes" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Theorem von Bayes</h3>
+<h3 id="map-ml-hypothesen"><a name="user-content-map-ml-hypothesen" href="#map-ml-hypothesen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>MAP-/ML-Hypothesen</h3>
+<h3 id="optimaler-bayes-klassifikator"><a name="user-content-optimaler-bayes-klassifikator" href="#optimaler-bayes-klassifikator" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Optimaler Bayes-Klassifikator</h3>
+<h3 id="naiver-bayes-klassifikator"><a name="user-content-naiver-bayes-klassifikator" href="#naiver-bayes-klassifikator" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Naiver Bayes-Klassifikator</h3>
+<h3 id="beispielklassifikatin-von-texten"><a name="user-content-beispielklassifikatin-von-texten" href="#beispielklassifikatin-von-texten" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Beispiel:Klassifikatin von Texten</h3>
+<h3 id="bayessche-netze"><a name="user-content-bayessche-netze" href="#bayessche-netze" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Bayes&rsquo;sche Netze</h3>
+<h3 id="der-em-algorithmus"><a name="user-content-der-em-algorithmus" href="#der-em-algorithmus" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Der EM-Algorithmus</h3>
+<h3 id="zusammenfassung"><a name="user-content-zusammenfassung" href="#zusammenfassung" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Zusammenfassung</h3>
+<h2 id="instanzbasiertes-lernen"><a name="user-content-instanzbasiertes-lernen" href="#instanzbasiertes-lernen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Instanzbasiertes Lernen</h2>
+<h3 id="einfuhrung-in-das-instanzen-basierte-lernen"><a name="user-content-einfuhrung-in-das-instanzen-basierte-lernen" href="#einfuhrung-in-das-instanzen-basierte-lernen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Einführung in das Instanzen-basierte Lernen</h3>
+<p>Lazy learning vs. Eager learnign (faules Lernen  &ndash; fleißiges Lernen)<br />
+1. Instanzen-basiertes Lernen: &ldquo;Delayed / Lazy Learning&rdquo;<br />
+2. Lernen = (einfaches) Abspeichern der Trainingsbeispiele<br />
+3. Weniger Rechenzeit während des Trainings, dafür mehr bei Anfragen zur Klassifikation<br />
+4. Unterschiedliche Hypothesen / Lokale Approximation der Zielfuntion für jede Anfrage<br />
+5. &ldquo;Fleißig&rdquo; Lernalgorithmen mit dem gleichen Hypothesenraum sind eingeschränkter<br />
+6. Bildet für jede neue Anfrage eine andere Annährung an die Zielfunktion<br />
+    - Lokale Approximation der Targetfuntion<br />
+    - Komplexere symbolische Repräsentationen für Instanzen<br />
+7. Generalisierungsentscheidung wird bis zu einer konkrete Suchanfrage aufgeschoben<br />
+8. Neue Instanzen werden analog zu ähnlichen Instanzen klassifiziert<br />
+9. Instanzenbasiertes Lernen: Beurteilung:<br />
+    - Komplexe Targetfunktionen können modelliert werden<br />
+    - Inforamtion aus den Trainingsbeispielen geht nicht verloren<br />
+    - Evtl. komplexe Berechnungen bei Klassifizierung neuer Instanzen<br />
+    - Schwierigkeit: Welche Instanzen sind sich ähnlich?</p>
+<blockquote>
+<p>Problem irrelevanter Eigenschaften</p>
+</blockquote>
+<h3 id="der-k-nn-algorithmus"><a name="user-content-der-k-nn-algorithmus" href="#der-k-nn-algorithmus" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Der K-NN Algorithmus</h3>
+<ol>
+<li>Instanzen x = &lt;&gt; korrespondieren mit Punkten im n-dimensionalen Raum</li>
+<li>Nachbarschaftsbeziehungen sind durch die Euklidische Distanz:<br />
+    d(x,z ) = sqrt</li>
+<li>Lernen einer Funtion f: R n-di -&gt; V aus einer Menge von Trainingsbeispielen <x, c(x)></li>
+<li>V endliche (diskrete) Menge</li>
+<li>Trainingsalgorithmus:<ul>
+<li>für jedes Trainingsbeispiel&lt;&gt; mit c aus V:<ul>
+<li>Füge das Trainingsbeispielen zu der Liste training_examples hinzu</li>
+</ul>
+</li>
+<li>Klassifiaktionsalgorithmus: Anfrage xq<ul>
+<li>x1, &hellip; xk seien die k Instanzen von training_examples, die am nächsten zu xq liegen</li>
+<li>Ergebnis f(xq) &lt;- arg max delta(v, c(xi))</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>5-NN Klassifikation: xq negativ</li>
+<li>1-NN Klassifikation: xq positiv</li>
+<li>Normalisierung der Eingabevektoren oft sinvoll<ul>
+<li>Verzerrung bei stark ungliechen Eingabedimensionen</li>
+</ul>
+</li>
+<li>Abstandsgewichteter K-NN Algorithmus<ul>
+<li>Nahe Nachbaren gehen genauso stark in die Klassifikation</li>
+</ul>
+</li>
+</ol>
+<h3 id="case-based-reasoning-motivation-und-vorstellung"><a name="user-content-case-based-reasoning-motivation-und-vorstellung" href="#case-based-reasoning-motivation-und-vorstellung" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Case-Based Reasoning: Motivation und Vorstellung</h3>
+<p><strong>Analogien</strong><br />
+1. allgemeines abstraktes Framework<br />
+2. kein direkt anwendbarer Algorihmus<br />
+3. Wiederverwendung alter Fälle<br />
+4. Such nach Lösungen ähnlicher Probleme</p>
+<h3 id="der-case-based-reasoning-zyklus"><a name="user-content-der-case-based-reasoning-zyklus" href="#der-case-based-reasoning-zyklus" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Der Case-Based Reasoning Zyklus</h3>
+<ol>
+<li>Aufgabe: Finde ähnliche Fälle</li>
+<li>Ähnlichkeitsmaß<ul>
+<li>Euklidische Distanz</li>
+<li>Syntaktische Ähnlichkeiten</li>
+<li>Semantische Ähnlichkeiten</li>
+</ul>
+</li>
+<li>Organisation der Fallbasis<ul>
+<li>Lineare Liste</li>
+<li>Baumstruktur</li>
+<li>Graphen, Netze, Indexstrukturen</li>
+<li>Datenbanken</li>
+</ul>
+</li>
+<li>Indizierung: Problem<ul>
+<li>Auswahl der Indizes</li>
+</ul>
+</li>
+<li>Wiederverwendung<ul>
+<li>Lösungsadaption</li>
+<li>Eingesetzte Methoden<ul>
+<li>Benutzerinteraktion</li>
+<li>Regelbasiertes Schließen</li>
+<li>Modellbasiertes Schließen</li>
+<li>Planer</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Anpassen / Überarbeiten / Revise<ul>
+<li>Überprüfung, Verbesserung der Lösung</li>
+<li>Evaluierung der Lösung<ul>
+<li>Überprüfung durch Simulation</li>
+<li>Überprüfung in realer Welt</li>
+</ul>
+</li>
+<li>Verbessern bzw. Reparieren der Lösung<ul>
+<li>Fehler erkennen und erklären</li>
+<li>Beseitigen unter Berücksichtigung der Fehlererklärungen</li>
+</ul>
+</li>
+<li>Potentiell iterativ!!!</li>
+</ul>
+</li>
+<li>Zurückbehalten<ul>
+<li>Bewahrung der gamachten Erfahrung</li>
+<li>Was wird gelernt?<ul>
+<li>Neue Erfahrung </li>
+<li>Alten Fall generalisieren</li>
+<li>Neue Merkmale (Indizes)</li>
+<li>Organisation der Fallbasis (Effizienz)</li>
+</ul>
+</li>
+<li>Methoden<ul>
+<li>Auswendiglernen(Speichern neuer Fälle)</li>
+<li>Induktive / Deduktive Lernverfahren</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="beispiel-fur-den-einsatz-von-cbr"><a name="user-content-beispiel-fur-den-einsatz-von-cbr" href="#beispiel-fur-den-einsatz-von-cbr" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Beispiel für den Einsatz von CBR</h3>
+<ol>
+<li>CLAVIER<ul>
+<li>Zusammenstellung von Teilepaletten für einen Vulkanisierungofen</li>
+<li>Durchlauf: Suche nach &ldquo;ähnlichster&rdquo; bekannter Zusammenstellung</li>
+<li>Adaption durch Ersetzen möglichst weniger Elemente</li>
+</ul>
+</li>
+<li>Kognitive Automobile<ul>
+<li>Ziel: Entwicklung autonomer Fahrzeuge<ul>
+<li>Wahrnehmung der Umwelt</li>
+<li>Versthen aktueller Situationen</li>
+<li>Auswahl und Ausführung von Verhalten</li>
+</ul>
+</li>
+<li>Szenen repräsentiert mittels Beschreiungslogik</li>
+<li>KogniMobil: Fallbasis<ul>
+<li>Fall</li>
+<li>Vererbungshierarchie zwischen Fällen (DAG)</li>
+<li>Fälle enthalten Verweise auf zeitlich nachfolgende Fälle(abhängi von gewählten Verhalten)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="bewertung-von-cbr"><a name="user-content-bewertung-von-cbr" href="#bewertung-von-cbr" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Bewertung von CBR</h3>
+<h4 id="vorteil"><strong>Vorteil</strong></h4>
+<ol>
+<li>Konzeptuell einfach, aber trotzdem können komplexe Entscheidungsgranzen gebildet werden</li>
+<li>Kann mit relativ wenig Information arbeiten</li>
+<li>Analogie zu menschlichem Problemlösen</li>
+<li>Lernen ist einfach (one shot learning)</li>
+<li>Günstig für mit Regeln schlecht erfassbare Probleme</li>
+</ol>
+<h4 id="probleme"><strong>Probleme</strong></h4>
+<ol>
+<li>Gedächtniskosten</li>
+<li>Klassifikation kann lange dauern</li>
+<li>Hängt start von Repräsentation ab</li>
+<li>Problematisch bei komplexen Repräsentationen</li>
+<li>Problematisch: Irrelevante Eigenschaften</li>
+</ol>
+<h2 id="evolutionare-algorithmen"><a name="user-content-evolutionare-algorithmen" href="#evolutionare-algorithmen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Evolutionäre Algorithmen</h2>
+<h3 id="vorkenntnis"><a name="user-content-vorkenntnis" href="#vorkenntnis" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Vorkenntnis</h3>
+<ol>
+<li>Biologisches Evolutionsmodell nach Darwin: Selektion = Treibende Kraft der Evolution</li>
+<li>Man kann die natürliche Selektion genauso gut in Formeln packen, wie es mit natürlichen Neuronalen Netzen geht</li>
+<li>Technische: Evolution als Optimierung komplexer, künstlicher Systeme</li>
+</ol>
+<h3 id="nomenklatur"><a name="user-content-nomenklatur" href="#nomenklatur" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Nomenklatur</h3>
+<ol>
+<li>Individuum : &lt;= eine mögliche Lösung, Hypothese</li>
+<li>Population und Generation &lt;= Lösungs- bzw. Hypothesenmenge</li>
+<li>Erzeugen von Nachkommen &lt;= Generierung neuer Hypothesen<ul>
+<li>Rekombination und Mutation</li>
+</ul>
+</li>
+<li>Veränderter Nachfolger, Kind, Nachkommene &lt;= neue Hypothese</li>
+<li>Fitness(-funktion) &lt;= Hypothesengüte, zu optimierendes Kriterium</li>
+<li>Selektion des Besten &lt;= Auswahl der Hypothesen, welche die beste Problemlösung erzeugen</li>
+</ol>
+<h3 id="der-grundalgorithmus"><a name="user-content-der-grundalgorithmus" href="#der-grundalgorithmus" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Der Grundalgorithmus</h3>
+<p><img alt="Evoulutionäre Al" src="" /></p>
+<h3 id="reprasentation-von-nachkommen"><a name="user-content-reprasentation-von-nachkommen" href="#reprasentation-von-nachkommen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Repräsentation von Nachkommen</h3>
+<ol>
+<li>Wissen wird meistens strukturiert repräsentiert</li>
+<li>Kodieren durch Gene<ul>
+<li>k-Alphabet(k=2: Binärcodierung) -&gt; Genetische Algorihmen</li>
+<li>Reelle Zahlen, Vektoren -&gt; Evolutionäre Strategien</li>
+<li>baumartige Strukturen -&gt; Genetisches Programmieren</li>
+</ul>
+</li>
+</ol>
+<h4 id="generierung-von-nachkommmen"><a name="user-content-generierung-von-nachkommmen" href="#generierung-von-nachkommmen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Generierung von Nachkommmen</h4>
+<ol>
+<li>Erfolgt durch s.g. genetische Operatoren</li>
+<li>Zwei Strategien:<ul>
+<li>Exploration ---- Exploitation</li>
+<li>Erforschen des Hypothesenraumes ---- Lokale Optimierung</li>
+</ul>
+</li>
+<li>Vergleich<ul>
+<li>Je stärker und zufälliger Änderungen sind, um so geringer ist die Wahrscheinlichkeit, bessere nachkomen zu erzeugen</li>
+<li>Bei lokalen Verbesserungsmethoden ist die Gefahr der lokalen Minima gegeben</li>
+<li>Explorationsgrad muss gemäß der aktuellen Fitness der Generation ausgewählt werden(z.B.: anfangs hoch dann fallend)   </li>
+</ul>
+</li>
+</ol>
+<h3 id="mutation"><a name="user-content-mutation" href="#mutation" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Mutation</h3>
+<ol>
+<li>Der Nachkomme stammt von einem Elternteil ab</li>
+<li>Mutation einzelner Gene</li>
+<li>Konzepte:<ul>
+<li>Alle Bits einer Sequenz werden unabhängig voneinander mit einer bestimmten Wahrscheinlichkeit invertiert</li>
+<li>Für eine bestimmte(oder zufällige) Anzahl von Bits werden die Indizes zufällig ausgewählt</li>
+<li>stochastisch bei kontinuierlicher Repräsentation:</li>
+</ul>
+</li>
+<li>Mutationsoperator bei Sequenzen<ul>
+<li>Herausnehmen einer Teilsequenz und Einfügen an anderer Stelle</li>
+<li>Invertiertes Einfügen der Teilsequenz</li>
+<li>Spezielle Mutationsoperatoren -&gt; anwendungsspezifisch</li>
+</ul>
+</li>
+</ol>
+<h3 id="rekombination"><a name="user-content-rekombination" href="#rekombination" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Rekombination</h3>
+<ol>
+<li>Eigenschaften von zwei oder mehreren Eltern sollen gemischt werden<ul>
+<li>Diskrete Rekombination</li>
+<li>Intermediäre Rekombination(kontinuierliche Repräsentation)</li>
+</ul>
+</li>
+<li>Crossover: aus 2 Eltern -&gt; 2 Nachkommen<ul>
+<li>Single-point crossover</li>
+<li>Two-point crossover </li>
+<li>Uniform crossover</li>
+</ul>
+</li>
+</ol>
+<h3 id="selektion"><a name="user-content-selektion" href="#selektion" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Selektion</h3>
+<ol>
+<li>2 Arten der Selektion<ul>
+<li>der Eltern für jeweilige Erzeugung von Nachkommen</li>
+<li>der Population für die nächste Iteration</li>
+</ul>
+</li>
+<li>Probleme:<ul>
+<li>Genetische Drift: Individuen vermehren sich zufällig mehr als andere</li>
+<li>crowding, Ausreißerproblem: &ldquo;Fitte&rdquo; Indiduen und ähnliche Nachkommen dominieren die Population<blockquote>
+<p>Entwicklung der Individuen wird verlangsamt <br />
+Vielfalt der Population wird eingeschränkt</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="populationsmodelle"><a name="user-content-populationsmodelle" href="#populationsmodelle" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Populationsmodelle</h3>
+<ol>
+<li>Inselmodell(lokal)<ul>
+<li>die Evolution läuft weitgehend getrennt, nur manchmal werden Individuen ausgetauscht</li>
+</ul>
+</li>
+<li>Nachbarschaftsmodell(nahe Umgebung)<ul>
+<li>Nachkommen dürfen nur von Individuen erzeugt werden, die in ihrer Nachbarschaft die beste Fitness besitzen</li>
+</ul>
+</li>
+<li>Eine einfache Menge(global)<ul>
+<li>die global Besten entwickeln sich rasch weiter, andere Entwicklunglinien werden unterdrückt</li>
+</ul>
+</li>
+</ol>
+<h3 id="maximumsuches-berthold"><a name="user-content-maximumsuches-berthold" href="#maximumsuches-berthold" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Maximumsuche(s. Berthold)</h3>
+<ol>
+<li>Finde Maximum einer Funktion:<ul>
+<li>3 Populationsgruppen, je 20 Individuen(schwarz, grau, weiß)</li>
+<li>Individuum: binäre Kodierung(12bit)der x,y Positon</li>
+<li>Operatoren: Mutation / Inversion, 1-point Crossover</li>
+<li>Initiale Verteilung, Gene</li>
+</ul>
+</li>
+</ol>
+<h3 id="populationsmitglieder"><a name="user-content-populationsmitglieder" href="#populationsmitglieder" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Populationsmitglieder</h3>
+<ol>
+<li>Populationsgröße:<ul>
+<li>Soll sie konstant bleiben ? u</li>
+<li>Wie viele neu erzeugte Nachkommen? lambda</li>
+<li>wie viele Eltern sollen verwendet werden? p</li>
+<li>wie werden diese bestimmt?</li>
+</ul>
+</li>
+<li>Mitgliederselektion:<ul>
+<li>stochastisch ausgewählt -&gt; die besten u Individuen</li>
+<li>u, lamda Strategie: bessere Exploration</li>
+<li>u + lamda: Exploitation, günstig bei gut berechenbaren Fitnessfunktionen</li>
+</ul>
+</li>
+<li>Ersetzungsregel für Mitglieder:<ul>
+<li>Nachkommen ersetzten alle Eltern(Generationen - Modus)</li>
+<li>Nachkommen ersetzten einen Teil der Eltern</li>
+<li>Nachkommen ersetzten Eltern, die ihnen am ähnlichsten sind</li>
+<li>Geographische Ersetzung</li>
+<li>Bestes Individuum überlebt(Elitist - Modus)</li>
+</ul>
+</li>
+<li>Daumenregel<ul>
+<li>Das beste Viertel der Population sollte drei Viertel der Nachkommen erzeugen</li>
+</ul>
+</li>
+</ol>
+<h3 id="selektionmethoden"><a name="user-content-selektionmethoden" href="#selektionmethoden" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Selektionmethoden</h3>
+<ol>
+<li>
+<p>Fitness basierte Selektion<br />
+    Px = fx / all fx genau Px = lamda / u * fx / all fx</p>
+<ul>
+<li>px: Wahrscheinlichkeit der Auswahl von Individuum x</li>
+<li>lamda: Anzahl von Nachkommen</li>
+<li>u: Populationsgröße</li>
+<li>f: Fitness Funktion<blockquote>
+<p>abhängig vom Wert der Fitnessfunktion<br />
+Problem wenn y.B im Laufe der Evolution nur noch geringe Änderungen in fx und damit in px</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>Rang basierte Selektion <br />
+px =  g(r(x)) / all g(r(x))</p>
+<ul>
+<li>px: Wahrscheinlichkeit der Auswahl von Individuum x</li>
+<li>rx: ranking von x in der aktuellen Population gemäß Fitness - Funtion</li>
+<li>g: mit der Güte des Ranges monoton steigende Funtion größer 0<ul>
+<li>Exponentiell: gx := a -x</li>
+<li>Hyperbolisch: gx := x -a</li>
+<li>Die besten K: <blockquote>
+<p>weniger anhängig von dem Betrag der Fitness<br />
+bessere Anpassung von Exploration / Eploitation durch g</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Turnier Selektion (tournament selection)</p>
+<ul>
+<li>wähle für jedes zu erzeugende Individuum n (=2) Individuen</li>
+<li>belohne davon, das ge,äß der Fitness beste Individuum</li>
+<li>wähle Individuen mit höchster Bewertung<blockquote>
+<p>wenig anhängig von dem Betrag der Fitness</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>Wahl der Selektionmethode</p>
+<ul>
+<li>oft anwendungsspezifisch</li>
+</ul>
+</li>
+</ol>
+<h3 id="evolution"><a name="user-content-evolution" href="#evolution" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Evolution</h3>
+<ol>
+<li>Lamarksche Evolution<ul>
+<li>Individuen ändern sich (lernen) nach der Erzeugung</li>
+<li>Genotyp(alle Gene) wird verändert und anschließend vererbt</li>
+</ul>
+</li>
+<li>Baldwinsche Evolution<ul>
+<li>Individuen ändern sich nach der Erzeugung</li>
+<li>Genotyp bleibt unverändert</li>
+</ul>
+</li>
+<li>Hybride Verfahren<ul>
+<li>es gibt veränderbare und fixe Phänotypen</li>
+<li>Anwendung: Suche nach ooptimalen neuronalen Netzen</li>
+</ul>
+</li>
+</ol>
+<h3 id="beispiel-travelling-saleman-problem"><a name="user-content-beispiel-travelling-saleman-problem" href="#beispiel-travelling-saleman-problem" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Beispiel: Travelling Saleman-Problem</h3>
+<ol>
+<li>Finde einene Pfad<ul>
+<li>jeder Ort wird genau einaml besucht</li>
+<li>der zurückgelegte Weg ist minimal</li>
+</ul>
+</li>
+<li>Lösung: Evolutionsstrategie</li>
+<li>Anwendungsbeispiel: <ul>
+<li>Flugplanoptimierung</li>
+<li>Mischung von Kaffeesorten: Markenkaffee sollte immer gleich schmecken, obwohl es immer wieder zu unterschiedlichen Mischverhältnissen kommt. Überliches Vorgehen:Experten mischen solange, bis die Mischung den gewünschten Geschmack hat.<ul>
+<li>Fitnessfunciton: Mensch - Geschmackstester</li>
+<li>Test der Evolutionsstrategie</li>
+<li>Vorteil: Auch Kosten und andere Optimierungskriterien können einbezogen werden</li>
+<li>Anwendungsgebiete: Mischprodukte wie Kako, Tee, Whisky, Kompositionen wie Fliesenglasuren, Farbtöne etc, Kriminalistik: Persionen identifizieren</li>
+</ul>
+</li>
+<li>Cybermotten</li>
+</ul>
+</li>
+</ol>
+<h3 id="genetische-programmierung"><a name="user-content-genetische-programmierung" href="#genetische-programmierung" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Genetische Programmierung</h3>
+<ol>
+<li>Ziel: Erzeugung optimierter Programme<ul>
+<li>Individuen sind Programme</li>
+<li>Repräsentation z.B als Baum</li>
+<li>Selektion, Mutation und Rekombination auf Baumstrukturen</li>
+<li>Fitness: Programmtest auf einer Menge von Testdaten</li>
+</ul>
+</li>
+<li>Rekombination als Austausch von Teilbäumen</li>
+<li>Beispiel 1: <ul>
+<li>pick and place das Wort zu erzeugen</li>
+<li>Fitness: Test auf 166 Startkonfigurationen</li>
+<li>Ergebnis: die beste Programmierung  EQ((DU(MT CS) (NOT CS)))</li>
+</ul>
+</li>
+<li>Beispiel 2 Ameise:<ul>
+<li>Ziel: Programm(Steuerung) einer Ameise, s.d. mit Start von (10, 17) das gesamte Futter, wegoptimal gesammelt wird</li>
+<li>Funtionen:</li>
+</ul>
+</li>
+</ol>
+<h3 id="steuerung-in-der-robotik"><a name="user-content-steuerung-in-der-robotik" href="#steuerung-in-der-robotik" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Steuerung in der Robotik</h3>
+<h4 id="snakeboot"><a name="user-content-snakeboot" href="#snakeboot" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Snakeboot</h4>
+<h4 id="kunstliche-ontogenese"><a name="user-content-kunstliche-ontogenese" href="#kunstliche-ontogenese" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>künstliche Ontogenese</h4>
+<h4 id="gebobots"><a name="user-content-gebobots" href="#gebobots" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Gebobots</h4></article></body></html>
+{% endblock %}
