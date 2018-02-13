@@ -1,6 +1,6 @@
 import sys, os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append('/home/nauen/tensorflowWechat')
+sys.path.append('/home/nauen/env/website/tensorflowWechat')
 import weibo
 from django.shortcuts import render
 from django.http import HttpResponse
