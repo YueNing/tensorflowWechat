@@ -4,9 +4,10 @@ from django.db import models
 class Weibo_user(models.Model):
 	username = models.CharField(max_length=20)
 	user_id = models.UUIDField()
-	weibo_details = models.ForeignKey('Weibo_details', on_delete=models.CASCADE, )
+#	weibo_details = models.ForeignKey('Weibo_details', on_delete=models.CASCADE, )
 
 class Weibo_details(models.Model):
+	user = models.ForeignKey('Weibo_user', on_delete=models.CASCADE)
 	picture_id = models.UUIDField()
 	text_url = models.URLField()
 	picture_urls = models.URLField()
@@ -17,9 +18,10 @@ class Weibo_details(models.Model):
 class Gallery_user(models.Model):
 	name = models.CharField(max_length=20)
 	user_id = models.UUIDField()
-	gallery_details = models.ForeignKey('Gallery_details', on_delete=models.CASCADE, )
+#	gallery_details = models.ForeignKey('Gallery_details', on_delete=models.CASCADE, )
 
 class Gallery_details(models.Model):
+	user = models.ForeignKey('Gallery_user', on_delete=models.CASCADE)
 	picture_id = models.UUIDField()
 	picture_urls = models.URLField()
 	picture_describes = models.CharField(max_length=300)

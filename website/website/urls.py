@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from cra import views as cra_view
 urlpatterns = [
 	path('cra/', include('cra.urls')),
     path('admin/', admin.site.urls),
+    path('admin/Data/Gallery', cra_view.DataGallery, name='data_gallery'),
 ]
+

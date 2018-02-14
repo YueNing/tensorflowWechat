@@ -13,10 +13,16 @@ from django.http import HttpResponse
 def index(request):
 	context = {}
 	context['hello'] = 'Hello Word!'
-	return render(request, 'admin/index.html', context)
+	return render(request, 'cra/index.html', context)
 
 def ML(request):
 	return render(request, 'cra/ML.html')
 
 def Gallery(request):
 	return render(request, 'cra/gallery.html')
+
+def DataWeibo(request):
+	return render(request, 'cra/data_weibo.html')
+
+def DataGallery(request):
+	return render(request, 'cra/data_gallery.html')
