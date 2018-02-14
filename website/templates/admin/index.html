@@ -37,9 +37,10 @@
     <link href="{% static "cra/build/css/custom.min.css" %}" rel="stylesheet">
 {% endblock %}
   </head>
-}
+
 {% load i18n %}
 {% block body%}
+{% if user.is_authenticated %}
   <body class="nav-md">
     <div class="container body">
       <div class="main_container">
@@ -968,6 +969,7 @@
 {% endblock %}
 
   </body>
+{% endif %}
 {% endblock %}
 
 </html>
