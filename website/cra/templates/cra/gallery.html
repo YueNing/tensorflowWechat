@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href={% static "cra/mobirise/assets/images/logo4.png" %} type="image/x-icon">
   <meta name="description" content="">
-  <title>Home</title>
+  <title>Gallery</title>
   <link rel="stylesheet" href={% static "cra/mobirise/assets/web/assets/mobirise-icons/mobirise-icons.css" %}>
   <link rel="stylesheet" href={% static "cra/mobirise/assets/tether/tether.min.css" %}>
   <link rel="stylesheet" href={% static "cra/mobirise/assets/bootstrap/css/bootstrap.min.css" %}>
@@ -22,6 +22,7 @@
   
   
 </head>
+{% if user.is_authenticated %}
 <body>
   <section class="mbr-gallery mbr-slider-carousel cid-qJA7gHtso6" id="gallery3-m">
 
@@ -50,4 +51,5 @@
   
   
 </body>
+{% endif %}
 </html>
