@@ -17,3 +17,6 @@ def index(request):
 
 def ML(request):
 	return render(request, 'cra/ML.html')
+
+def Gallery(request):
+	return render(request, 'cra/gallery.html')
