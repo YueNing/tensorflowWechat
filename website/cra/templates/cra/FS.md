@@ -15,3 +15,7 @@
 
 ### 3.3 Normalformen
 1. **Skolem-Normalform**
+
+# Logik
+[Logik](https://wenku.baidu.com/view/59e21590284ac850ad024253.html)
+[-| Logik](https://wenku.baidu.com/view/7181e50e581b6bd97f19ea77.html)
