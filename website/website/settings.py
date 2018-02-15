@@ -25,7 +25,7 @@ SECRET_KEY = 'u6_o58-s09t=*5it0h1!_r&9=#804*89uaat@cmx%4_#z+h1j='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['45.55.155.190', '127.0.0.1']
+ALLOWED_HOSTS = ['.jumpen.me', '45.55.155.190', '127.0.0.1']
 
 
 # Application definition

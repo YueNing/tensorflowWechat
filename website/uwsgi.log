@@ -1,0 +1,687 @@
+*** Starting uWSGI 2.0.16 (64bit) on [Wed Feb 14 22:36:01 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3400).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.16 (64bit) on [Wed Feb 14 22:51:18 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website/
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3400).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.16 (64bit) on [Wed Feb 14 22:51:55 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website/
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3400).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.16 (64bit) on [Wed Feb 14 22:52:02 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website/
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3400).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.16 (64bit) on [Wed Feb 14 23:05:25 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website/ini
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website/
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.16 (64bit) on [Wed Feb 14 23:15:39 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website/
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+dropping root privileges after socket binding
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/nauen/env/
+Python main interpreter initialized at 0x91b370
+dropping root privileges after plugin initialization
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250032 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x91b370 pid: 27970 (default app)
+dropping root privileges after application loading
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27970)
+spawned uWSGI worker 1 (pid: 27972, cores: 2)
+spawned uWSGI worker 2 (pid: 27973, cores: 2)
+[pid: 27972|app: 0|req: 1/1] 88.130.192.93 () {44 vars in 823 bytes} [Wed Feb 14 23:15:43 2018] GET / => generated 1503 bytes in 133 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 27972|app: 0|req: 2/2] 88.130.192.93 () {44 vars in 823 bytes} [Wed Feb 14 23:16:49 2018] GET / => generated 1503 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 27972|app: 0|req: 3/3] 88.130.192.93 () {42 vars in 792 bytes} [Wed Feb 14 23:18:33 2018] GET / => generated 1503 bytes in 30 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 27972|app: 0|req: 4/4] 88.130.192.93 () {42 vars in 802 bytes} [Wed Feb 14 23:18:40 2018] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 1)
+[pid: 27973|app: 0|req: 1/5] 88.130.192.93 () {42 vars in 804 bytes} [Wed Feb 14 23:18:40 2018] GET /admin/ => generated 0 bytes in 143 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 27972|app: 0|req: 5/6] 88.130.192.93 () {42 vars in 841 bytes} [Wed Feb 14 23:18:40 2018] GET /admin/login/?next=/admin/ => generated 4182 bytes in 61 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 27973|app: 0|req: 2/7] 88.130.192.93 () {42 vars in 800 bytes} [Wed Feb 14 23:18:41 2018] GET /favicon.ico => generated 2332 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 27972|app: 0|req: 6/8] 88.130.192.93 () {52 vars in 1096 bytes} [Wed Feb 14 23:18:47 2018] POST /admin/login/?next=/admin/ => generated 0 bytes in 258 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 0)
+[pid: 27972|app: 0|req: 7/9] 88.130.192.93 () {46 vars in 946 bytes} [Wed Feb 14 23:18:47 2018] GET /admin/ => generated 5038 bytes in 164 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 27972|app: 0|req: 8/10] 88.130.192.93 () {44 vars in 884 bytes} [Wed Feb 14 23:18:52 2018] GET / => generated 44671 bytes in 30 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 27972|app: 0|req: 9/11] 88.130.192.93 () {44 vars in 890 bytes} [Wed Feb 14 23:18:55 2018] GET /admin/ => generated 5038 bytes in 52 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 27972|app: 0|req: 10/12] 88.130.192.93 () {44 vars in 906 bytes} [Wed Feb 14 23:18:57 2018] GET /cra/Gallery/Hi => generated 5859 bytes in 26 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+Not Found: /cra/Gallery/assets/web/assets/jquery/jquery.min.js
+[pid: 27972|app: 0|req: 11/13] 88.130.192.93 () {42 vars in 875 bytes} [Wed Feb 14 23:18:58 2018] GET /cra/Gallery/assets/web/assets/jquery/jquery.min.js => generated 3232 bytes in 16 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /cra/Gallery/assets/images/img-5592-1620x1080.jpg
+[pid: 27972|app: 0|req: 12/14] 88.130.192.93 () {42 vars in 907 bytes} [Wed Feb 14 23:18:59 2018] GET /cra/Gallery/assets/images/img-5592-1620x1080.jpg => generated 3226 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 27972|app: 0|req: 13/15] 88.130.192.93 () {44 vars in 914 bytes} [Wed Feb 14 23:19:02 2018] GET /cra/Vorlesungen/ML => generated 63712 bytes in 33 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 27972|app: 0|req: 14/16] 88.130.192.93 () {44 vars in 902 bytes} [Wed Feb 14 23:19:12 2018] GET /cra => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 27973|app: 0|req: 3/17] 88.130.192.93 () {44 vars in 904 bytes} [Wed Feb 14 23:19:12 2018] GET /cra/ => generated 44671 bytes in 74 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 27973|app: 0|req: 4/18] 88.130.192.93 () {44 vars in 908 bytes} [Wed Feb 14 23:19:14 2018] GET /admin/logout/ => generated 1202 bytes in 150 msecs (HTTP/1.1 200) 6 headers in 298 bytes (1 switches on core 1)
+[pid: 27972|app: 0|req: 15/19] 88.130.192.93 () {44 vars in 859 bytes} [Wed Feb 14 23:19:16 2018] GET /admin/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 27973|app: 0|req: 5/20] 88.130.192.93 () {44 vars in 896 bytes} [Wed Feb 14 23:19:16 2018] GET /admin/login/?next=/admin/ => generated 4182 bytes in 25 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.16 (64bit) on [Wed Feb 14 23:27:00 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website/
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address unix:///home/nauen/env/website/tensorflowWechat/website/website.sock fd 3
+dropping root privileges after socket binding
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/nauen/env/
+Python main interpreter initialized at 0x1d8f190
+dropping root privileges after plugin initialization
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250032 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1d8f190 pid: 28319 (default app)
+dropping root privileges after application loading
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28319)
+spawned uWSGI worker 1 (pid: 28321, cores: 2)
+spawned uWSGI worker 2 (pid: 28322, cores: 2)
+*** Starting uWSGI 2.0.16 (64bit) on [Wed Feb 14 23:28:43 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website/
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address unix:///home/nauen/env/website/tensorflowWechat/website/website.sock fd 3
+dropping root privileges after socket binding
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/nauen/env/
+Python main interpreter initialized at 0x2009190
+dropping root privileges after plugin initialization
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250032 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2009190 pid: 28415 (default app)
+dropping root privileges after application loading
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28415)
+spawned uWSGI worker 1 (pid: 28417, cores: 2)
+spawned uWSGI worker 2 (pid: 28418, cores: 2)
+*** Starting uWSGI 2.0.16 (64bit) on [Wed Feb 14 23:33:13 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website/
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address unix:///home/nauen/env/website/tensorflowWechat/website/website.sock fd 3
+dropping root privileges after socket binding
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/nauen/env/
+Python main interpreter initialized at 0x236c170
+dropping root privileges after plugin initialization
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250032 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x236c170 pid: 28540 (default app)
+dropping root privileges after application loading
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28540)
+spawned uWSGI worker 1 (pid: 28542, cores: 2)
+spawned uWSGI worker 2 (pid: 28543, cores: 2)
+*** Starting uWSGI 2.0.16 (64bit) on [Wed Feb 14 23:33:35 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website/
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address unix:///home/nauen/env/website/tensorflowWechat/website/website.sock fd 3
+dropping root privileges after socket binding
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/nauen/env/
+Python main interpreter initialized at 0x22d6170
+dropping root privileges after plugin initialization
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250032 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x22d6170 pid: 28549 (default app)
+dropping root privileges after application loading
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28549)
+spawned uWSGI worker 1 (pid: 28551, cores: 2)
+spawned uWSGI worker 2 (pid: 28552, cores: 2)
+*** Starting uWSGI 2.0.16 (64bit) on [Wed Feb 14 23:35:15 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website/
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/nauen/env/website/tensorflowWechat/website/website.sock fd 3
+dropping root privileges after socket binding
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/nauen/env/
+Python main interpreter initialized at 0x16c6f60
+dropping root privileges after plugin initialization
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250032 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x16c6f60 pid: 28597 (default app)
+dropping root privileges after application loading
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28597)
+spawned uWSGI worker 1 (pid: 28599, cores: 2)
+spawned uWSGI worker 2 (pid: 28600, cores: 2)
+[pid: 28600|app: 0|req: 1/1] 88.130.192.93 () {44 vars in 872 bytes} [Wed Feb 14 23:35:17 2018] GET /admin/login/?next=/admin/ => generated 4182 bytes in 231 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 2/2] 88.130.192.93 () {42 vars in 792 bytes} [Wed Feb 14 23:35:22 2018] GET / => generated 1503 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 3/3] 88.130.192.93 () {42 vars in 800 bytes} [Wed Feb 14 23:35:43 2018] GET /cra/ => generated 1503 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 4/4] 88.130.192.93 () {42 vars in 804 bytes} [Wed Feb 14 23:35:47 2018] GET /admin/ => generated 0 bytes in 20 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 5/5] 88.130.192.93 () {42 vars in 841 bytes} [Wed Feb 14 23:35:47 2018] GET /admin/login/?next=/admin/ => generated 4182 bytes in 24 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 6/6] 88.130.192.93 () {52 vars in 1096 bytes} [Wed Feb 14 23:35:53 2018] POST /admin/login/?next=/admin/ => generated 0 bytes in 283 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 7/7] 88.130.192.93 () {46 vars in 946 bytes} [Wed Feb 14 23:35:53 2018] GET /admin/ => generated 5038 bytes in 151 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 8/8] 88.130.192.93 () {44 vars in 884 bytes} [Wed Feb 14 23:35:55 2018] GET / => generated 44671 bytes in 34 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 9/9] 88.130.192.93 () {44 vars in 890 bytes} [Wed Feb 14 23:35:57 2018] GET /admin/ => generated 5038 bytes in 52 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 10/10] 88.130.192.93 () {44 vars in 890 bytes} [Wed Feb 14 23:35:59 2018] GET /admin/ => generated 5038 bytes in 57 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 11/11] 88.130.192.93 () {44 vars in 906 bytes} [Wed Feb 14 23:36:02 2018] GET /cra/Gallery/Hi => generated 5859 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+Not Found: /cra/Gallery/assets/web/assets/jquery/jquery.min.js
+[pid: 28600|app: 0|req: 12/12] 88.130.192.93 () {42 vars in 875 bytes} [Wed Feb 14 23:36:03 2018] GET /cra/Gallery/assets/web/assets/jquery/jquery.min.js => generated 3232 bytes in 25 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /cra/Gallery/assets/images/img-5592-1620x1080.jpg
+[pid: 28599|app: 0|req: 1/13] 88.130.192.93 () {42 vars in 907 bytes} [Wed Feb 14 23:36:03 2018] GET /cra/Gallery/assets/images/img-5592-1620x1080.jpg => generated 3226 bytes in 157 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 28599|app: 0|req: 2/14] 88.130.192.93 () {44 vars in 886 bytes} [Wed Feb 14 23:36:14 2018] GET /cra/ => generated 44671 bytes in 140 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 13/15] 88.130.192.93 () {48 vars in 953 bytes} [Wed Feb 14 23:41:39 2018] GET / => generated 44671 bytes in 54 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 14/16] 88.130.192.93 () {44 vars in 892 bytes} [Wed Feb 14 23:41:47 2018] GET /admin/logout/ => generated 1202 bytes in 64 msecs (HTTP/1.1 200) 6 headers in 298 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 15/17] 88.130.192.93 () {44 vars in 847 bytes} [Wed Feb 14 23:42:41 2018] GET /admin/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 28599|app: 0|req: 3/18] 88.130.192.93 () {44 vars in 884 bytes} [Wed Feb 14 23:42:41 2018] GET /admin/login/?next=/admin/ => generated 4182 bytes in 41 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 16/19] 88.130.192.93 () {52 vars in 1079 bytes} [Wed Feb 14 23:42:47 2018] POST /admin/login/?next=/admin/ => generated 0 bytes in 279 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 1)
+[pid: 28599|app: 0|req: 4/20] 88.130.192.93 () {46 vars in 934 bytes} [Wed Feb 14 23:42:48 2018] GET /admin/ => generated 5038 bytes in 141 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 17/21] 88.130.192.93 () {44 vars in 872 bytes} [Wed Feb 14 23:42:52 2018] GET / => generated 44671 bytes in 32 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 18/22] 88.130.192.93 () {44 vars in 894 bytes} [Wed Feb 14 23:42:57 2018] GET /cra/Gallery/Hi => generated 5859 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+Not Found: /cra/Gallery/assets/web/assets/jquery/jquery.min.js
+[pid: 28600|app: 0|req: 19/23] 88.130.192.93 () {42 vars in 863 bytes} [Wed Feb 14 23:42:57 2018] GET /cra/Gallery/assets/web/assets/jquery/jquery.min.js => generated 3227 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /cra/Gallery/assets/images/img-5592-1620x1080.jpg
+[pid: 28600|app: 0|req: 20/24] 88.130.192.93 () {42 vars in 895 bytes} [Wed Feb 14 23:42:58 2018] GET /cra/Gallery/assets/images/img-5592-1620x1080.jpg => generated 3221 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 28599|app: 0|req: 5/25] 88.130.192.93 () {44 vars in 876 bytes} [Wed Feb 14 23:48:08 2018] GET /admin => generated 0 bytes in 9 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 28599|app: 0|req: 6/26] 88.130.192.93 () {44 vars in 878 bytes} [Wed Feb 14 23:48:08 2018] GET /admin/ => generated 5038 bytes in 63 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 21/27] 88.130.192.93 () {44 vars in 872 bytes} [Wed Feb 14 23:48:14 2018] GET /cra => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28599|app: 0|req: 7/28] 88.130.192.93 () {44 vars in 874 bytes} [Wed Feb 14 23:48:15 2018] GET /cra/ => generated 44671 bytes in 32 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 22/29] 88.130.192.93 () {44 vars in 896 bytes} [Wed Feb 14 23:48:22 2018] GET /admin/logout/ => generated 1202 bytes in 56 msecs (HTTP/1.1 200) 6 headers in 298 bytes (1 switches on core 1)
+[pid: 28599|app: 0|req: 8/30] 88.130.192.93 () {42 vars in 785 bytes} [Wed Feb 14 23:48:27 2018] GET / => generated 1503 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 23/31] 172.104.108.109 () {34 vars in 389 bytes} [Thu Feb 15 00:13:58 2018] GET / => generated 1503 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Thu Feb 15 00:40:08 2018 - uwsgi_response_write_body_do(): Broken pipe [core/writer.c line 341] during HEAD /phpmyadmin/scripts/setup.php (66.118.142.165)
+OSError: write error
+[pid: 28600|app: 0|req: 24/32] 66.118.142.165 () {26 vars in 337 bytes} [Thu Feb 15 00:40:08 2018] HEAD /phpmyadmin/scripts/setup.php => generated 36491 bytes in 101 msecs (HTTP/1.0 400) 1 headers in 53 bytes (0 switches on core 1)
+[pid: 28600|app: 0|req: 25/33] 88.130.192.93 () {44 vars in 816 bytes} [Thu Feb 15 00:41:11 2018] GET / => generated 1503 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 26/34] 88.130.192.93 () {44 vars in 816 bytes} [Thu Feb 15 00:47:45 2018] GET / => generated 1503 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 27/35] 88.130.192.93 () {42 vars in 785 bytes} [Thu Feb 15 00:56:40 2018] GET / => generated 1503 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 28/36] 88.130.192.93 () {44 vars in 816 bytes} [Thu Feb 15 00:58:23 2018] GET / => generated 1503 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28599|app: 0|req: 9/37] 88.130.192.93 () {48 vars in 909 bytes} [Thu Feb 15 01:23:40 2018] GET / => generated 1503 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28599|app: 0|req: 10/38] 88.130.192.93 () {42 vars in 785 bytes} [Thu Feb 15 01:41:27 2018] GET / => generated 1503 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 29/39] 88.130.192.93 () {42 vars in 785 bytes} [Thu Feb 15 01:41:58 2018] GET / => generated 1503 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 30/40] 88.130.192.93 () {42 vars in 785 bytes} [Thu Feb 15 01:42:11 2018] GET / => generated 1503 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 31/41] 88.130.192.93 () {44 vars in 816 bytes} [Thu Feb 15 01:43:01 2018] GET / => generated 1503 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 32/42] 88.130.192.93 () {42 vars in 785 bytes} [Thu Feb 15 01:44:14 2018] GET / => generated 1503 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 33/43] 88.130.192.93 () {42 vars in 785 bytes} [Thu Feb 15 01:46:45 2018] GET / => generated 1503 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 34/44] 88.130.192.93 () {44 vars in 816 bytes} [Thu Feb 15 01:49:56 2018] GET / => generated 1503 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 35/45] 88.130.192.93 () {48 vars in 909 bytes} [Thu Feb 15 01:57:13 2018] GET / => generated 1503 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 36/46] 88.130.192.93 () {42 vars in 785 bytes} [Thu Feb 15 01:57:21 2018] GET / => generated 1503 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 37/47] 88.130.192.93 () {42 vars in 785 bytes} [Thu Feb 15 01:57:44 2018] GET / => generated 1503 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 38/48] 88.130.192.93 () {42 vars in 785 bytes} [Thu Feb 15 01:58:15 2018] GET / => generated 1503 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 39/49] 88.130.192.93 () {44 vars in 816 bytes} [Thu Feb 15 01:58:20 2018] GET / => generated 1503 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 40/50] 88.130.192.93 () {42 vars in 785 bytes} [Thu Feb 15 01:58:59 2018] GET / => generated 1503 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 41/51] 88.130.192.93 () {42 vars in 756 bytes} [Thu Feb 15 01:59:30 2018] GET / => generated 1503 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 42/52] 88.130.192.93 () {42 vars in 766 bytes} [Thu Feb 15 01:59:51 2018] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 1)
+[pid: 28599|app: 0|req: 11/53] 88.130.192.93 () {42 vars in 768 bytes} [Thu Feb 15 01:59:51 2018] GET /admin/ => generated 0 bytes in 6 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 28599|app: 0|req: 12/54] 88.130.192.93 () {42 vars in 805 bytes} [Thu Feb 15 01:59:51 2018] GET /admin/login/?next=/admin/ => generated 4182 bytes in 23 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 43/55] 88.130.192.93 () {50 vars in 1019 bytes} [Thu Feb 15 02:00:02 2018] POST /admin/login/?next=/admin/ => generated 0 bytes in 282 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 44/56] 88.130.192.93 () {46 vars in 909 bytes} [Thu Feb 15 02:00:03 2018] GET /admin/ => generated 5038 bytes in 73 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 45/57] 88.130.192.93 () {44 vars in 843 bytes} [Thu Feb 15 02:00:08 2018] GET / => generated 44671 bytes in 33 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 46/58] 88.130.192.93 () {44 vars in 865 bytes} [Thu Feb 15 02:00:21 2018] GET /cra/Gallery/Hi => generated 5859 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+Not Found: /cra/Gallery/assets/web/assets/jquery/jquery.min.js
+[pid: 28600|app: 0|req: 47/59] 88.130.192.93 () {42 vars in 856 bytes} [Thu Feb 15 02:00:21 2018] GET /cra/Gallery/assets/web/assets/jquery/jquery.min.js => generated 3227 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /cra/Gallery/assets/images/img-5592-1620x1080.jpg
+[pid: 28600|app: 0|req: 48/60] 88.130.192.93 () {42 vars in 896 bytes} [Thu Feb 15 02:00:22 2018] GET /cra/Gallery/assets/images/img-5592-1620x1080.jpg => generated 3221 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 49/61] 88.130.192.93 () {42 vars in 800 bytes} [Thu Feb 15 02:00:34 2018] GET / => generated 44671 bytes in 29 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 50/62] 88.130.192.93 () {40 vars in 668 bytes} [Thu Feb 15 02:12:28 2018] GET / => generated 55572 bytes in 101 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 51/63] 88.130.192.93 () {40 vars in 668 bytes} [Thu Feb 15 02:12:56 2018] GET / => generated 55572 bytes in 89 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 52/64] 88.130.192.93 () {42 vars in 800 bytes} [Thu Feb 15 02:13:43 2018] GET / => generated 44671 bytes in 34 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 53/65] 88.130.192.93 () {40 vars in 668 bytes} [Thu Feb 15 02:14:18 2018] GET / => generated 55572 bytes in 99 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Thu Feb 15 02:38:51 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+Thu Feb 15 02:38:51 2018 - uwsgi_response_write_body_do(): Broken pipe [core/writer.c line 341] during HEAD /robots.txt (59.160.209.34)
+OSError: write error
+[pid: 28600|app: 0|req: 54/66] 59.160.209.34 () {26 vars in 300 bytes} [Thu Feb 15 02:38:51 2018] HEAD /robots.txt => generated 36491 bytes in 98 msecs (HTTP/1.0 400) 1 headers in 53 bytes (0 switches on core 0)
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 55/67] 71.193.84.149 () {26 vars in 279 bytes} [Thu Feb 15 03:16:11 2018] GET / => generated 54397 bytes in 112 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Thu Feb 15 08:08:12 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+Thu Feb 15 08:08:12 2018 - uwsgi_response_write_body_do(): Broken pipe [core/writer.c line 341] during HEAD /phpmyadmin/scripts/setup.php (66.118.142.165)
+OSError: write error
+[pid: 28599|app: 0|req: 13/68] 66.118.142.165 () {26 vars in 337 bytes} [Thu Feb 15 08:08:11 2018] HEAD /phpmyadmin/scripts/setup.php => generated 36491 bytes in 150 msecs (HTTP/1.0 400) 1 headers in 53 bytes (0 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28599|app: 0|req: 14/69] 88.130.201.210 () {40 vars in 698 bytes} [Thu Feb 15 09:24:41 2018] GET / => generated 55602 bytes in 116 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 56/70] 88.130.201.210 () {40 vars in 698 bytes} [Thu Feb 15 09:24:41 2018] GET / => generated 55602 bytes in 126 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 57/71] 88.130.201.210 () {40 vars in 677 bytes} [Thu Feb 15 09:24:42 2018] GET /favicon.ico => generated 55691 bytes in 159 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 58/72] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:25:36 2018] GET / => generated 55737 bytes in 99 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 59/73] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:25:37 2018] GET /favicon.ico => generated 55952 bytes in 119 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 60/74] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:25:52 2018] GET / => generated 55737 bytes in 94 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 61/75] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:25:53 2018] GET /favicon.ico => generated 55952 bytes in 95 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28599|app: 0|req: 15/76] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:29:36 2018] GET / => generated 55737 bytes in 108 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28599|app: 0|req: 16/77] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:29:37 2018] GET /favicon.ico => generated 55952 bytes in 97 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 62/78] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:29:39 2018] GET / => generated 55737 bytes in 103 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 63/79] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:29:39 2018] GET /favicon.ico => generated 55952 bytes in 102 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 64/80] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:29:40 2018] GET / => generated 55737 bytes in 99 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 65/81] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:29:40 2018] GET /favicon.ico => generated 55952 bytes in 105 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 66/82] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:29:41 2018] GET / => generated 55737 bytes in 97 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 67/83] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:29:41 2018] GET /favicon.ico => generated 55952 bytes in 105 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 68/84] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:29:42 2018] GET / => generated 55737 bytes in 105 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 69/85] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:29:42 2018] GET /favicon.ico => generated 55952 bytes in 98 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 70/86] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:30:38 2018] GET / => generated 55737 bytes in 106 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 71/87] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:30:39 2018] GET /favicon.ico => generated 55952 bytes in 108 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 72/88] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:30:42 2018] GET / => generated 55737 bytes in 109 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 73/89] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:30:42 2018] GET /favicon.ico => generated 55952 bytes in 106 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 74/90] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:30:44 2018] GET / => generated 55737 bytes in 193 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 75/91] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:30:44 2018] GET /favicon.ico => generated 55952 bytes in 95 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 76/92] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:30:47 2018] GET / => generated 55737 bytes in 121 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 77/93] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:30:48 2018] GET /favicon.ico => generated 55952 bytes in 95 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 78/94] 88.130.201.210 () {42 vars in 786 bytes} [Thu Feb 15 09:31:26 2018] GET / => generated 1503 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 79/95] 88.130.201.210 () {40 vars in 698 bytes} [Thu Feb 15 09:31:28 2018] GET / => generated 55602 bytes in 93 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 80/96] 88.130.201.210 () {40 vars in 698 bytes} [Thu Feb 15 09:31:30 2018] GET / => generated 55602 bytes in 99 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 81/97] 88.130.201.210 () {40 vars in 677 bytes} [Thu Feb 15 09:31:31 2018] GET /favicon.ico => generated 55691 bytes in 100 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 28600|app: 0|req: 82/98] 66.249.93.204 () {38 vars in 627 bytes} [Thu Feb 15 09:32:01 2018] GET / => generated 1503 bytes in 35 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28600|app: 0|req: 83/99] 66.249.81.25 () {42 vars in 705 bytes} [Thu Feb 15 09:32:01 2018] GET / => generated 1503 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 84/100] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:35:27 2018] GET / => generated 55737 bytes in 97 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 85/101] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:35:28 2018] GET /favicon.ico => generated 55952 bytes in 98 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 86/102] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:35:31 2018] GET / => generated 55737 bytes in 102 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 28600|app: 0|req: 87/103] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:35:31 2018] GET /favicon.ico => generated 55952 bytes in 103 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.16 (64bit) on [Thu Feb 15 09:35:45 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website/
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/nauen/env/website/tensorflowWechat/website/website.sock fd 3
+dropping root privileges after socket binding
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/nauen/env/
+Python main interpreter initialized at 0x19f3f30
+dropping root privileges after plugin initialization
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250032 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x19f3f30 pid: 1582 (default app)
+dropping root privileges after application loading
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1582)
+spawned uWSGI worker 1 (pid: 1584, cores: 2)
+spawned uWSGI worker 2 (pid: 1585, cores: 2)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 1584|app: 0|req: 1/1] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:36:10 2018] GET / => generated 55728 bytes in 186 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 1584|app: 0|req: 2/2] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:36:11 2018] GET /favicon.ico => generated 55943 bytes in 138 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+Thu Feb 15 09:37:07 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+Thu Feb 15 09:37:07 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (88.130.201.210)
+OSError: write error
+[pid: 1585|app: 0|req: 1/3] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:36:16 2018] GET / => generated 0 bytes in 50944 msecs (HTTP/1.1 400) 1 headers in 0 bytes (0 switches on core 0)
+[pid: 1584|app: 0|req: 3/4] 88.130.201.210 () {40 vars in 698 bytes} [Thu Feb 15 09:36:36 2018] GET / => generated 55593 bytes in 50882 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 1585|app: 0|req: 2/5] 88.130.201.210 () {40 vars in 677 bytes} [Thu Feb 15 09:37:28 2018] GET /favicon.ico => generated 55682 bytes in 15220 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+DAMN ! worker 2 (pid: 28600) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 2 (new pid: 1654)
+[pid: 1585|app: 0|req: 3/6] 88.130.201.210 () {42 vars in 786 bytes} [Thu Feb 15 09:38:16 2018] GET / => generated 1503 bytes in 242 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 1584|app: 0|req: 4/7] 88.130.201.210 () {42 vars in 786 bytes} [Thu Feb 15 09:38:45 2018] GET / => generated 1503 bytes in 201 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 1585|app: 0|req: 4/8] 88.130.201.210 () {40 vars in 698 bytes} [Thu Feb 15 09:38:50 2018] GET / => generated 55646 bytes in 103 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 1584|app: 0|req: 5/9] 88.130.201.210 () {40 vars in 677 bytes} [Thu Feb 15 09:38:50 2018] GET /favicon.ico => generated 55735 bytes in 97 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 1584|app: 0|req: 6/10] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:40:24 2018] GET / => generated 55781 bytes in 103 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 1584|app: 0|req: 7/11] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:40:25 2018] GET /favicon.ico => generated 55996 bytes in 89 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 1584|app: 0|req: 8/12] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:40:27 2018] GET / => generated 55781 bytes in 90 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'game.jumpen.me'. You may need to add 'game.jumpen.me' to ALLOWED_HOSTS.
+[pid: 1584|app: 0|req: 9/13] 88.130.201.210 () {44 vars in 730 bytes} [Thu Feb 15 09:40:27 2018] GET /favicon.ico => generated 55996 bytes in 93 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.16 (64bit) on [Thu Feb 15 09:40:32 2018] ***
+compiled with version: 5.4.0 20160609 on 14 February 2018 19:37:25
+os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+nodename: ubuntu-ning
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/nauen/env/website/tensorflowWechat/website
+detected binary path: /home/nauen/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+dropping root privileges as early as possible
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/nauen/env/website/tensorflowWechat/website/
+your processes number limit is 1897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/nauen/env/website/tensorflowWechat/website/website.sock fd 3
+dropping root privileges after socket binding
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/nauen/env/
+Python main interpreter initialized at 0x1664f30
+dropping root privileges after plugin initialization
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250032 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1664f30 pid: 1715 (default app)
+dropping root privileges after application loading
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1715)
+spawned uWSGI worker 1 (pid: 1717, cores: 2)
+spawned uWSGI worker 2 (pid: 1718, cores: 2)
+[pid: 1717|app: 0|req: 1/1] 88.130.201.210 () {42 vars in 729 bytes} [Thu Feb 15 09:40:34 2018] GET / => generated 1503 bytes in 161 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 1717|app: 0|req: 2/2] 88.130.201.210 () {40 vars in 708 bytes} [Thu Feb 15 09:40:44 2018] GET /admin => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 1)
+[pid: 1718|app: 0|req: 1/3] 88.130.201.210 () {40 vars in 710 bytes} [Thu Feb 15 09:40:44 2018] GET /admin/ => generated 0 bytes in 196 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 1718|app: 0|req: 2/4] 88.130.201.210 () {40 vars in 747 bytes} [Thu Feb 15 09:40:45 2018] GET /admin/login/?next=/admin/ => generated 4182 bytes in 133 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 1718|app: 0|req: 3/5] 88.130.201.210 () {42 vars in 791 bytes} [Thu Feb 15 09:40:46 2018] GET /favicon.ico => generated 2328 bytes in 72 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1718|app: 0|req: 4/6] 88.130.201.210 () {52 vars in 1083 bytes} [Thu Feb 15 09:40:53 2018] POST /admin/login/?next=/admin/ => generated 0 bytes in 1354 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 1)
+Forbidden (CSRF token missing or incorrect.): /admin/login/
+[pid: 1717|app: 0|req: 3/7] 88.130.201.210 () {52 vars in 1127 bytes} [Thu Feb 15 09:41:08 2018] POST /admin/login/?next=/admin/ => generated 2513 bytes in 872 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 1718|app: 0|req: 5/8] 88.130.201.210 () {42 vars in 786 bytes} [Thu Feb 15 09:41:20 2018] GET / => generated 1503 bytes in 2730 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 1718|app: 0|req: 6/9] 88.130.201.210 () {42 vars in 796 bytes} [Thu Feb 15 09:41:26 2018] GET /admin => generated 0 bytes in 325 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 1)
+[pid: 1718|app: 0|req: 7/10] 88.130.201.210 () {42 vars in 798 bytes} [Thu Feb 15 09:41:27 2018] GET /admin/ => generated 0 bytes in 224 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 1717|app: 0|req: 4/11] 88.130.201.210 () {42 vars in 835 bytes} [Thu Feb 15 09:41:27 2018] GET /admin/login/?next=/admin/ => generated 4182 bytes in 37626 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+DAMN ! worker 1 (pid: 27972) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 1733)
+Not Found: /favicon.ico
+[pid: 1718|app: 0|req: 8/12] 88.130.201.210 () {42 vars in 789 bytes} [Thu Feb 15 09:42:06 2018] GET /favicon.ico => generated 2327 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 1717|app: 0|req: 5/13] 88.130.201.210 () {52 vars in 1080 bytes} [Thu Feb 15 09:42:15 2018] POST /admin/login/?next=/admin/ => generated 0 bytes in 282 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 1)
+[pid: 1718|app: 0|req: 9/14] 88.130.201.210 () {46 vars in 935 bytes} [Thu Feb 15 09:42:16 2018] GET /admin/ => generated 5038 bytes in 174 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1718|app: 0|req: 10/15] 88.130.201.210 () {42 vars in 831 bytes} [Thu Feb 15 09:42:21 2018] GET / => generated 44671 bytes in 35 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 1718|app: 0|req: 11/16] 88.130.201.210 () {44 vars in 895 bytes} [Thu Feb 15 09:42:26 2018] GET /admin/logout/ => generated 1202 bytes in 45 msecs (HTTP/1.1 200) 6 headers in 298 bytes (1 switches on core 0)
+[pid: 1718|app: 0|req: 12/17] 88.130.201.210 () {42 vars in 799 bytes} [Thu Feb 15 09:42:31 2018] GET /admin/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 1)
+[pid: 1717|app: 0|req: 6/18] 88.130.201.210 () {42 vars in 836 bytes} [Thu Feb 15 09:42:31 2018] GET /admin/login/?next=/admin/ => generated 4182 bytes in 33 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1718|app: 0|req: 13/19] 88.130.201.210 () {52 vars in 1083 bytes} [Thu Feb 15 09:42:36 2018] POST /admin/login/?next=/admin/ => generated 0 bytes in 251 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 1)
+[pid: 1717|app: 0|req: 7/20] 88.130.201.210 () {46 vars in 937 bytes} [Thu Feb 15 09:42:36 2018] GET /admin/ => generated 5038 bytes in 204 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 1718|app: 0|req: 14/21] 88.130.201.210 () {44 vars in 875 bytes} [Thu Feb 15 09:42:40 2018] GET / => generated 44671 bytes in 67 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 1718|app: 0|req: 15/22] 88.130.201.210 () {44 vars in 881 bytes} [Thu Feb 15 09:42:42 2018] GET /admin/ => generated 5038 bytes in 107 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 1718|app: 0|req: 16/23] 88.130.201.210 () {44 vars in 897 bytes} [Thu Feb 15 09:42:46 2018] GET /cra/Gallery/Hi => generated 5859 bytes in 56 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+Not Found: /cra/Gallery/assets/web/assets/jquery/jquery.min.js
+[pid: 1718|app: 0|req: 17/24] 88.130.201.210 () {42 vars in 866 bytes} [Thu Feb 15 09:42:47 2018] GET /cra/Gallery/assets/web/assets/jquery/jquery.min.js => generated 3228 bytes in 38 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /cra/Gallery/assets/images/img-5592-1620x1080.jpg
+[pid: 1718|app: 0|req: 18/25] 88.130.201.210 () {42 vars in 898 bytes} [Thu Feb 15 09:42:48 2018] GET /cra/Gallery/assets/images/img-5592-1620x1080.jpg => generated 3222 bytes in 27 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1718|app: 0|req: 19/26] 88.130.201.210 () {44 vars in 905 bytes} [Thu Feb 15 09:42:51 2018] GET /cra/Vorlesungen/ML => generated 63712 bytes in 79 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+Not Found: /cra/Vorlesungen/echarts.html
+[pid: 1718|app: 0|req: 20/27] 88.130.201.210 () {44 vars in 943 bytes} [Thu Feb 15 09:42:54 2018] GET /cra/Vorlesungen/echarts.html => generated 3162 bytes in 34 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1718|app: 0|req: 21/28] 88.130.201.210 () {44 vars in 893 bytes} [Thu Feb 15 09:42:58 2018] GET /cra => generated 0 bytes in 16 msecs (HTTP/1.1 301) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 1717|app: 0|req: 8/29] 88.130.201.210 () {44 vars in 895 bytes} [Thu Feb 15 09:42:58 2018] GET /cra/ => generated 44671 bytes in 70 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 1718|app: 0|req: 22/30] 88.130.201.210 () {42 vars in 831 bytes} [Thu Feb 15 09:43:16 2018] GET / => generated 44671 bytes in 71 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
