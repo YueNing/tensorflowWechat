@@ -58,14 +58,37 @@ A[1] oder A[0] die aussagenlogischen Variable, die in A aber nicht in B vorkomme
 ### 3.2 Semantik der Prädikatenlogik
 1. **Interpretation**
 2. **Allegemeingültigkeit**
+3. Substitutionslemma für Terme
+4. Hoare Kalkül
+5. Modell
+6. Folgerbarkeit
+7. Ersetzungstheorem
 
 ### 3.3 Normalformen
 1. **Skolem-Normalform**
+- geschlossen ist
+- die Gestalt hat nur Allquantoren im Präfix, mit quantorenfreiem B
+- Die Matrix B in KNF ist.
 
 # 4. Beweistheorie
 ## 4.1 Beispiel
 **Kann mein Bruder wäre mein Schawager**
-## 4.2
+## 4.2 Hilbertkalkül
+## 4.3 Resolutionskalkül
+## 4.4 Aussagenlogische Tableaukalkül
+## 4.5 Prädikatenlogischer Tableaukalkül
+## 4.6 Sequenzenkalkül
+
+# 5. Gleichheitslogik
+## 5.1 Reduktionssysteme
+## 5.2 Termersetzungssysteme
+
+# 6. Die Spezifikationssprache JML
+# 7. Modale Aussagenlogik
+# 8. Temporale Logik
+## 8.1 Lineare Temporale Logik(LTL)
+# 9. Modellprüfung
+## 9.1 Büchi Automaten und LTL 
  
 # Logik
 [Logik](https://wenku.baidu.com/view/59e21590284ac850ad024253.html)
