@@ -1,3 +1,31 @@
+# Begriffe
+- syntaktisch:
+- Term: In der Mathematik ist ein Term sinnvoller Ausdruck, der Zahlen, Variable, Symbole für mathematische Verknüpfungen und Klammern enthalten kann. Terme sind die syntaktisch korrekt gebildeten Wörter oder Wortgruppen in der Formalen Sprache der Mathematik
+- logische Zeichen wie Aussagenlogik () 1 0 -> neu in Prädikatenlogik , Allquantor, Existenzquantor
+- Signatur: In der mathematischen Logik besteht eine Signatur aus der Menge der Symbole
+- Atomare Formeln: Wenn t1 und t2 Terme sind, dann ist t1 = t2 eine Formel. Wenn R ein n-stelliges Relationssymbol und t1,... tn Terme sind, dann ist R(t1,...,tn) eine Formel.
+- Formeln: induktiv definiert 
+- Substitutionen: Als Substitution bezeichnet man in der Logik allgemein die Erzetzung eines Ausdrucks durch einen anderen. schreiben wir wie {x1/s1,...,xm/sm}  u heisst Grundsubstitution
+- Kollisionsfreie Substitutionen: Eine Substitution u heisst kollisionsfrei für eine Formel A, wenn für jede Variable z und jede Stelle freien Auftretens von z in A gilt: Diese Stelle liegt nicht im Wirkungsbereich eines Qauntors all x oder existiert x, wo x eine Variable in u(z) ist.
+- Komposition von Subtitutionen
+- Unifikation: Unifikation ist eine Methode zur Vereinheitlichung prädikatenlogischer Ausdrücke. Zwei Ausdrücke werden unifiziert, indem ihre Variablen so durch geeignete Terme ersetzt werden, dass die resultierenden Ausdrücke gleich sind. Die Unifikation hat insbesondere in der Computerlogik und Computerlinguistik eine größere Bedeutung erlangt.
+- Mächtigkeit: In der Mathematik verwendet man den aus der Mengenlehre von Georg Cantor stammenden Begriff der Mächtigkeit oder Kardinalität, um den für endliche Mengen verwendeten Begriff der "Anzahl der Elemente einer Menge" auf unendliche Mengen zu verallgemeinenrn. Für endliche Mengen ist die Mächtigkeit gleich der Anzahl der Elemente der Menge, das ist eine natürliche Zahl einschlißlich der Null. Für unendliche Mengen benötigt man etwas Vorarbeit, um ihre Mächtigkeiten zu charakterisieren. wie Doppelkreuz # u(T) = 1 oder |u(T)| = 1
+- Interpretation: 
+- Koinzidenzlemma
+- Negationsnormalform: Jedes Negationszeichen in A vor einer atomaren Teilformel steht.
+- Pränexe Normalform: B ist eine quantorenfrei Formel. Man nennt B auch die Matrix von A.
+- Matrix in Logik: In der prädikatenlogik ist die Matrix einer Formel F diejenige Formel, die man durch Streichen sämtlicher Quantoren aus F erhält. Der Begrif wird vor allem im Zusammenhang mit der Pränexform verwendet, bei der sämtliche Quantoren am Anfang der Formel stehen.
+- Skolem Normalform
+- These: bezeichnet eine beweisende Behauptung oder einen Leitsatz
+- Axiome: Innerhalb einer formalisierbaren Theorie ist eine These ein Satz, der bewiesen werden soll. Ein Axiom ist ein Satz, der nicht in der Theorie bewiesen soll, sondern beweislog vorausgesetzt wird.
+- Regeln: 
+- Hilbertkalkül: axiomatische Kalkül für die klassische Aussagenlogik oder die Prädikatenlogik erster Stufe, das heißt Kalkühle, in denen sich Theoreme und Argumente der Aussagenlogik oder der Prädikatenlogik erster Stufe herleiten lassen.
+- Komposition mittels Modus ponens
+- Deduktionstheom
+- Resolutionskalkül: Die Resolution ist ein Verfahren der formalen Logik, um eine logische Formel auf Gültigkeit zu testen.
+- Resolutionsregel: Die aussagenlogische Resolutionsregel ist die Regel, eine Modifikation des modus ponens. Es ist nämlich auch die Erweiterung von MP.
+
+
 # 1. Aussagenlogik: Syntax und Semantik
 ## 1.1 Syntax der Aussagenlogik
 	- Zeichen
