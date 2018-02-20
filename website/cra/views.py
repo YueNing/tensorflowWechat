@@ -1,7 +1,7 @@
 import sys, os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append('/home/nauen/env/website/tensorflowWechat')
-import weibo
+#import weibo
 from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
@@ -9,7 +9,9 @@ from django.http import HttpResponse
 # def index(request):
 # 	return HttpResponse('Hello, Intelligent')
 
-
+def AppleHome(request):
+	return render(request, 'cra/applehome.html')
+	
 def index(request):
 	context = {}
 	context['hello'] = 'Hello Word!'
