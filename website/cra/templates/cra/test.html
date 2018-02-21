@@ -1,0 +1,15 @@
+<! --show my articles -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Show Articles</title>
+        {% load staticfiles %}
+    </head>
+
+    <body>
+        <h1 align="center">Title: <strong>{{ title }}</strong></h1>
+	{{ post.body | safe }}
+        <h2>Content</h2>
+		    <strong>{{ post.title }}</strong>
+    </body>
+</html>

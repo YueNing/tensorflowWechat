@@ -25,3 +25,7 @@ class Gallery_details(models.Model):
 	picture_id = models.UUIDField()
 	picture_urls = models.URLField()
 	picture_describes = models.CharField(max_length=300)
+
+class Post(models.Model):
+	title = models.CharField(max_length=300)
+	body = models.TextField()
