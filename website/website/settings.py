@@ -23,7 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'u6_o58-s09t=*5it0h1!_r&9=#804*89uaat@cmx%4_#z+h1j='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['.jumpen.me', '45.55.155.190', '127.0.0.1']
 

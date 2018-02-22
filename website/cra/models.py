@@ -26,6 +26,11 @@ class Gallery_details(models.Model):
 	picture_urls = models.URLField()
 	picture_describes = models.CharField(max_length=300)
 
+class Categorie(models.Model):
+	name = models.CharField(max_length=300)
+	describe = models.TextField()
+
 class Post(models.Model):
+	Categorie = models.ForeignKey('Categorie', on_delete=models.CASCADE)
 	title = models.CharField(max_length=300)
 	body = models.TextField()
