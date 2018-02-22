@@ -84,7 +84,9 @@
                   </li>
                   <li><a><i class="fa fa-bar-chart-o"></i> Vorlesungen <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="/cra/Vorlesungen/ML"> Maschinelles Lernen </a></li>
+			{% for c in categorie %}
+                      <li><a href="/cra/Vorlesungen/{{ c.name }}">{{ c.name }}</a></li>
+			{% endfor %}
                     </ul>
                   </li>
                   <li><a><i class="fa fa-bar-chart-o"></i> Album <span class="fa fa-chevron-down"></span></a>

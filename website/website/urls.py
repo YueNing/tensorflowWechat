@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls import handler404, handler500
+import cra
 from cra import views as cra_view
+
 urlpatterns = [
     # path('', cra_view.index, name='cra'),   
     path('', cra_view.AppleHome, name='Home'),	
@@ -24,3 +27,5 @@ urlpatterns = [
     path('admin/Data/Gallery', cra_view.DataGallery, name='data_gallery'),
 ]
 
+handler404 = cra_view.page_not_found
+handler500 = cra_view.page_error

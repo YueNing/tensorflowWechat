@@ -7,3 +7,5 @@ class GalleryAdmin(admin.ModelAdmin):
 
 admin.site.register(Gallery_user)
 admin.site.register(Gallery_details)
+admin.site.register(Post)
+admin.site.register(Categorie)
