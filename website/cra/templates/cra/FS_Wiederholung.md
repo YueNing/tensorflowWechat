@@ -1,4 +1,5 @@
 [![AppleHome](https://storage.googleapis.com/ning_picture/mainlogo.png)](http://www.jumpen.me/)
+# [Übungen](https://max.book118.com/html/2015/0329/13938158.shtm)
 # Aussagenlogik
 ### Definition der logischen Grundbegriffe
 1. Erfüllbarkeit
