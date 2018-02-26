@@ -38,7 +38,44 @@
 # Beweistheorie
 ### Die Ziele der Beweistheorie verstehen
 ### Grundidee des Hilbertkalkül verstehen
+**Axiom**
+- Ax1 $$A \to (B \to A)$$ &nbsp;&nbsp; (Abschwächung)
+- Ax2 $$(A \to (B \to C)) \to ((A \to B) \to (A \to C))$$ &nbsp;&nbsp; (Verteilung von $$\to$$)
+- Ax3 $$(\neg A \to \neg B) \to (B \to A)$$
+- Ax4 $$\forall{x} A \to \{x/t\}(A) \space\space\space\space wobei \space\space\{x/t\} \space\space kollisionsfrei\space\space für\space\space A$$
+- Ax5 $$\forall{x} (A \to B) \to (A \to  \forall{x} B) \space\space wobei\space x \notin Frei(A)$$
+- Gl1 $$x \doteq x$$
+- Gl2 $$x \doteq y \to y \doteq x$$
+- Gl3 $$x \doteq y \to (y \doteq z \to x \doteq z)$$
+- Gl4
+- Gl5
+**Regeln**
+- Mp: $$\frac {A,\space A \to B}{B}$$
+- Gen: $$\frac{A}{\forall{x} A}$$
+
+**Lemma**
+- Komposition mittels Modus ponens
+$$M_1 \vdash_H A, M_2 \vdash_{H_0} A \to B \Rightarrow M_1 \cup M_2 \vdash _H B$$
+- Deduktionstheom
+$$M \vdash_H A \to B \Leftrightarrow M \cup \{A\} \vdash_H B$$
+
 ### Resolutionskalkül, Tableaukalkül kennen
+
+**Resolutionsregel Die aussagenlogische Resolutionregel**
+- $$\frac {C_1 \cup \{P\}, \space C_2 \{\neg P\}}{C_1 \cup C_2} \space \space C_1 \cup C_2 \space \space heisst \space\space Resolvente$$
+
+**Resolutionsregel Die prädikatenlogische Resolutionregel**
+- $$\frac {C_1 \cup K_1 \space \space C_2 \cup K_2}{\mu(C_1 \cup C_2)} \space \space \space \mu$$ ist allgemeinster Unifikator von $$K_1 \cup \sim K_2$$
+
+**Tableau Vorbemerkung**
+$$M \models A \Leftrightarrow M \cup \{ \neg A\} \vdash _\bm{T_0} \bm{0}$$
+**Definition Tableau(Typen von Vorzeichenformeln)**
+- $$Typ \space \epsilon:\space 0P, 1P\space für P \in \Sigma$$
+- $$Typ \space \alpha: \space 0\neg B, 1\neg B, 1(B\land C), 0(B \lor C), 0(B \to C)$$
+- $$Typ \space \beta: \space 0(B \land C), 1(B \lor C), 1(B \to C)$$
+
+**Lemma**
+
 ### Beweisidee für den Korrektheits- und Vollständigkeitsbeweis des aussagenlogischen Resolutionskalkül kennen
 ### Beweisidee für den Korrektheits- und Vollständigkeitsbeweis des Tableaukalküls kennen
 ### Für kleine Beispiele Ableitungen im Resolutionskalkül und Tableaukalkül, für Aussagen- und Prädikatenlogik, finden können
