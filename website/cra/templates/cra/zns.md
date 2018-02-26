@@ -74,7 +74,7 @@ Die Sensorik bezeichnet in der Technik die Wissenschaft und die Anwendung von Se
 - Theta-Wellen(4-7Hertz): Bei Kindern und Jugendlichen normal
 - Delta-Wellen(0,5-3Hz) und Subdelta-Wellen(Unter 0,5Hz): Bei dem Tiefschlaf oder Trancezustände
 
-## Nerbenleitgeschwindigkeit(NLG)
+## Nervenleitgeschwindigkeit(NLG)
 Durch einen kurzen(0,1-2.0ms) elektrischen Impluses(Rechteckspannung) wird ein Nerv an Arm oder Bein gereizt. Dadurch kommt es zur Depolarsisation des Nervs, die in beide Richtungen über die Nerbenfaser weitergeleitet wird. Die ausgelöste Spannungsänderung kann dann entlang des Nervs gemessen werden.
 - Differenz der Leitungszeiten(Latenzen/ms)
 - Differenz der Reizorte(mm)
@@ -85,7 +85,13 @@ Durch einen kurzen(0,1-2.0ms) elektrischen Impluses(Rechteckspannung) wird ein N
 
 ## Elektromyographie(EMG)
 Die Elektromyographie(EMG) misst die elektrische Aktivität von Muskeln, indem eine dünne Nadelelektorde in den betroffenen Muskel eingestochen wird.
+- Myopathien und Neuropathien
+- Bandscheibenvorfällen mit Kompression einer Nervenwurzel
+- Monitoringverfahren
+- Rückenmarksfunktion bei Wirbelsäulenoperationen oder zur Registrierung der Hirnnervenfunktionen
+
 ## Evozierte Potentiale
+
 # 6. Verletzungen des ZNS
 # 7. Erkrankungen des Nervensystems
 # 8. Neurochirurgische Therapien
