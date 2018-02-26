@@ -52,6 +52,40 @@ Die Sensorik bezeichnet in der Technik die Wissenschaft und die Anwendung von Se
 ## Gedächtnis
 
 # 5. Neurodiagnostik
+## Elektrophysiologie
+- Die Elektrophysiologie ist ein Teilbereich der Neurophysiologie, die sich mit der elektro chemischen Signalübertragung im Nervensystem befasst
+- Die klinische Elektrophysiologie aus dem Fachgebiet der Neurologie hat unterschiedliche Methoden entwicklt zur Messungen ganzer polysynaptischer zentraler Nerbenbahnen sowie peripherer Nerven.
+- **Methoden der neurologischen Elektrophysiologie sind:**
+    - Elektroenzephalographie(EEG)
+    - Messung evozierter Potenziale somatosensorisch(SSEp), motorisch(MEP), visuell(VEP), akustisch evoziert(AEP)
+    - Elektroeurographie(ENG) mit Messung der Nervenleitgeschwindigkeit(NLG)
+    - Elektromyographie(EMG)
+
+## Elektroenzephalographie(EEG)
+- Dienen zur Aufzeichung der Hirnströme als Maßeinheit für die elektrische Aktivität des Gehirns
+- Eletroden, die in regelmäßiger Anordnung in einer Art Badekappe befestigt sind, auf dem Kopf paltziert.
+- Die Spannungsunterschiede zwischen den einzelnen Elektroden(Hirnströme) stellen sich auf einem Monitor wellenförmig dar und können ausgewertet werden.
+- Das Verfahren verlor an Bedeutung, als die mordernen bildgebende Verfahren wie CT oder MRT entwickelt wurden. 
+- Epilepsie: Bei der Epilepsie liefert das EEG eindeutige Aussagen zur Krankheit bis bin zu bestimmten Anfallstypen.
+- Frequenz: in vier bzw. fünf Rhythmen--> Durchschnittlisch schnelle Frequenzen bedeuten, die Person ist wach und die Gehrinaktivität normal; je langsamer eine Frequnz ist, umso tiefer ist das Schlafstadium oder handelt sich um einen krankhaften Befund.
+- Alpha Rhythmus(8-13Hz): Bei einem wachen, entspannen Patienten: das Elektroenzephalographie gewöhnlich eine Alpha-Aktivität in den hinteren Hirnregionen.
+- Beta Rhythmus(14-30Hz): häufig durch Medikamente oder fehlende Entspannung, aber auch eine Normvariante
+- Gamma-Welle(über 30Hz): Bei startker Konzentration oder Lernprozessen als Zeichen eines max. Informationsfluß
+- Theta-Wellen(4-7Hertz): Bei Kindern und Jugendlichen normal
+- Delta-Wellen(0,5-3Hz) und Subdelta-Wellen(Unter 0,5Hz): Bei dem Tiefschlaf oder Trancezustände
+
+## Nerbenleitgeschwindigkeit(NLG)
+Durch einen kurzen(0,1-2.0ms) elektrischen Impluses(Rechteckspannung) wird ein Nerv an Arm oder Bein gereizt. Dadurch kommt es zur Depolarsisation des Nervs, die in beide Richtungen über die Nerbenfaser weitergeleitet wird. Die ausgelöste Spannungsänderung kann dann entlang des Nervs gemessen werden.
+- Differenz der Leitungszeiten(Latenzen/ms)
+- Differenz der Reizorte(mm)
+- Amplitude der Reizantwort
+- Ort und die Schwere eines Nerbenschadens
+- Polyneuropathie: Diabetes mellitus, Alkoholkrankheit
+- Nervenkompressionssyndromen(Karpaltunnelsyndrom)
+
+## Elektromyographie(EMG)
+Die Elektromyographie(EMG) misst die elektrische Aktivität von Muskeln, indem eine dünne Nadelelektorde in den betroffenen Muskel eingestochen wird.
+## Evozierte Potentiale
 # 6. Verletzungen des ZNS
 # 7. Erkrankungen des Nervensystems
 # 8. Neurochirurgische Therapien
