@@ -217,7 +217,9 @@ ________________________________________________________________________________
 
 # 4. PEANO ARITHMETIK
 ### 4.1 Grundidee der Peano Arithmetik kennen
-> ...
+> Peano Arithmetik
+
+Axiom
 ### 4.2 Entscheidbarkeitsresultate zur Peano Arithmetik kennen.
 > ...
 ___________________________________________________________________________________________________________
@@ -327,9 +329,21 @@ ________________________________________________________________________________
 
 # 8. LTL 
 ### 8.1 LTL-Formeln lesen können
+> ...
+
 ### 8.2 Einfache temporale Eigenschaften in LTL formalisieren
+1. $$\xi \models p$$
+2. $$\xi \models op(A, B)$$
+3. $$\xi \models \Box A$$ gdw forall
+4. $$\xi \models \Diamond A$$ gdw exists
+5. $$\xi \models AUB$$ gdw until
+6. $$\xi \models X A\space gdw\space\xi_1=A$$ 
+
 ### 8.3 Zusammenhang zwischen LTL und Büchi Automaten kennen
+> LTL zu BA and BA zu LTL transformieren
+
 ### 8.4 Konzept der LTL Modellprüfung kennen
+> Alle mögliche Aussagen mit LTL Omega-Struktur
 _____________________________________________________________________________________________________________
 
 [![AppleHome](https://storage.googleapis.com/ning_picture/mainlogo.png)](http://www.jumpen.me/)
