@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ![](https://storage.googleapis.com/ning_picture/grun.png)
 # [Übungen](https://max.book118.com/html/2015/0329/13938158.shtm)
 # 1. Aussagenlogik
