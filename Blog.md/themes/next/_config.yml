@@ -1,21 +1,4 @@
-# ===============================================================
-# ========================= ATTENTION! ==========================
-# ===============================================================
-# NexT repository is moving here: https://github.com/theme-next
-# ===============================================================
-# It's rebase to v6.0.0 and future maintenance will resume there
-# ===============================================================
-
-# ---------------------------------------------------------------
-# Theme Core Configuration Settings
-# ---------------------------------------------------------------
-
-# Set to true, if you want to fully override the default configuration.
-# Useful if you don't want to inherit the theme _config.yml configurations.
-override: false
-
-# ---------------------------------------------------------------
-# Site Information Settings
+# =============================================================== # ========================= ATTENTION! ========================== # =============================================================== # NexT repository is moving here: https://github.com/theme-next # =============================================================== # It's rebase to v6.0.0 and future maintenance will resume there # =============================================================== # --------------------------------------------------------------- # Theme Core Configuration Settings # --------------------------------------------------------------- # Set to true, if you want to fully override the default configuration.  # Useful if you don't want to inherit the theme _config.yml configurations.  override: false # --------------------------------------------------------------- # Site Information Settings
 # ---------------------------------------------------------------
 
 # To get or check favicons visit: https://realfavicongenerator.net
@@ -93,9 +76,9 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
+  about: /about/ || user
   tags: /tags/ || tags
-  #categories: /categories/ || th
+  categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
