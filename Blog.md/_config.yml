@@ -3,12 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Apple Home 
+title: 魔塔 
 subtitle:
-description: 永远不要试图去考验人性，也不要让自己陷入一个直面自己欲望的火炉中，因为那时候你会发现，你根本没有自己想象中那么正直、良善和清心寡欲。
+description: 机器学习,机器人,技术未来发展
 author: Yue 
 language: zh-Hans
 timezone: Asia/Shanghai
+signature: 一个人出生了,人们并不知道他的未来,却说恭喜恭喜。一个人死去了,人们并不知道死后世界,却说 可惜可惜!
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -75,9 +76,15 @@ pagination_dir: page
 #theme: landscape
 theme: next 
 
+# 自动生成sitemap
+sitemap:
+    path: sitemap.xml
+baidusitemap: 
+    path: baidusitemap.xml
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/YueNing/YueNing.github.io.git 
+  repo: git@github.com:YueNing/YueNing.github.io.git  #repo: https://github.com/YueNing/YueNing.github.io.git 
   branch: master
