@@ -20,7 +20,6 @@ Github Page Hexo博客系统百度无法正确检索到，缺少来自百度的�
 #### 添加公钥到Coding
 
 - 如果已经生成过   `` cat ~/.ssh/id_rsa.pub ``
-
 - 点击头像个人设置，SSH公钥，新建
 - 测试成功与否  `` ssh -T git@git.coding.net ``
 
