@@ -85,6 +85,9 @@ baidusitemap:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repo: git@github.com:YueNing/YueNing.github.io.git  #repo: https://github.com/YueNing/YueNing.github.io.git 
+  branch: master
+- type: git
+  repo: git@git.coding.net:YueNing/YueNing.git
   branch: master
