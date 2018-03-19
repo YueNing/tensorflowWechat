@@ -1,7 +1,9 @@
 ---
 title: 百度检索Github Page博客
+tags:
+  - Hexo
+abbrlink: 43402
 date: 2018-03-15 02:03:13
-tags: [Hexo]
 ---
 
 Github Page Hexo博客系统百度无法正确检索到，缺少来自百度的流量。为了解决这个问题，本篇博文记录下自己捣鼓解决这个问题的方法。
