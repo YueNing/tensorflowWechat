@@ -1,4 +1,21 @@
-# =============================================================== # ========================= ATTENTION! ========================== # =============================================================== # NexT repository is moving here: https://github.com/theme-next # =============================================================== # It's rebase to v6.0.0 and future maintenance will resume there # =============================================================== # --------------------------------------------------------------- # Theme Core Configuration Settings # --------------------------------------------------------------- # Set to true, if you want to fully override the default configuration.  # Useful if you don't want to inherit the theme _config.yml configurations.  override: false # --------------------------------------------------------------- # Site Information Settings
+# ===============================================================
+# ========================= ATTENTION! ==========================
+# ===============================================================
+# NexT repository is moving here: https://github.com/theme-next
+# ===============================================================
+# It's rebase to v6.0.0 and future maintenance will resume there
+# ===============================================================
+
+# ---------------------------------------------------------------
+# Theme Core Configuration Settings
+# ---------------------------------------------------------------
+
+# Set to true, if you want to fully override the default configuration.
+# Useful if you don't want to inherit the theme _config.yml configurations.
+override: false
+
+# ---------------------------------------------------------------
+# Site Information Settings
 # ---------------------------------------------------------------
 
 # To get or check favicons visit: https://realfavicongenerator.net
@@ -10,11 +27,10 @@
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  #small: /images/favicon-16x16-next.png
-  #medium: /images/favicon-32x32-next.png
-  medium: /images/favicon.ico
-  #apple_touch_icon: /images/apple-touch-icon-next.png
-  #safari_pinned_tab: /images/logo.svg
+  small: /images/favicon-16x16-next.png
+  medium: /images/favicon-32x32-next.png
+  apple_touch_icon: /images/apple-touch-icon-next.png
+  safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -38,11 +54,11 @@ footer:
   copyright:
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
-  powered: false
+  powered: true
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: false
+    enable: true
     # Version info of NexT after scheme info (vX.X.X).
     version: true
   # -------------------------------------------------------------
@@ -59,7 +75,7 @@ footer:
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: true
+seo: false
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -77,9 +93,9 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  about: /about/ || user
-  tags: /tags/ || tags
-  categories: /categories/ || th
+  #about: /about/ || user
+  #tags: /tags/ || tags
+  #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -89,22 +105,14 @@ menu:
 menu_icons:
   enable: true
 
-  # Icon Mapping
-  home: home
-  about: user
-  categories: th
-  tags: tags
-  archives: archive
-  commonweal: heartbeat
-
 
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
-scheme: Mist
+scheme: Muse
+#scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
 
@@ -118,9 +126,9 @@ scheme: Mist
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-social:
-  GitHub: https://github.com/yuening || github
-  E-Mail: mailto:n1085633848@gmail.com || envelope
+#social:
+  #GitHub: https://github.com/yourname || github
+  #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -147,7 +155,6 @@ links_layout: block
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 #avatar: /images/avatar.gif
-avatar: http://7xonju.com1.z0.glb.clouddn.com/images.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -209,7 +216,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: true
+  enable: false
   length: 150
 
 # Post meta display settings
@@ -225,7 +232,7 @@ post_wordcount:
   item_text: true
   wordcount: false
   min2read: false
-  totalcount: true
+  totalcount: false
   separated_meta: true
 
 # Wechat Subscriber
@@ -270,7 +277,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night
+highlight_theme: normal
 
 
 # ---------------------------------------------------------------
@@ -335,7 +342,7 @@ font:
 
 # MathJax Support
 mathjax:
-  enable: false 
+  enable: false
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -353,8 +360,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
-  shortname: www-jumpen-me
+  enable: false
+  shortname:
   count: true
 
 # Hypercomments
@@ -384,7 +391,7 @@ valine:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-#youyan_uid: 2159334
+#youyan_uid: your uid
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -399,11 +406,11 @@ gitment:
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
-  language: zh-Hans # Force language, or auto switch by theme
-  github_user: YueNing # MUST HAVE, Your Github ID
-  github_repo: YueNing.github.io # MUST HAVE, The repo you use to store Gitment comments
-  client_id: b52d89dea6241d3ec5d6 # MUST HAVE, Github client id for the Gitment
-  client_secret: 00c53a8b6d12f63ef24359d772dfbe62681da28b # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  language: # Force language, or auto switch by theme
+  github_user: # MUST HAVE, Your Github ID
+  github_repo: # MUST HAVE, The repo you use to store Gitment comments
+  client_id: # MUST HAVE, Github client id for the Gitment
+  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
@@ -524,9 +531,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: true
-  app_id: eihr0GId4Yvf0ciCxl50UUSu-gzGzoHsz
-  app_key: wnhdKafRhmpuG2brU1DGjncs
+  enable: false
+  app_id: #<app_id>
+  app_key: #<app_key>
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
@@ -542,13 +549,13 @@ firestore:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: true
+  enable: false
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
   site_uv_footer:
   # custom pv span for the whole site
-  site_pv: false
+  site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer:
   # custom pv span for one page only
@@ -597,7 +604,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: true
+  enable: false
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -688,7 +695,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false

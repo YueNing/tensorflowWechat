@@ -1,5 +1,7 @@
-body {
-  background: url(http://7xonju.com1.z0.glb.clouddn.com/nexT/background/9.jpg) no-repeat;
+// Custom styles.
+
+/* body {
+  background: url(http://7xonju.com1.z0.glb.clouddn.com/nexT/background/1.jpg) no-repeat;
   /* 背景图垂直、水平均居中 */
   background-position: center center;
   /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
@@ -11,9 +13,8 @@ body {
 }
 
 
-
 #sidebar {
-            background:url(http://7xonju.com1.z0.glb.clouddn.com/nexT/background/9.jpg);
+            background: rgba(245, 245, 245, 0.4);
             background-size: cover;
             background-position:center;
             background-repeat:no-repeat;
@@ -21,13 +22,14 @@ body {
 }
 
 .content {
-            border-radius: 10px;
-	    padding: 30px 60px 30px 60px;
-            background:rgba(255, 255, 255, 0.6) none repeat scroll !important;
+            border-radius: 20px;
+			padding: 30px 60px 30px 60px;
+            background:rgba(255, 255, 255, 0.8) none repeat scroll !important;
          }
 
 #disqus_thread {
-       border-radius: 10px;
-       padding: 30px 60px 30px 60px;
-       background:rgba(255, 255, 255, 0.6) none repeat scroll !important;
+       border-radius: 20px;
+	   padding: 30px 60px 30px 60px;
+       background:rgba(255, 255, 255, 0.8) none repeat scroll !important;
     }
+*/
