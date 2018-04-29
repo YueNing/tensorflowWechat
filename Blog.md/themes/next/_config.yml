@@ -20,6 +20,8 @@ favicon:
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
+welcome: 
+	enable: true
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -77,11 +79,12 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
+  readings: /readings/ || book
   about: /about/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  #schedule: /schedule/ || calendar
+  schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
@@ -96,6 +99,7 @@ menu_icons:
   tags: tags
   archives: archive
   commonweal: heartbeat
+  readings: book
 
 
 # ---------------------------------------------------------------
@@ -688,7 +692,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false

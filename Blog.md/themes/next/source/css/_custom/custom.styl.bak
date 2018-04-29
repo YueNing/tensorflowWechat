@@ -14,7 +14,7 @@
 
 
 #sidebar {
-            background: rgba(245, 245, 245, 0.4);
+            background:url(http://7xonju.com1.z0.glb.clouddn.com/nexT/background/5.jpg);
             background-size: cover;
             background-position:center;
             background-repeat:no-repeat;

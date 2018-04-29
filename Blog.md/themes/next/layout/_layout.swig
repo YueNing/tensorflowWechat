@@ -29,6 +29,9 @@
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
+	  <div id="welcome-info" >
+	  {% block welcome-info %}{% endblock %}
+	  </div>
           <div id="content" class="content">
             {% block content %}{% endblock %}
           </div>

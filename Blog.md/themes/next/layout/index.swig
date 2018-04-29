@@ -8,6 +8,10 @@
   {% if is_home() %}page-home{% endif -%}
 {% endblock %}
 
+{% block welcome-info %}
+{% include '_partials/welcome.swig' %}
+{% endblock %}
+
 {% block content %}
   <section id="posts" class="posts-expand">
     {% for post in page.posts %}
