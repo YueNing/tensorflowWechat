@@ -46,6 +46,10 @@
               {{ list_categories() }}
             </div>
           </div>
+        {% elif page.type === 'readings' %}
+          <div class="reading-info">
+		{% include '_custom/reading.swig'%}
+          </div>
         {% else %}
           {{ page.content }}
         {% endif %}

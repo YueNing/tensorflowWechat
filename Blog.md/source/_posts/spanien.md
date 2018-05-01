@@ -1,5 +1,7 @@
 ---
 title: 西班牙-列车时刻表
+categories: 
+  - 旅游
 tags:
   - 旅游
 abbrlink: 15197

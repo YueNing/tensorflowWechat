@@ -10,24 +10,29 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.footer {
+	background:rgba(245, 245, 245, 0.7) none repeat scroll !important;
+}
+
 #sidebar {
             background: rgba(245, 245, 245, 0);
             background-size: cover;
             background-position:center;
             background-repeat:no-repeat;
-            p,span,a {color: rgba(100, 255, 255, 0.8);}
+            p,span,a {color: rgba(100, 255, 255, 0.8);};
 }
 
 .content {
             border-radius: 0px;
 	    padding: 30px 60px 30px 60px;
-            background:rgba(245, 245, 245, 0.3) none repeat scroll !important;
+            background:rgba(245, 245, 245, 0.7) none repeat scroll !important;
+ 	    span {color: rgba(0, 0, 0, 0.67);};
          }
 
 #disqus_thread {
        border-radius: 10px;
        padding: 30px 60px 30px 60px;
-       background:rgba(245, 245, 245, 0.6) none repeat scroll !important;
+       background:rgba(245, 245, 245, 0.7) none repeat scroll !important;
     }
 
 #welcome  {
@@ -83,5 +88,13 @@ body {
 	background: rgba(245, 245, 245, 0);
 	height: 60%;
 	margin: 0 8% 8% 8%;
-	p,span,a {color: rgba(0, 0, 0, 0.8);}
+	p,span,a {color: rgba(0, 0, 0, 0.75);}
 }
+
+.readingstable{
+	margin: 0 0 0 0;
+	p,span,a {color: rgba(55, 0, 0, 1);}
+	table tr:nth-child(odd) { background: rgba(245, 245, 245, 0.7 )}
+	table tr:nth-child(2n) { background: rgba(245, 245, 245, 0.4 )}
+}
+

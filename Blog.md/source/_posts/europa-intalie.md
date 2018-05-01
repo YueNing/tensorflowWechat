@@ -1,5 +1,7 @@
 ---
 title: 欧洲之旅-意大利
+categories: 
+  - 旅游
 tags:
   - 旅游
 abbrlink: 58475

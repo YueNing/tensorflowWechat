@@ -1,5 +1,7 @@
 ---
 title: 欧洲之旅-德国耶拿
+categories: 
+  - 生活
 tags:
   - 旅游
   - 杂谈

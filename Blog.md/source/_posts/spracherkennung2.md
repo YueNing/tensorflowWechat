@@ -1,5 +1,7 @@
 ---
 title: 语音识别基础-2
+categories: 
+  - 技术
 tags:
   - 语音识别
 abbrlink: 40571
