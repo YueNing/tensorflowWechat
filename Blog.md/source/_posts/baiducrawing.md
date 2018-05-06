@@ -1,5 +1,8 @@
 ---
 title: 百度检索Github Page博客
+categories: 
+  - 技术
+  - 博客
 tags:
   - Hexo
 abbrlink: 43402
@@ -73,12 +76,14 @@ hexo generate -d
 购买的是namecheap的 ``jumpen.me `` 域名
 使用DNSPOD 进行国内外分流，先将域名与 Pages 绑定。Github 是在仓库的根目录下新建一个名为 CNAME 文件，里面写入要绑定域名。coding 是直接在代码-> Pages 服务里配置。接着去 NameCheap 将 Dns 设置为 Custom DNS，并添加 `` f1g1ns1.dnspod.net、f1g1ns2.dnspod.net ``
 
-![Namecheap](http://7xonju.com1.z0.glb.clouddn.com/techology/hexo/namecheap.PNG)
+![Namecheap](https://storage.googleapis.com/ning_picture/namecheap.PNG)
 
 然后配置DNSPOD，国外国内进行分流
 
-![DNSPOD](http://7xonju.com1.z0.glb.clouddn.com/techology/hexo/dnspod.PNG)
+![DNSPOD](https://storage.googleapis.com/ning_picture/dnspod.PNG)
 
 #### 百度收录
 
 百度站长之家里添加sitemap，进行抓取测试，可能需要等一段时间才能成功。
+
+![](https://storage.googleapis.com/ning_picture/mainlogo.png)

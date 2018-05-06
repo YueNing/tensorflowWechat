@@ -151,7 +151,7 @@ links_layout: block
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 #avatar: /images/avatar.gif
-avatar: http://7xonju.com1.z0.glb.clouddn.com/images.jpg
+avatar: https://storage.googleapis.com/ning_picture/LowPolyning.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -274,7 +274,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night
+highlight_theme: normal
 
 
 # ---------------------------------------------------------------

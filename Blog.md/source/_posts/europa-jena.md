@@ -2,8 +2,8 @@
 title: 欧洲之旅-德国耶拿
 categories: 
   - 生活
+  - 耶拿
 tags:
-  - 旅游
   - 杂谈
 abbrlink: 16312
 date: 2018-03-19 15:45:13
@@ -19,11 +19,11 @@ date: 2018-03-19 15:45:13
 
 首先放几张耶拿的照片
 
-![耶拿村庄](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jena1.JPG)
+![耶拿村庄](https://storage.googleapis.com/ning_picture/jena1.JPG)
 
-![耶拿市中心雪景](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jena2.JPG)
+![耶拿市中心雪景](https://storage.googleapis.com/ning_picture/jena2.JPG)
 
-![耶拿圣诞市场](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jena3.JPG)
+![耶拿圣诞市场](https://storage.googleapis.com/ning_picture/jena3.JPG)
 
 ## 起始篇
 
@@ -31,45 +31,45 @@ date: 2018-03-19 15:45:13
 
 耶拿作为东西德交接的德国城市，在这里有耶拿（弗里德里希-席勒）大学，因此被称为大学城。卡尔蔡司的总部，对摄影感兴趣的朋友可能会比较了解，有趣的是10万人口（3万学生）的城市里竟然有一家国际大公司，非常刺激！！！想象下，中国每个小镇都有一家国际大公司，场面到底有多惊艳，是无法想象的。
 
-![耶拿城市鸟瞰](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jenaniaokan.JPG)
+![耶拿城市鸟瞰](https://storage.googleapis.com/ning_picture/jenaniaokan.JPG)
 
 ## 城市风光篇
 
 在这里城市轨道交通非常发达，火车轨道离自己非常近，鸽子是大佬，大摇大摆在你面前晃悠。松鼠乱窜，啃着吃的慢悠悠的跑着。非常喜欢这种人与自然和谐的气氛。相信家乡也能不断的变好。
 
-![铁轨](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jenabahn.jpg)
+![铁轨](https://storage.googleapis.com/ning_picture/jenabahn.jpg)
 
 在这里有着破败的城堡、城楼。一幢现代建筑前的土堆：过去市长演讲的地方。或许人人都是崇尚着未来的同时怀念着旧时的种种。
 
-![市区古城楼](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jeanchenglou.JPG)
+![市区古城楼](https://storage.googleapis.com/ning_picture/jeanchenglou.JPG)
 
 在这里不需要刻意的寻找景点。坐上电车，在听到一个顺耳的站名，下车出去走走你就会找到一个美丽的村庄。这里有着教堂，有着欧式别墅，有着公园。所有的一切都是不经意间出现在你眼前，你只需要学会欣赏，即使下雨也请不要撑伞，静静体会这一份急促，它会让你融入到周遭环境中。
 
-![突然出现眼前的某村](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jenahause.JPG)
+![突然出现眼前的某村](https://storage.googleapis.com/ning_picture/jenahause.JPG)
 
-![某村2](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jenahaus2.JPG)
+![某村2](https://storage.googleapis.com/ning_picture/jenahaus2.JPG)
 
-![城堡](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jenachengbao.JPG)
+![城堡](https://storage.googleapis.com/ning_picture/jenachengbao.JPG)
 
-![公园](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jeanflower.JPG)
+![公园](https://storage.googleapis.com/ning_picture/jeanflower.JPG)
 
 叮咚，大学医院站到了！！（耶拿的窝），离中心有段距离的卫星城。这里的天空红的摄人心魄。
 
-![红色的日落](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jenauniklinikum.JPG)
+![红色的日落](https://storage.googleapis.com/ning_picture/jenauniklinikum.JPG)
 
 ## 自然风光篇
 
 不去追溯，眼见所见。耶拿的天空蓝的和城市的建筑组成一幅无需置疑的童话世界。
 
-![市区现代欧式房子和蓝天](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jeanshiqu.JPG)
+![市区现代欧式房子和蓝天](https://storage.googleapis.com/ning_picture/jeanshiqu.JPG)
 
 两三个朋友凌晨3点一激动出现在北边的一座山上，为了耶拿的日出。这份冲动或许只有借着刚来一个陌生国度时的兴奋劲才会涌现吧，幸运的是它让我们第一次见到了耶拿也是德国的日出，或许以后再也见不到。哈哈哈哈哈哈！！ 容我笑下，真傻也真羡慕自己，这也算是滞后的一份青春。所以记录下这些也是为了让自己不要忘记这些美好，毕竟人是多么健忘的生物。
 
-![耶拿日出](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jenahimmel.JPG)
+![耶拿日出](https://storage.googleapis.com/ning_picture/jenahimmel.JPG)
 
 一周学习后的周末总是无聊又放松的日子，约上几个同学组次国际交流徒步活动，总是不经意间见到一座整齐的山坡和草原。这里的山总是整齐的可怕，或许并不是存粹的自然产物，但是却给予感官强烈的刺激感。或许是见惯了家乡南方植被丰富的山坡后，审美的一次刷新才会出现的震撼，的确是让人无法忘却的自然风光。
 
-![耶拿草原](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jenacaoyuan.JPG)
+![耶拿草原](https://storage.googleapis.com/ning_picture/jenacaoyuan.JPG)
 
 ## 生活、朋友篇
 
@@ -81,7 +81,7 @@ date: 2018-03-19 15:45:13
 
 这里最感谢的是，北方的两个朋友。让我对北方的姑娘和哥们好感度指数型增长，狂野中有着细腻，真的是非常真诚的朋友。非常感谢遇到你们，自己运气真好！！
 
-![班级同学](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jenatongxue.JPG)
+![班级同学](https://storage.googleapis.com/ning_picture/jenatongxue.JPG)
 
 ## 大学城学习篇
 
@@ -89,7 +89,7 @@ date: 2018-03-19 15:45:13
 
 耶拿大学的DSH准备班的老师很多是耶拿对外德语专业的老师，所以客观上讲耶拿语言班的教学质量是非常不错的，而个人的主观感觉是针对不同的老师产生的，因为不同老师有着不同的教学特点。但是有一个共通点是，在耶拿学习阶段对我德语的提升产生非常大的积极作用。
 
-![耶拿大学主楼](http://7xonju.com1.z0.glb.clouddn.com/image/travel/jena/jenauni.JPG)
+![耶拿大学主楼](https://storage.googleapis.com/ning_picture/jenauni.JPG)
 
 2016年10月到来年2月份，第一学期
 
@@ -105,4 +105,4 @@ date: 2018-03-19 15:45:13
 
 怀念耶拿的温馨，将它留在心中，成为自己非常珍贵的一份记忆。感到寂寞的时候回想起来，笑意会不自觉的出现在脸上。你会迷茫，你会踌躇、会失去动力、怀疑自我，但是请不要放弃，因为还有非常多的美好。成长不就是：不管这个世界变得多糟糕，你还是深深的爱着它！！
 
-![](http://7xonju.com1.z0.glb.clouddn.com/image/logo/mainlogo.png)
+![](https://storage.googleapis.com/ning_picture/mainlogo.png)

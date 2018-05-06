@@ -5,7 +5,7 @@
 	<div id= "welcome-text">
 		<div class="hintergrund">
 		<div class="mota-user-logo">
-			<img src="http://7xonju.com1.z0.glb.clouddn.com/image/logo/mainlogo.png">
+			<img src="https://storage.googleapis.com/ning_picture/mainlogo.png">
 		</div>
 		<div class="mota-user-text">
 			<p></p>

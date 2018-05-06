@@ -2,6 +2,7 @@
 title: 欧洲之旅-意大利
 categories: 
   - 旅游
+  - 意大利
 tags:
   - 旅游
 abbrlink: 58475
@@ -24,23 +25,23 @@ date: 2018-03-11 00:30:30
 
 米兰在百度里的光环贼亮。提到米兰，第一想到的可能是时尚和AC 米兰，不管怎么说它的知名度是非常之高的。但这次的路过看到了更多，更有意思的米兰。
 
-![边缘的米兰](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E8%BE%B9%E7%BC%98%E7%9A%84%E7%B1%B3%E5%85%B0.JPG)
+![边缘的米兰](https://storage.googleapis.com/ning_picture/%E8%BE%B9%E7%BC%98%E7%9A%84%E7%B1%B3%E5%85%B0.JPG)
 
 非常好奇，大家看到这张照片第一反应会想到哪里！！ 没错，这里真的是米兰，离我们住的地方只有5分钟，由于到米兰已经快晚上，几个人准备出去找点吃的。走着走着就来到这里了，路上看不到人，边上是破烂的房子，天阴沉着。说真有点凄凉感，古藤老树昏鸦。这种突破预期的印象深刻的有趣，也和之后繁华的中心区形成了极具喜剧色彩的对比。
 
-![米兰中心区](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E7%B1%B3%E5%85%B0%E4%B8%AD%E5%BF%83%E5%8C%BA.JPG)
+![米兰中心区](https://storage.googleapis.com/ning_picture/%E7%B1%B3%E5%85%B0%E4%B8%AD%E5%BF%83%E5%8C%BA.JPG)
 
-![米兰中心区2](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E7%B1%B3%E5%85%B0%E4%B8%AD%E5%BF%83%E5%8C%BA2.JPG)
+![米兰中心区2](https://storage.googleapis.com/ning_picture/%E7%B1%B3%E5%85%B0%E4%B8%AD%E5%BF%83%E5%8C%BA2.JPG)
 
-![米兰中心区教堂](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E7%B1%B3%E5%85%B0%E4%B8%AD%E5%BF%83%E5%8C%BA%E6%95%99%E5%A0%82.JPG)
+![米兰中心区教堂](https://storage.googleapis.com/ning_picture/%E7%B1%B3%E5%85%B0%E4%B8%AD%E5%BF%83%E5%8C%BA%E6%95%99%E5%A0%82.JPG)
 
 到米兰正是圣诞节期间，圣诞市场非常热闹，就图中这种人密度真心非常难得见到，时常开玩笑：原来欧洲还有这么多人，估计就今天能见到了。中心区看到买板栗的中国小贩，我们就站在边上给他捧了个人气场。
 
-![米兰大教堂](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E7%B1%B3%E5%85%B0%E5%A4%A7%E6%95%99%E5%A0%82.JPG)
+![米兰大教堂](https://storage.googleapis.com/ning_picture/%E7%B1%B3%E5%85%B0%E5%A4%A7%E6%95%99%E5%A0%82.JPG)
 
 米兰大教堂就不说了，讲的太多了，游客一堆。在这里真碰到硬让你买东西的人，因为来之前听说意大利不是很安全，尤其小心这些旅游的地方，硬塞个东西给人，10欧买条绳子纪念品。和德国的教堂比的确奢华了许多，值得一瞧。
 
-![中餐一条街](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E7%B1%B3%E5%85%B0%E4%B8%AD%E9%A4%90%E4%B8%80%E6%9D%A1%E8%A1%97.JPG)
+![中餐一条街](https://storage.googleapis.com/ning_picture/%E7%B1%B3%E5%85%B0%E4%B8%AD%E9%A4%90%E4%B8%80%E6%9D%A1%E8%A1%97.JPG)
 
 前去米兰唐人街吃东西，中餐馆里操着东北口音的阿姨可能是多喝了点酒，放声的在谈论人生，激扬文字，怎一个激情了得，坐她边上的一意大利大叔默默的不讲话在那边吃菜边听着。一下子感觉回家了，那感觉，贼棒，安静久了后还有点怀念家里的热闹。
 
@@ -51,53 +52,53 @@ date: 2018-03-11 00:30:30
 
 作为渔村，你是牛逼的。没错正如字面上的意思它就是意大利某沿海地区的五个渔村组织（蒙特罗索（Monterosso al Mare）、韦尔纳扎（Vernazza）、科尔尼利亚（Corniglia）、马纳罗拉（Manarola）及里奥马焦雷（Riomaggiore））。简单的无法忘记的名字，因其独特的位置和文化每年吸引着全球各地的游客前往，固然有摄影师的宣传的作用，但它不辜负网红的身份，美的不后悔曾经去过。
 
-![五渔村坐标](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91%E5%9C%B0%E5%9B%BE.PNG)
+![五渔村坐标](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91%E5%9C%B0%E5%9B%BE.PNG)
 
-![首次印象](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91hallo.JPG)
+![首次印象](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91hallo.JPG)
 
 五渔村位置其实挺偏的，最好的方法还是在边上的城市坐火车过来。可以想象自驾过来，天下着小雨，人生地不熟，绕着七拐八拐的盘上路，得一直小心着对面来的车，而且车非常容易在斜坡上熄火的感觉么。当经过千难万险到达后，由于村里路过于窄，对面车过来，边熄火边倒车，困扰了快10分钟，后来一德国小哥顶着大雨过来帮我们倒车，竟然有种遇见老乡的错觉。
 
 
 等到了住的地方后，一切都无所谓了，因为我们住的地方是村里最高的，居高临下，君临天下。虽然天下着雨，但心情却是非常激动的。家下面就是海，我们像是住在城堡里一般，富人的生活也不过如此了，hhhhhh。下面几张就是地中海，人生第一次见到海，那叫地中海，其实是有些尴尬且刺激的矛盾心情。默默想了想回国得去逛逛家里的海了。
 
-![](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91%E6%B5%B7.JPG)
+![](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91%E6%B5%B7.JPG)
 
-![地中海](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91%E6%B5%B72.JPG)
+![地中海](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91%E6%B5%B72.JPG)
 
 地中海：那个传说中最古老且干过的海，那个出现在各欧美剧里与极尽奢华糜烂的古罗马密切相关的海。
 
 放下东西，迫不及待的想揭开这里的面纱，从高地城堡边的台阶一直走下就到了火车站，山下就是沿海的火车站，这感觉也没谁了，一切都是神秘中带着优雅。
 
-![火车](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91%E7%81%AB%E8%BD%A6.JPG)
+![火车](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91%E7%81%AB%E8%BD%A6.JPG)
 
 经过五渔村的火车，很奇怪的一个地方是，这火车是倾斜的，而且看着真绿皮，不过沿海开倒自带奇异Buffer。有种探秘的感觉。
 
-![](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91%E8%BD%A8%E9%81%93.JPG)
+![](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91%E8%BD%A8%E9%81%93.JPG)
 
-![五渔村轨道](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91%E8%BD%A8%E9%81%932.JPG)
+![五渔村轨道](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91%E8%BD%A8%E9%81%932.JPG)
 
 海边的火车站，哈哈，并不是在玩模拟游戏，对于没见过海的孩子，这景色就已经是馈赠了。
 
-![一道完美的阳光](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91%E9%98%B3%E5%85%89.JPG)
+![一道完美的阳光](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91%E9%98%B3%E5%85%89.JPG)
 
-![你我的晚霞](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91%E6%99%9A%E9%9C%9E.JPG)
+![你我的晚霞](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91%E6%99%9A%E9%9C%9E.JPG)
 
-![悬崖](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91%E6%82%AC%E5%B4%96.JPG)
+![悬崖](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91%E6%82%AC%E5%B4%96.JPG)
 
 悬崖上的屋子，偷偷和你们说，极度怀疑并没有意大利人长期居住在这，这里只适合旅游，生活并不方便。他们大部分都搬到城里住了。
 
-![特色小店](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91%E5%B0%8F%E5%BA%97.JPG)
+![特色小店](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91%E5%B0%8F%E5%BA%97.JPG)
 
-![网红](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91haupt.JPG)
+![网红](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91haupt.JPG)
 
 五渔村的网红景点，在这里舔了下海的味道，是不是很文艺
 
-![与你一起看海](http://7xonju.com1.z0.glb.clouddn.com/image/travel/%E4%BA%94%E6%B8%94%E6%9D%91%E4%B8%8E%E4%BD%A0%E4%B8%80%E8%B5%B7%E7%9C%8B%E6%B5%B7.JPG)
+![与你一起看海](https://storage.googleapis.com/ning_picture/%E4%BA%94%E6%B8%94%E6%9D%91%E4%B8%8E%E4%BD%A0%E4%B8%80%E8%B5%B7%E7%9C%8B%E6%B5%B7.JPG)
 
 希望在你我老了的时候还可以一起看海。
 
 待续...
 
-![](http://7xonju.com1.z0.glb.clouddn.com/image/logo/mainlogo.png)
+![](https://storage.googleapis.com/ning_picture/mainlogo.png)
 
 

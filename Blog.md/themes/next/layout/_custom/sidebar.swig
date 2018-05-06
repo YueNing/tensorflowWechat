@@ -14,8 +14,8 @@ var ap = new APlayer({
     music: {                                                           // Required, music info, see: ###With playlist
         title: 'AliEz',                                          // Required, music title
         author: '泽野弘之',                                              // Required, music author
-        url: 'http://7xonju.com1.z0.glb.clouddn.com/nexT/music/ald.mp3',                // Required, music url
-        pic: 'http://7xonju.com1.z0.glb.clouddn.com/nexT/music/aliez.jpg',                                   // Optional, music picture
+        url: 'https://storage.googleapis.com/ning_picture/ald.mp3',                // Required, music url
+        pic: 'https://storage.googleapis.com/ning_picture/aliez.jpg',                                   // Optional, music picture
     }
 });
 </script>

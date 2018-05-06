@@ -2,6 +2,7 @@
 title: 语音识别基础-2
 categories: 
   - 技术
+  - 语音识别
 tags:
   - 语音识别
 abbrlink: 40571
@@ -30,19 +31,19 @@ date: 2018-03-19 21:28:13
 
 元音：打开的声道，不被阻碍的气流，一直是浊音的，舌背和唇形如下图。
 
-![元音](http://7xonju.com1.z0.glb.clouddn.com/image/kurs/ASR/ASRVokale.PNG)
+![元音](https://storage.googleapis.com/ning_picture/ASRVokale.PNG)
 
 双元音：具有过渡的元音，和单元音不同（一直不变，没有和其他元音结合）。
 
 辅音：声道（Vokaltrakt eher geschlossen）关闭，气流被妨碍，有些部分被完全切断。轧紧（空气流涡旋）。发音的方式有爆破式和摩擦式等等，发音的部位有齿和硬腭位，声带有浊音的和清音的。如下图为相关例子，填充为0（ausgenullter Bereich）的区域听起来和爆破的一样。
 
-![爆破音发音例子的音频采样](http://7xonju.com1.z0.glb.clouddn.com/image/kurs/ASR/ASRkonstauf.PNG)
+![爆破音发音例子的音频采样](https://storage.googleapis.com/ning_picture/ASRkonstauf.PNG)
 
 ### 发音的部位
 
 如下图所示
 
-![](http://7xonju.com1.z0.glb.clouddn.com/image/kurs/ASR/ASROrt.PNG)
+![](https://storage.googleapis.com/ning_picture/ASROrt.PNG)
 
 ### 发音的方法
 
@@ -59,11 +60,11 @@ date: 2018-03-19 21:28:13
 
 下图是适用于元音的元音四边图
 
-![元音四边图](http://7xonju.com1.z0.glb.clouddn.com/image/kurs/ASR/vokalevierecke.PNG)
+![元音四边图](https://storage.googleapis.com/ning_picture/vokalevierecke.PNG)
 
 辅音使用基于发音部位、方式以及清浊音性的表格来表示
 
-![辅音发音表](http://7xonju.com1.z0.glb.clouddn.com/image/kurs/ASR/ASRKonsonaten.PNG)
+![辅音发音表](https://storage.googleapis.com/ning_picture/ASRKonsonaten.PNG)
 
 ### 音位
 
@@ -90,7 +91,7 @@ date: 2018-03-19 21:28:13
 
 如下图所示
 
-![听觉系统解剖](http://7xonju.com1.z0.glb.clouddn.com/image/kurs/ASR/ASRVAnotomie.PNG)
+![听觉系统解剖](https://storage.googleapis.com/ning_picture/ASRAnotomie.PNG)
 
 通过外耳音波被传导至中耳，鼓膜震动。耳蜗处被液体充满，液体的震动带动毛细胞的茸毛震动。毛细胞和基膜想连接，基膜处于不同的位置会产生不同的频率。茸毛的运动响应将从听觉神经传导至大脑，然后做相应的处理。
 
@@ -102,15 +103,15 @@ date: 2018-03-19 21:28:13
 
 ### 以下的图列为
 
-![频率应答](http://7xonju.com1.z0.glb.clouddn.com/image/kurs/ASR/ASRFreAnto.PNG)
+![频率应答](https://storage.googleapis.com/ning_picture/ASRFreAnto.PNG)
 
 音强感知：具有主观性
 
-![音强感知](http://7xonju.com1.z0.glb.clouddn.com/image/kurs/ASR/ASRLautst.PNG)
+![音强感知](https://storage.googleapis.com/ning_picture/ASRLautst.PNG)
 
-![听觉区域](http://7xonju.com1.z0.glb.clouddn.com/image/kurs/ASR/ASRHFl.PNG)
+![听觉区域](https://storage.googleapis.com/ning_picture/ASRHFl.PNG)
 
 **本篇结束，语音识别基础的前两篇主要为生物和语音基础，能够帮助初步认识人类语言的生物学结构和语言结构**
 **下一篇将会讲下书写系统，声音到电信号的转换，错词率和信号转换的基础，数学模型会相应的增多**
 
-![](http://7xonju.com1.z0.glb.clouddn.com/image/logo/mainlogo.png)
+![](https://storage.googleapis.com/ning_picture/mainlogo.png)

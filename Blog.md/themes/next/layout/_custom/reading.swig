@@ -5,6 +5,11 @@
     			<th>类型</th>
     			<th>作者</th>
  		 </tr>
+		 <tr>
+    			<td><a href="/posts/36218/">李白</td>
+    			<td>人工智能</td>
+    			<td>金天</td>
+  		</tr>
   		<tr>
     			<td><a href="/posts/56548/">人生的智慧</td>
     			<td>哲学</td>

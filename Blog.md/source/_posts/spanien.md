@@ -2,6 +2,7 @@
 title: 西班牙-列车时刻表
 categories: 
   - 旅游
+  - 西班牙
 tags:
   - 旅游
 abbrlink: 15197
@@ -102,3 +103,5 @@ date: 2018-03-23 23:41:13
 总价：95,40
 
 总价：529,35
+
+![](https://storage.googleapis.com/ning_picture/mainlogo.png)

@@ -2,6 +2,7 @@
 title: 语音识别基础-1
 categories: 
   - 技术
+  - 语音识别
 tags:
   - 语音识别
 abbrlink: 40763
@@ -67,4 +68,4 @@ date: 2018-03-19 18:13:13
 
 **浊音，清音（声带不震动），基础频率等概念也需要知道，相关将在下一篇 语音识别基础-2 做介绍**
 
-![](http://7xonju.com1.z0.glb.clouddn.com/image/logo/mainlogo.png)
+![](https://storage.googleapis.com/ning_picture/mainlogo.png)

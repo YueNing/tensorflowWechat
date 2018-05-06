@@ -1,5 +1,8 @@
 ---
 title: 网络拥塞控制
+categories: 
+  - 技术
+  - 计算机网络
 tags:
   - 计算机网络
 abbrlink: 8447
@@ -82,7 +85,7 @@ TCP使用的是基于窗口的流控制
 - 完整的流控窗口用于中转
 - 到达接收方的使用低速率的瓶颈链路
 
-![TCP窗口流控](http://7xonju.com1.z0.glb.clouddn.com/image/kurs/TCP%E7%AA%97%E5%8F%A3%E6%B5%81%E6%8E%A7.PNG)
+![TCP窗口流控](https://storage.googleapis.com/ning_picture/TCP窗口流控.PNG)
 
 最慢转发部分（最窄的通道）的容量决定了发送方发送下一个包的时间间隔。
 
@@ -96,7 +99,7 @@ TCP使用的是基于窗口的流控制
 
 回传控制算法
 
-![TCP Tahoe](http://7xonju.com1.z0.glb.clouddn.com/image/kurs/Taheo.PNG)
+![TCP Tahoe](https://storage.googleapis.com/ning_picture/Taheo.PNG)
 
 ### TCP-Reno
 
@@ -114,6 +117,7 @@ TCP使用的是基于窗口的流控制
     + SSThresh = max(FlightSiz/2, 2*MSS)
     + CWnd = SSThresh + 3MSS
 
-![Reno](http://7xonju.com1.z0.glb.clouddn.com/image/kurs/Reno.PNG)
+![Reno](https://storage.googleapis.com/ning_picture/Reno.PNG)
 
-![](http://7xonju.com1.z0.glb.clouddn.com/image/logo/mainlogo.png)
+
+![](https://storage.googleapis.com/ning_picture/mainlogo.png)
